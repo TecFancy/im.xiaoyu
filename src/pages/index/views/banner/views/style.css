@@ -1,0 +1,7 @@
+/* 移除图片下 3 像素的留白问题 */
+.banner .swiper-slide {font-size: 0;}
+
+.banner .swiper-slide img {width: 100%;}
+
+.banner .swiper-button-prev:focus,
+.banner .swiper-button-next:focus {outline: none;}
