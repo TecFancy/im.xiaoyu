@@ -1,7 +1,10 @@
 import React from 'react';
+import {view as Header} from '../../../components/header/';
 
 const Index = () => (
-  <div>Index Page</div>
+  <div>
+	  <Header />
+	</div>
 );
 
 export default Index;
