@@ -31,7 +31,7 @@ class Banner extends React.Component {
 	    </a>
 	  </div>
 	  <div className="swiper-slide">
-	    <a href="./topic/">
+	    <a href="./topics/">
 	      <img src={banner02} alt="轮播图" />
 	      <h2>第二张 banner 图的标题 (750 * 300)</h2>
 	    </a>
