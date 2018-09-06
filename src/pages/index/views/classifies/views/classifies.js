@@ -15,7 +15,7 @@ class Classifies extends React.Component {
 	    <i></i>
 	    <span>二级页面</span>
 	  </a>
-	  <a href="#/classify-item">
+	  <a href="./page03/">
 	    <i></i>
 	    <span>图标大小</span>
 	  </a>
