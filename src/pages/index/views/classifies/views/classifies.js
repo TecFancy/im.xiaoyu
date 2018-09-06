@@ -7,7 +7,7 @@ class Classifies extends React.Component {
     return (
       <div className="classifies">
 	<div className="classifies-group">
-	  <a href="#/classify-item">
+	  <a href="./page01/">
 	    <i></i>
 	    <span>二级页面</span>
 	  </a>

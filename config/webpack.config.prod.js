@@ -75,21 +75,26 @@ module.exports = {
   // You can exclude the *.map files from the build during deployment.
   devtool: shouldUseSourceMap ? 'source-map' : false,
   // In production, we only want to load the polyfills and the app code.
-	entry: {
-	  index: [
-			require.resolve('./polyfills'),
-			// paths.appIndexJs
-			paths.appIndexJs
-		],
-		about: [
-			require.resolve('./polyfills'),
-			paths.appSrc + '/entries/about.js'
-		],
-		topics: [
-			require.resolve('./polyfills'),
-			paths.appSrc + '/entries/topics.js'
-		]
-	},
+  entry: {
+    index: [
+      require.resolve('./polyfills'),
+      // paths.appIndexJs
+      paths.appIndexJs
+    ],
+    about: [
+      require.resolve('./polyfills'),
+      paths.appSrc + '/entries/about.js'
+    ],
+    topics: [
+      require.resolve('./polyfills'),
+      paths.appSrc + '/entries/topics.js'
+    ],
+    page01: [
+      require.resolve('./polyfills'),
+      paths.appSrc + '/entries/page01.js'
+    ]
+
+  },
   output: {
     // The build folder.
     path: paths.appBuild,
@@ -286,6 +291,12 @@ module.exports = {
       chunks: ['topics'],
       filename: 'topics/index.html',
       title: '话题'
+    }),
+    new HtmlWebpackPlugin({
+      ...htmlWebpackPluginOptions,
+      chunks: ['page01'],
+      filename: 'page01/index.html',
+      title: 'Page01'
     }),
     // Makes some environment variables available to the JS code, for example:
     // if (process.env.NODE_ENV === 'production') { ... }. See `./env.js`.
