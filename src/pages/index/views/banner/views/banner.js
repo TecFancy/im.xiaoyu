@@ -1,6 +1,5 @@
 import React from 'react';
 import Swiper from 'swiper/dist/js/swiper.min.js';
-import {view as About} from '../../../../about/';
 
 import 'swiper/dist/css/swiper.min.css';
 import './style.css';
