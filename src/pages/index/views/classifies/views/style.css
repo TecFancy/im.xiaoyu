@@ -1,0 +1,31 @@
+.classifies-group {
+  width: 100%;
+  margin: 20px 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.classifies-group a {
+  text-decoration: none;
+  color: #666;
+  font-size: 12px;
+}
+
+.classifies-group a {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* @TODO 小图标 */
+.classifies-group a i {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  background: url("./images/svg.svg") no-repeat center center;
+  background-size: 100%;
+}
+
+.classifies-group a span {padding-top: 5px;}
