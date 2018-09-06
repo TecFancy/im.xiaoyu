@@ -74,9 +74,9 @@ module.exports = {
   },
   output: {
     // Add /* filename */ comments to generated require()s in the output.
-		// output.pathinfo
-		//   告知 webpack 在 bundle 中引入`所包含模块的信息`的相关注释
-		//   不应该用于生产环境，但是对于阅读开发环境中的生成代码极其有用
+    // output.pathinfo
+    //   告知 webpack 在 bundle 中引入`所包含模块的信息`的相关注释
+    //   不应该用于生产环境，但是对于阅读开发环境中的生成代码极其有用
     pathinfo: true,
     // This does not produce a real file. It's just the virtual path that is
     // served by WebpackDevServer in development. This is the JS bundle
