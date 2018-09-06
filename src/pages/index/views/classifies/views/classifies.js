@@ -9,37 +9,37 @@ class Classifies extends React.Component {
 	<div className="classifies-group">
 	  <a href="#/classify-item">
 	    <i></i>
+	    <span>二级页面</span>
+	  </a>
+	  <a href="#/classify-item">
+	    <i></i>
+	    <span>二级页面</span>
+	  </a>
+	  <a href="#/classify-item">
+	    <i></i>
 	    <span>图标大小</span>
 	  </a>
 	  <a href="#/classify-item">
 	    <i></i>
 	    <span>80 * 80</span>
 	  </a>
-	  <a href="#/classify-item">
-	    <i></i>
-	    <span>分类一</span>
-	  </a>
-	  <a href="#/classify-item">
-	    <i></i>
-	    <span>分类一</span>
-	  </a>
 	</div>
 	<div className="classifies-group">
 	  <a href="#/classify-item">
 	    <i></i>
-	    <span>分类一</span>
+	    <span>文章页面</span>
 	  </a>
 	  <a href="#/classify-item">
 	    <i></i>
-	    <span>分类一</span>
+	    <span>文章页面</span>
 	  </a>
 	  <a href="#/classify-item">
 	    <i></i>
-	    <span>分类一</span>
+	    <span>图标大小</span>
 	  </a>
 	  <a href="#/classify-item">
 	    <i></i>
-	    <span>分类一</span>
+	    <span>80 * 80</span>
 	  </a>
 	</div>
       </div>
