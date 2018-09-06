@@ -75,6 +75,11 @@ module.exports = {
       require.resolve('./polyfills'),
       require.resolve('react-dev-utils/webpackHotDevClient'),
       paths.appSrc + '/entries/page01.js'
+    ],
+    page02: [
+      require.resolve('./polyfills'),
+      require.resolve('react-dev-utils/webpackHotDevClient'),
+      paths.appSrc + '/entries/page02.js'
     ]
   },
   output: {
@@ -86,14 +91,14 @@ module.exports = {
     // This does not produce a real file. It's just the virtual path that is
     // served by WebpackDevServer in development. This is the JS bundle
     // containing code from all our entry points, and the Webpack runtime.
-		// outpu.filename
-		//   决定每个输出 bundle 的名称，这些 bundle 将被写到 output.path 选项指定
-		//   的目录下
-		filename: 'static/js/[name].bundle.js',
+    // outpu.filename
+    //   决定每个输出 bundle 的名称，这些 bundle 将被写到 output.path 选项指定
+    //   的目录下
+    filename: 'static/js/[name].bundle.js',
     // There are also additional JS chunk files if you use code splitting.
-		// output.chunkFilename
-		//   决定非入口(non-entry) chunk 的文件名称
-		chunkFilename: 'static/js/[name].chunk.js',
+    // output.chunkFilename
+    //   决定非入口(non-entry) chunk 的文件名称
+    chunkFilename: 'static/js/[name].chunk.js',
     // This is the URL that app is served from. We use "/" in development.
     publicPath: publicPath,
     // Point sourcemap entries to original disk location (format as URL on Windows)
@@ -268,6 +273,12 @@ module.exports = {
       chunks: ['page01'],
       title: 'Page01',
       filename: 'page01/index.html'
+    }),
+    new HtmlWebpackPlugin({
+      ...htmlWebpackPluginOptions,
+      chunks: ['page02'],
+      title: 'Page02',
+      filename: 'page02/index.html'
     }),
     // Add module names to factory functions so they appear in browser profiler.
     new webpack.NamedModulesPlugin(),
