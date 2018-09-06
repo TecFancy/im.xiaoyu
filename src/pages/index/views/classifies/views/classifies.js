@@ -7,6 +7,14 @@ class Classifies extends React.Component {
     return (
       <div className="classifies">
 	<div className="classifies-group">
+	  <a href="./page01/">
+	    <i></i>
+	    <span>二级页面</span>
+	  </a>
+	  <a href="./page02/">
+	    <i></i>
+	    <span>二级页面</span>
+	  </a>
 	  <a href="#/classify-item">
 	    <i></i>
 	    <span>图标大小</span>
@@ -15,31 +23,23 @@ class Classifies extends React.Component {
 	    <i></i>
 	    <span>80 * 80</span>
 	  </a>
-	  <a href="#/classify-item">
-	    <i></i>
-	    <span>分类一</span>
-	  </a>
-	  <a href="#/classify-item">
-	    <i></i>
-	    <span>分类一</span>
-	  </a>
 	</div>
 	<div className="classifies-group">
 	  <a href="#/classify-item">
 	    <i></i>
-	    <span>分类一</span>
+	    <span>文章页面</span>
 	  </a>
 	  <a href="#/classify-item">
 	    <i></i>
-	    <span>分类一</span>
+	    <span>文章页面</span>
 	  </a>
 	  <a href="#/classify-item">
 	    <i></i>
-	    <span>分类一</span>
+	    <span>图标大小</span>
 	  </a>
 	  <a href="#/classify-item">
 	    <i></i>
-	    <span>分类一</span>
+	    <span>80 * 80</span>
 	  </a>
 	</div>
       </div>
