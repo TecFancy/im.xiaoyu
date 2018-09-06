@@ -1,10 +1,14 @@
+.classifies {background: #fff;}
+
 .classifies-group {
   width: 100%;
-  margin: 20px 0;
   display: flex;
   justify-content: space-around;
   align-items: center;
 }
+
+.classifies-group:nth-child(1) {padding: 20px 0;}
+.classifies-group:nth-child(2) {padding-bottom: 20px;}
 
 .classifies-group a {
   text-decoration: none;
