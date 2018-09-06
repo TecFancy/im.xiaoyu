@@ -80,6 +80,11 @@ module.exports = {
       require.resolve('./polyfills'),
       require.resolve('react-dev-utils/webpackHotDevClient'),
       paths.appSrc + '/entries/page02.js'
+    ],
+    page03: [
+      require.resolve('./polyfills'),
+      require.resolve('react-dev-utils/webpackHotDevClient'),
+      paths.appSrc + '/entries/page03.js'
     ]
   },
   output: {
@@ -279,6 +284,12 @@ module.exports = {
       chunks: ['page02'],
       title: 'Page02',
       filename: 'page02/index.html'
+    }),
+    new HtmlWebpackPlugin({
+      ...htmlWebpackPluginOptions,
+      chunks: ['page03'],
+      title: 'Page03',
+      filename: 'page03/index.html'
     }),
     // Add module names to factory functions so they appear in browser profiler.
     new webpack.NamedModulesPlugin(),
