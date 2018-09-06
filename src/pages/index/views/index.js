@@ -15,11 +15,13 @@ const Index = () => (
     <Header />
     <Banner />
     <Classifies />
+    <Section type="page"/>
     {
       sectionData.map((data, index) => {
         return (
           <Section 
             key={index}
+	    type="article"
             headerData={data.header}
             listData={data.list}
           />

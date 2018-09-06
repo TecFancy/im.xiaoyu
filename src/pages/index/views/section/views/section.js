@@ -6,17 +6,27 @@ import './style.css';
 
 class Section extends React.Component {
   render() {
-    return (
-      <section>
-	<Header 
-	  title={this.props.headerData.title}
-	  nav={this.props.headerData.nav}
-	/>
-	<List 
-	  list={this.props.listData}
-	/>
-      </section>
-    );
+    if (this.props.type === 'page') {
+      return (
+	<div>
+	  <h1>这里渲染二级页面</h1>
+	</div>
+      );
+    }
+
+    if (this.props.type === 'article') {
+      return (
+	<section>
+	  <Header 
+	    title={this.props.headerData.title}
+	    nav={this.props.headerData.nav}
+	  />
+	  <List 
+	    list={this.props.listData}
+	  />
+	</section>
+      );
+    }
   }
 }
 
