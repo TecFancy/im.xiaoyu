@@ -1,0 +1,112 @@
+section {
+  margin: 12px 0;
+  background: #fff;
+}
+
+.section-header {
+  border-bottom: 1px solid #e4e4e4;
+}
+
+.section-header-title {
+  padding: 20px 0;
+  text-decoration: none;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.section-header-title i {
+  display: inline-block;
+  width: 3px;
+  height: 16px;
+  background: #ffa000;
+  margin-right: 15px;
+  margin-bottom: 2px;
+}
+
+.section-header-title span {
+  height: 16px;
+  line-height: 16px;
+  color: #ffa000;
+  font-size: 16px;
+}
+
+.section-header-nav {
+  padding-bottom: 20px;
+  margin: 0 20px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.section-header-nav a {
+  color: #666;
+  font-size: 14px;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.section-header-nav a i {
+  display: inline-block;
+  width: 1px;
+  height: 16px;
+  background: #cecece;
+  transform: rotate(30deg);
+  margin: 0 15px;
+}
+
+.section-list {
+  margin: 0 20px;
+  padding: 10px 0;
+}
+
+.section-list-item {
+  text-decoration: none;
+  color: #333;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 0;
+}
+
+.section-list-item-text {
+  max-width: 230px;
+  text-align: justify;  /* 文字两端对齐 */
+}
+
+.section-list-item-text h3 {
+  font-size: 17px;
+  font-weight: normal;
+  margin-bottom: 0;
+  color: #313131;
+}
+
+.section-list-item-text p {
+  color: #999;
+  font-size: 13px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.section-list-item-image,
+.section-list-item-image-mask,
+.section-list-item-image img {
+  width: 90px;
+  height: 90px;
+}
+
+.section-list-item-image {
+  font-size: 0;
+  position: relative;
+}
+
+.section-list-item-image-mask {
+  display: inline-block;
+  background: rgba(0, 0, 0, .1);
+  position: absolute;
+  top: 0;
+  left: 0;
+}
