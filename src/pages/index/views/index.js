@@ -12,7 +12,6 @@ import '../../style.css';
 
 class Index extends React.Component {
   render() {
-    console.log(this.context.store.getState());
     return (
       <div>
 	<Header />
