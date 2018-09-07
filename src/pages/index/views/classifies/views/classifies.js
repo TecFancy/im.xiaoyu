@@ -49,7 +49,7 @@ class Classifies extends React.Component {
 	  {
 	    group02.map((item, index) => {
 	      return (
-		<a key={index} href="#/">
+		<a key={index} href={item.href}>
 		  <i></i>
 		  <span>{item.text}</span>
 		</a>

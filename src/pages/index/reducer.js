@@ -26,19 +26,23 @@ const classifies = [
   [
     {
       type: 'article',
-      text: '文章页面01'
+      text: '文章页面01',
+      href: './article01/'
     },
     {
       type: 'article',
-      text: '文章页面02'
+      text: '文章页面02',
+      href: './article02/'
     },
     {
       type: 'article',
-      text: '图标大小'
+      text: '图标大小',
+      href: './article03/'
     },
     {
       type: 'article',
-      text: '80 * 80'
+      text: '80 * 80',
+      href: './article04/'
     }
   ]
 ];
