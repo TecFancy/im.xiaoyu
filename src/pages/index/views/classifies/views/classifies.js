@@ -1,6 +1,5 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import {getClassify} from '../../../actions.js';
 
 import './style.css';
 
@@ -19,44 +18,21 @@ class Classifies extends React.Component {
     };
   }
 
-  onChange() {
-    this.context.store.dispatch(getClassify());
-  }
-
-  componentDidMount() {
-    this.onChange();
-  }
-
   render() {
-    const group01 = this.state.classifies[0];
-    const group02 = this.state.classifies[1];
+    const {classifies} = this.state;
 
     return (
       <div className="classifies">
-	<div className="classifies-group">
-	  {
-	    group01.map((item, index) => {
-	      return (
-		<a key={index} href={item.href}>
-		  <i></i>
-		  <span>{item.text}</span>
-		</a>
-	      );
-	    })
-	  }
-	</div>
-	<div className="classifies-group">
-	  {
-	    group02.map((item, index) => {
-	      return (
-		<a key={index} href={item.href}>
-		  <i></i>
-		  <span>{item.text}</span>
-		</a>
-	      );
-	    })
-	  }
-	</div>
+	{
+	  classifies.map((item, index) => {
+	    return (
+	      <a key={index} href={item.href}>
+		<i></i>
+		<span>{item.title}</span>
+	      </a>
+	    );
+	  })
+	}
       </div>
     );
   }
