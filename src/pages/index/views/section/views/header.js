@@ -28,7 +28,7 @@ class HeaderContainer extends React.Component {
     const {sectionNav} = this.props.headerState;
     return (
       <div className="section-header">
-	<Header 
+	<Header
 	  href={this.props.headerState.sectionHref}
 	  title={this.props.headerState.sectionTitle}
 	/>

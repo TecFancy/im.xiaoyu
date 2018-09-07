@@ -23,9 +23,11 @@ class Index extends React.Component {
 	    return (
 	      <Section
 		key={index} 
+		sectionType={classify.type}
 		sectionTitle={classify.title}
 		sectionHref={classify.href}
 		sectionNav={classify.nav}
+		list={classify.list}
 	      />
 	    );
 	  })
