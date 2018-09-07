@@ -1,9 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import {view as About} from '../pages/about/';
+import {view as Page04} from '../pages/page04/';
 import registerServiceWorker from '../registerServiceWorker';
 
 import './style.css';
 
-ReactDOM.render(<About />, document.getElementById('root'));
+ReactDOM.render(<Page04 />, document.getElementById('root'));
 registerServiceWorker();

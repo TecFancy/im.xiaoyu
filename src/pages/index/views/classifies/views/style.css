@@ -1,35 +1,74 @@
 .classifies {background: #fff;}
 
-.classifies-group {
+.classifies {
   width: 100%;
+  padding: 10px 0;
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-around;
   align-items: center;
 }
 
-.classifies-group:nth-child(1) {padding: 20px 0;}
-.classifies-group:nth-child(2) {padding-bottom: 20px;}
-
-.classifies-group a {
+.classifies a {
+  width: 25%;
+  margin: 10px 0;
   text-decoration: none;
   color: #666;
   font-size: 12px;
 }
 
-.classifies-group a {
+.classifies a {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
-/* @TODO 小图标 */
-.classifies-group a i {
+.classifies a i {
   display: inline-block;
   width: 40px;
   height: 40px;
+}
+
+/* @TODO 小图标 */
+.classifies a:nth-child(1) i {
   background: url("./images/svg.svg") no-repeat center center;
   background-size: 100%;
 }
 
-.classifies-group a span {padding-top: 5px;}
+.classifies a:nth-child(2) i {
+  background: url("./images/svg.svg") no-repeat center center;
+  background-size: 100%;
+}
+
+.classifies a:nth-child(3) i {
+  background: url("./images/svg.svg") no-repeat center center;
+  background-size: 100%;
+}
+
+.classifies a:nth-child(4) i {
+  background: url("./images/svg.svg") no-repeat center center;
+  background-size: 100%;
+}
+
+.classifies a:nth-child(5) i {
+  background: url("./images/svg.svg") no-repeat center center;
+  background-size: 100%;
+}
+
+.classifies a:nth-child(6) i {
+  background: url("./images/svg.svg") no-repeat center center;
+  background-size: 100%;
+}
+
+.classifies a:nth-child(7) i {
+  background: url("./images/svg.svg") no-repeat center center;
+  background-size: 100%;
+}
+
+.classifies a:nth-child(8) i {
+  background: url("./images/svg.svg") no-repeat center center;
+  background-size: 100%;
+}
+
+.classifies a span {padding-top: 5px;}

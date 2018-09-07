@@ -100,6 +100,26 @@ module.exports = {
     page03: [
       require.resolve('./polyfills'),
       paths.appSrc + '/entries/page03.js'
+    ],
+    page04: [
+      require.resolve('./polyfills'),
+      paths.appSrc + '/entries/page04.js'
+    ],
+    article01: [
+      require.resolve('./polyfills'),
+      paths.appSrc + '/entries/article01.js'
+    ],
+    article02: [
+      require.resolve('./polyfills'),
+      paths.appSrc + '/entries/article02.js'
+    ],
+    article03: [
+      require.resolve('./polyfills'),
+      paths.appSrc + '/entries/article03.js'
+    ],
+    article04: [
+      require.resolve('./polyfills'),
+      paths.appSrc + '/entries/article04.js'
     ]
   },
   output: {
@@ -316,6 +336,36 @@ module.exports = {
       chunks: ['page03'],
       filename: 'page03/index.html',
       title: 'Page03'
+    }),
+    new HtmlWebpackPlugin({
+      ...htmlWebpackPluginOptions,
+      chunks: ['page04'],
+      filename: 'page04/index.html',
+      title: 'Page04'
+    }),
+    new HtmlWebpackPlugin({
+      ...htmlWebpackPluginOptions,
+      chunks: ['article01'],
+      filename: 'article01/index.html',
+      title: 'Article01'
+    }),
+    new HtmlWebpackPlugin({
+      ...htmlWebpackPluginOptions,
+      chunks: ['article02'],
+      filename: 'article02/index.html',
+      title: 'Article02'
+    }),
+    new HtmlWebpackPlugin({
+      ...htmlWebpackPluginOptions,
+      chunks: ['article03'],
+      filename: 'article03/index.html',
+      title: 'Article03'
+    }),
+    new HtmlWebpackPlugin({
+      ...htmlWebpackPluginOptions,
+      chunks: ['article04'],
+      filename: 'article04/index.html',
+      title: 'Article04'
     }),
     // Makes some environment variables available to the JS code, for example:
     // if (process.env.NODE_ENV === 'production') { ... }. See `./env.js`.

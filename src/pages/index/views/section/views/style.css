@@ -57,6 +57,8 @@ section {
   margin: 0 15px;
 }
 
+.section-header-nav a:last-child i {display: none;}
+
 .section-list {
   margin: 0 20px;
   padding: 10px 0;
