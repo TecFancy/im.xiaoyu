@@ -19,7 +19,7 @@ class Classifies extends React.Component {
 	    <i></i>
 	    <span>图标大小</span>
 	  </a>
-	  <a href="#/classify-item">
+	  <a href="./page04/">
 	    <i></i>
 	    <span>80 * 80</span>
 	  </a>
