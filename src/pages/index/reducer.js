@@ -100,7 +100,7 @@ const classifies = [
       nav: [
 	{
 	  text: '分类一',
-	  url: '#/nav'
+	  url: './classify01/'
 	},
 	{
 	  text: '分类二',
