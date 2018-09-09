@@ -9,7 +9,7 @@ class Section extends React.Component {
     return (
       <section>
 	<Header headerState={this.props} />
-	<List />
+	<List listState={this.props}/>
       </section>
     );
   }

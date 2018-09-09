@@ -120,6 +120,10 @@ module.exports = {
     article04: [
       require.resolve('./polyfills'),
       paths.appSrc + '/entries/article04.js'
+    ],
+    classify01: [
+      require.resolve('./polyfills'),
+      paths.appSrc + '/entries/classify01.js'
     ]
   },
   output: {
@@ -366,6 +370,12 @@ module.exports = {
       chunks: ['article04'],
       filename: 'article04/index.html',
       title: 'Article04'
+    }),
+    new HtmlWebpackPlugin({
+      ...htmlWebpackPluginOptions,
+      chunks: ['classify01'],
+      filename: 'classify01/index.html',
+      title: 'Classify01'
     }),
     // Makes some environment variables available to the JS code, for example:
     // if (process.env.NODE_ENV === 'production') { ... }. See `./env.js`.
