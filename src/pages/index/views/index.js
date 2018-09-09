@@ -15,7 +15,7 @@ class Index extends React.Component {
 
     return (
       <div>
-	<Header />
+	<Header home={true}/>
 	<Banner />
 	<Classifies />
 	{
