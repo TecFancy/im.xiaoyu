@@ -41,6 +41,7 @@ section {
 
 .section-header-nav a {
   color: #666;
+  margin-right: 10px;
   font-size: 14px;
   text-decoration: none;
   display: flex;
@@ -55,6 +56,7 @@ section {
   background: #cecece;
   transform: rotate(30deg);
   margin: 0 15px;
+  margin-right: 0;
 }
 
 .section-header-nav a:last-child i {display: none;}

@@ -5,31 +5,116 @@ const classifies = [
       type: 'page',
       title: '二级页面01',
       href: './page01/',
-      nav: ['分类一', '分类二', '分类三', '分类四']
+      nav: [
+	{
+	  text: '分类一',
+	  url: '#/nav'
+	},
+	{
+	  text: '分类二',
+	  url: '#/nav'
+	},
+	{
+	  text: '分类三',
+	  url: '#/nav'
+	},
+	{
+	  text: '分类四',
+	  url: '#/nav'
+	}
+      ]
     },
     {
       type: 'page',
       title: '二级页面02',
       href: './page02/',
-      nav: ['分类一', '分类二', '分类三', '分类四']
+      nav: [
+	{
+	  text: '分类一',
+	  url: '#/nav'
+	},
+	{
+	  text: '分类二',
+	  url: '#/nav'
+	},
+	{
+	  text: '分类三',
+	  url: '#/nav'
+	},
+	{
+	  text: '分类四',
+	  url: '#/nav'
+	}
+      ]
     },
     {
       type: 'page',
       title: '图标大小',
       href: './page03/',
-      nav: ['分类一', '分类二', '分类三', '分类四']
+      nav: [
+	{
+	  text: '分类一',
+	  url: '#/nav'
+	},
+	{
+	  text: '分类二',
+	  url: '#/nav'
+	},
+	{
+	  text: '分类三',
+	  url: '#/nav'
+	},
+	{
+	  text: '分类四',
+	  url: '#/nav'
+	}
+      ]
     },
     {
       type: 'page',
       title: '80 * 80',
       href: './page04/',
-      nav: ['分类一', '分类二', '分类三', '分类四']
+      nav: [
+	{
+	  text: '分类一',
+	  url: '#/nav'
+	},
+	{
+	  text: '分类二',
+	  url: '#/nav'
+	},
+	{
+	  text: '分类三',
+	  url: '#/nav'
+	},
+	{
+	  text: '分类四',
+	  url: '#/nav'
+	}
+      ]
     },
     {
       type: 'article',
       title: '文章页面01',
       href: './article01/',
-      nav: ['分类一', '分类二', '分类三', '分类四'],
+      nav: [
+	{
+	  text: '分类一',
+	  url: '#/nav'
+	},
+	{
+	  text: '分类二',
+	  url: '#/nav'
+	},
+	{
+	  text: '分类三',
+	  url: '#/nav'
+	},
+	{
+	  text: '分类四',
+	  url: '#/nav'
+	}
+      ],
       list: [
 	{
 	  url: '#/',
@@ -57,7 +142,24 @@ const classifies = [
       type: 'article',
       title: '文章页面02',
       href: './article02/',
-      nav: ['分类一', '分类二', '分类三', '分类四'],
+      nav: [
+	{
+	  text: '分类一',
+	  url: '#/nav'
+	},
+	{
+	  text: '分类二',
+	  url: '#/nav'
+	},
+	{
+	  text: '分类三',
+	  url: '#/nav'
+	},
+	{
+	  text: '分类四',
+	  url: '#/nav'
+	}
+      ],
       list: [
 	{
 	  url: '#/',
@@ -85,7 +187,24 @@ const classifies = [
       type: 'article',
       title: '图标大小',
       href: './article03/',
-      nav: ['分类一', '分类二', '分类三', '分类四'],
+      nav: [
+	{
+	  text: '分类一',
+	  url: '#/nav'
+	},
+	{
+	  text: '分类二',
+	  url: '#/nav'
+	},
+	{
+	  text: '分类三',
+	  url: '#/nav'
+	},
+	{
+	  text: '分类四',
+	  url: '#/nav'
+	}
+      ],
       list: [
 	{
 	  url: '#/',
@@ -113,7 +232,24 @@ const classifies = [
       type: 'article',
       title: '80 * 80',
       href: './article04/',
-      nav: ['分类一', '分类二', '分类三', '分类四'],
+      nav: [
+	{
+	  text: '分类一',
+	  url: '#/nav'
+	},
+	{
+	  text: '分类二',
+	  url: '#/nav'
+	},
+	{
+	  text: '分类三',
+	  url: '#/nav'
+	},
+	{
+	  text: '分类四',
+	  url: '#/nav'
+	}
+      ],
       list: [
 	{
 	  url: '#/',
