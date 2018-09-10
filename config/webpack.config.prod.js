@@ -351,25 +351,25 @@ module.exports = {
       ...htmlWebpackPluginOptions,
       chunks: ['article01'],
       filename: 'article01/index.html',
-      title: 'Article01'
+      title: '婚姻破裂 | 小鹿情感'
     }),
     new HtmlWebpackPlugin({
       ...htmlWebpackPluginOptions,
       chunks: ['article02'],
       filename: 'article02/index.html',
-      title: 'Article02'
+      title: '异地恋情 | 小鹿情感'
     }),
     new HtmlWebpackPlugin({
       ...htmlWebpackPluginOptions,
       chunks: ['article03'],
       filename: 'article03/index.html',
-      title: 'Article03'
+      title: '性格不合 | 小鹿情感'
     }),
     new HtmlWebpackPlugin({
       ...htmlWebpackPluginOptions,
       chunks: ['article04'],
       filename: 'article04/index.html',
-      title: 'Article04'
+      title: '恋人劈腿 | 小鹿情感'
     }),
     new HtmlWebpackPlugin({
       ...htmlWebpackPluginOptions,
