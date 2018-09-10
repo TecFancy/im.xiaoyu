@@ -75,7 +75,7 @@ section {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 10px 0;
+  margin: 20px 0;
 }
 
 .section-list-item-text {
@@ -88,6 +88,9 @@ section {
   font-weight: normal;
   margin-bottom: 0;
   color: #313131;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 
 .section-list-item-text p {
