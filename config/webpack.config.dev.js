@@ -91,6 +91,41 @@ module.exports = {
       require.resolve('react-dev-utils/webpackHotDevClient'),
       paths.appSrc + '/entries/page04.js'
     ],
+    classify01: [
+      require.resolve('./polyfills'),
+      require.resolve('react-dev-utils/webpackHotDevClient'),
+      paths.appSrc + '/entries/classify01.js'
+    ],
+    classify02: [
+      require.resolve('./polyfills'),
+      require.resolve('react-dev-utils/webpackHotDevClient'),
+      paths.appSrc + '/entries/classify02.js'
+    ],
+    classify03: [
+      require.resolve('./polyfills'),
+      require.resolve('react-dev-utils/webpackHotDevClient'),
+      paths.appSrc + '/entries/classify03.js'
+    ],
+    classify04: [
+      require.resolve('./polyfills'),
+      require.resolve('react-dev-utils/webpackHotDevClient'),
+      paths.appSrc + '/entries/classify04.js'
+    ],
+    classify05: [
+      require.resolve('./polyfills'),
+      require.resolve('react-dev-utils/webpackHotDevClient'),
+      paths.appSrc + '/entries/classify05.js'
+    ],
+    classify06: [
+      require.resolve('./polyfills'),
+      require.resolve('react-dev-utils/webpackHotDevClient'),
+      paths.appSrc + '/entries/classify06.js'
+    ],
+    classify07: [
+      require.resolve('./polyfills'),
+      require.resolve('react-dev-utils/webpackHotDevClient'),
+      paths.appSrc + '/entries/classify07.js'
+    ],
     article01: [
       require.resolve('./polyfills'),
       require.resolve('react-dev-utils/webpackHotDevClient'),
@@ -125,11 +160,6 @@ module.exports = {
       require.resolve('./polyfills'),
       require.resolve('react-dev-utils/webpackHotDevClient'),
       paths.appSrc + '/entries/article07.js'
-    ],
-    classify01: [
-      require.resolve('./polyfills'),
-      require.resolve('react-dev-utils/webpackHotDevClient'),
-      paths.appSrc + '/entries/classify01.js'
     ]
   },
   output: {
@@ -344,6 +374,48 @@ module.exports = {
     }),
     new HtmlWebpackPlugin({
       ...htmlWebpackPluginOptions,
+      chunks: ['classify01'],
+      title: 'Classify01',
+      filename: 'classify01/index.html'
+    }),
+    new HtmlWebpackPlugin({
+      ...htmlWebpackPluginOptions,
+      chunks: ['classify02'],
+      title: 'Classify02',
+      filename: 'classify02/index.html'
+    }),
+    new HtmlWebpackPlugin({
+      ...htmlWebpackPluginOptions,
+      chunks: ['classify03'],
+      title: 'Classify03',
+      filename: 'classify03/index.html'
+    }),
+    new HtmlWebpackPlugin({
+      ...htmlWebpackPluginOptions,
+      chunks: ['classify04'],
+      title: 'Classify04',
+      filename: 'classify04/index.html'
+    }),
+    new HtmlWebpackPlugin({
+      ...htmlWebpackPluginOptions,
+      chunks: ['classify05'],
+      title: 'Classify05',
+      filename: 'classify05/index.html'
+    }),
+    new HtmlWebpackPlugin({
+      ...htmlWebpackPluginOptions,
+      chunks: ['classify06'],
+      title: 'Classify06',
+      filename: 'classify06/index.html'
+    }),
+    new HtmlWebpackPlugin({
+      ...htmlWebpackPluginOptions,
+      chunks: ['classify07'],
+      title: 'Classify07',
+      filename: 'classify07/index.html'
+    }),
+    new HtmlWebpackPlugin({
+      ...htmlWebpackPluginOptions,
       chunks: ['article01'],
       title: '婚姻破裂 | 小鹿情感',
       filename: 'article01/index.html'
@@ -383,12 +455,6 @@ module.exports = {
       chunks: ['article07'],
       title: '矛盾积累 | 小鹿情感',
       filename: 'article07/index.html'
-    }),
-    new HtmlWebpackPlugin({
-      ...htmlWebpackPluginOptions,
-      chunks: ['classify01'],
-      title: 'Classify01',
-      filename: 'classify01/index.html'
     }),
     // Add module names to factory functions so they appear in browser profiler.
     new webpack.NamedModulesPlugin(),

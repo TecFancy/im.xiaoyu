@@ -105,6 +105,34 @@ module.exports = {
       require.resolve('./polyfills'),
       paths.appSrc + '/entries/page04.js'
     ],
+    classify01: [
+      require.resolve('./polyfills'),
+      paths.appSrc + '/entries/classify01.js'
+    ],
+    classify02: [
+      require.resolve('./polyfills'),
+      paths.appSrc + '/entries/classify02.js'
+    ],
+    classify03: [
+      require.resolve('./polyfills'),
+      paths.appSrc + '/entries/classify03.js'
+    ],
+    classify04: [
+      require.resolve('./polyfills'),
+      paths.appSrc + '/entries/classify04.js'
+    ],
+    classify05: [
+      require.resolve('./polyfills'),
+      paths.appSrc + '/entries/classify05.js'
+    ],
+    classify06: [
+      require.resolve('./polyfills'),
+      paths.appSrc + '/entries/classify06.js'
+    ],
+    classify07: [
+      require.resolve('./polyfills'),
+      paths.appSrc + '/entries/classify07.js'
+    ],
     article01: [
       require.resolve('./polyfills'),
       paths.appSrc + '/entries/article01.js'
@@ -132,10 +160,6 @@ module.exports = {
     article07: [
       require.resolve('./polyfills'),
       paths.appSrc + '/entries/article07.js'
-    ],
-    classify01: [
-      require.resolve('./polyfills'),
-      paths.appSrc + '/entries/classify01.js'
     ]
   },
   output: {
@@ -361,6 +385,48 @@ module.exports = {
     }),
     new HtmlWebpackPlugin({
       ...htmlWebpackPluginOptions,
+      chunks: ['classify01'],
+      filename: 'classify01/index.html',
+      title: 'Classify01'
+    }),
+    new HtmlWebpackPlugin({
+      ...htmlWebpackPluginOptions,
+      chunks: ['classify02'],
+      filename: 'classify02/index.html',
+      title: 'Classify02'
+    }),
+    new HtmlWebpackPlugin({
+      ...htmlWebpackPluginOptions,
+      chunks: ['classify03'],
+      filename: 'classify03/index.html',
+      title: 'Classify03'
+    }),
+    new HtmlWebpackPlugin({
+      ...htmlWebpackPluginOptions,
+      chunks: ['classify04'],
+      filename: 'classify04/index.html',
+      title: 'Classify04'
+    }),
+    new HtmlWebpackPlugin({
+      ...htmlWebpackPluginOptions,
+      chunks: ['classify05'],
+      filename: 'classify05/index.html',
+      title: 'Classify05'
+    }),
+    new HtmlWebpackPlugin({
+      ...htmlWebpackPluginOptions,
+      chunks: ['classify06'],
+      filename: 'classify06/index.html',
+      title: 'Classify06'
+    }),
+    new HtmlWebpackPlugin({
+      ...htmlWebpackPluginOptions,
+      chunks: ['classify07'],
+      filename: 'classify07/index.html',
+      title: 'Classify07'
+    }),
+    new HtmlWebpackPlugin({
+      ...htmlWebpackPluginOptions,
       chunks: ['article01'],
       filename: 'article01/index.html',
       title: '婚姻破裂 | 小鹿情感'
@@ -400,12 +466,6 @@ module.exports = {
       chunks: ['article07'],
       filename: 'article07/index.html',
       title: '矛盾积累 | 小鹿情感'
-    }),
-    new HtmlWebpackPlugin({
-      ...htmlWebpackPluginOptions,
-      chunks: ['classify01'],
-      filename: 'classify01/index.html',
-      title: 'Classify01'
     }),
     // Makes some environment variables available to the JS code, for example:
     // if (process.env.NODE_ENV === 'production') { ... }. See `./env.js`.

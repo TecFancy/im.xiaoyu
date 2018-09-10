@@ -7,7 +7,7 @@ const classifies = [
     {
       type: 'article',
       title: '婚姻破裂',
-      href: './article01/',
+      href: './classify01/',
       nav: [
 	{
 	  text: '分类一',
@@ -62,7 +62,7 @@ const classifies = [
     {
       type: 'article',
       title: '异地恋情',
-      href: './article02/',
+      href: './classify02/',
       nav: [
 	{
 	  text: '分类一',
@@ -117,7 +117,7 @@ const classifies = [
     {
       type: 'article',
       title: '性格不合',
-      href: './article03/',
+      href: './classify03/',
       nav: [
 	{
 	  text: '分类一',
@@ -172,7 +172,7 @@ const classifies = [
     {
       type: 'article',
       title: '恋人劈腿',
-      href: './article04/',
+      href: './classify04/',
       nav: [
 	{
 	  text: '分类一',
@@ -227,7 +227,7 @@ const classifies = [
     {
       type: 'article',
       title: '感情淡化',
-      href: './article05/',
+      href: './classify05/',
       nav: [
 	{
 	  text: '分类一',
@@ -282,7 +282,7 @@ const classifies = [
     {
       type: 'article',
       title: '挽回干货',
-      href: './article06/',
+      href: './classify06/',
       nav: [
 	{
 	  text: '分类一',
@@ -337,7 +337,7 @@ const classifies = [
     {
       type: 'article',
       title: '矛盾积累',
-      href: './article07/',
+      href: './classify07/',
       nav: [
 	{
 	  text: '分类一',
