@@ -13,16 +13,16 @@ Header.propTypes = {
   title: PropTypes.string.isRequired
 };
 
-const Nav = ({navItem, url}) => (
-  <a className="section-header-nav-item" href={url}>
-    <span>{navItem}</span>
-    <i></i>
-  </a>
-);
-Nav.propTypes = {
-  navItem: PropTypes.string.isRequired,
-  url: PropTypes.string.isRequired
-};
+// const Nav = ({navItem, url}) => (
+//   <a className="section-header-nav-item" href={url}>
+//     <span>{navItem}</span>
+//     <i></i>
+//   </a>
+// );
+// Nav.propTypes = {
+//   navItem: PropTypes.string.isRequired,
+//   url: PropTypes.string.isRequired
+// };
 
 class HeaderContainer extends React.Component {
   render() {
@@ -33,13 +33,13 @@ class HeaderContainer extends React.Component {
 	  href={this.props.headerState.sectionHref}
 	  title={this.props.headerState.sectionTitle}
 	/>
-	<div className="section-header-nav">
+	{/*<div className="section-header-nav">
 	  {
 	    sectionNav.map((item, index) => {
 	      return <Nav key={index} navItem={item.text} url={item.url}/>;
 	    })
 	  }
-	</div>
+	</div>*/}
       </div>
     );
   }
