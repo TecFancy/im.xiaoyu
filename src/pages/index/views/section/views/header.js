@@ -26,7 +26,7 @@ Header.propTypes = {
 
 class HeaderContainer extends React.Component {
   render() {
-    const {sectionNav} = this.props.headerState;
+    // const {sectionNav} = this.props.headerState;
     return (
       <div className="section-header">
 	<Header

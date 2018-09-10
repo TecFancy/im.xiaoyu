@@ -5,98 +5,6 @@ import {images} from './views/section/';
 
 const classifies = [
     {
-      type: 'page',
-      title: '二级页面01',
-      href: './page01/',
-      nav: [
-	{
-	  text: '分类一',
-	  url: '#/nav'
-	},
-	{
-	  text: '分类二',
-	  url: '#/nav'
-	},
-	{
-	  text: '分类三',
-	  url: '#/nav'
-	},
-	{
-	  text: '分类四',
-	  url: '#/nav'
-	}
-      ]
-    },
-    {
-      type: 'page',
-      title: '二级页面02',
-      href: './page02/',
-      nav: [
-	{
-	  text: '分类一',
-	  url: '#/nav'
-	},
-	{
-	  text: '分类二',
-	  url: '#/nav'
-	},
-	{
-	  text: '分类三',
-	  url: '#/nav'
-	},
-	{
-	  text: '分类四',
-	  url: '#/nav'
-	}
-      ]
-    },
-    {
-      type: 'page',
-      title: '图标大小',
-      href: './page03/',
-      nav: [
-	{
-	  text: '分类一',
-	  url: '#/nav'
-	},
-	{
-	  text: '分类二',
-	  url: '#/nav'
-	},
-	{
-	  text: '分类三',
-	  url: '#/nav'
-	},
-	{
-	  text: '分类四',
-	  url: '#/nav'
-	}
-      ]
-    },
-    {
-      type: 'page',
-      title: '80 * 80',
-      href: './page04/',
-      nav: [
-	{
-	  text: '分类一',
-	  url: '#/nav'
-	},
-	{
-	  text: '分类二',
-	  url: '#/nav'
-	},
-	{
-	  text: '分类三',
-	  url: '#/nav'
-	},
-	{
-	  text: '分类四',
-	  url: '#/nav'
-	}
-      ]
-    },
-    {
       type: 'article',
       title: '婚姻破裂',
       href: './article01/',
@@ -438,7 +346,99 @@ const classifies = [
 	  image: images.articleImages.articleImage01
 	}
       ]
-    }
+    },
+    {
+      type: 'page',
+      title: '二级页面01',
+      href: './page01/',
+      nav: [
+	{
+	  text: '分类一',
+	  url: '#/nav'
+	},
+	{
+	  text: '分类二',
+	  url: '#/nav'
+	},
+	{
+	  text: '分类三',
+	  url: '#/nav'
+	},
+	{
+	  text: '分类四',
+	  url: '#/nav'
+	}
+      ]
+    },
+    {
+      type: 'page',
+      title: '二级页面02',
+      href: './page02/',
+      nav: [
+	{
+	  text: '分类一',
+	  url: '#/nav'
+	},
+	{
+	  text: '分类二',
+	  url: '#/nav'
+	},
+	{
+	  text: '分类三',
+	  url: '#/nav'
+	},
+	{
+	  text: '分类四',
+	  url: '#/nav'
+	}
+      ]
+    },
+    {
+      type: 'page',
+      title: '图标大小',
+      href: './page03/',
+      nav: [
+	{
+	  text: '分类一',
+	  url: '#/nav'
+	},
+	{
+	  text: '分类二',
+	  url: '#/nav'
+	},
+	{
+	  text: '分类三',
+	  url: '#/nav'
+	},
+	{
+	  text: '分类四',
+	  url: '#/nav'
+	}
+      ]
+    },
+    {
+      type: 'page',
+      title: '80 * 80',
+      href: './page04/',
+      nav: [
+	{
+	  text: '分类一',
+	  url: '#/nav'
+	},
+	{
+	  text: '分类二',
+	  url: '#/nav'
+	},
+	{
+	  text: '分类三',
+	  url: '#/nav'
+	},
+	{
+	  text: '分类四',
+	  url: '#/nav'
+	}
+      ]
+    },
 ];
 
 export default (state = classifies, action) => {
