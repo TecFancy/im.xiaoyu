@@ -1,9 +1,12 @@
 import React from 'react';
+import {view as Header} from '../../../components/header/';
 
 class Article02 extends React.Component {
   render() {
     return (
-      <div>文章页面: Article02</div>
+      <div>
+	<Header home={false} title="异地恋情" />
+      </div>
     );
   }
 }
