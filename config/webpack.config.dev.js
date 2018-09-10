@@ -111,6 +111,21 @@ module.exports = {
       require.resolve('react-dev-utils/webpackHotDevClient'),
       paths.appSrc + '/entries/article04.js'
     ],
+    article05: [
+      require.resolve('./polyfills'),
+      require.resolve('react-dev-utils/webpackHotDevClient'),
+      paths.appSrc + '/entries/article05.js'
+    ],
+    article06: [
+      require.resolve('./polyfills'),
+      require.resolve('react-dev-utils/webpackHotDevClient'),
+      paths.appSrc + '/entries/article06.js'
+    ],
+    article07: [
+      require.resolve('./polyfills'),
+      require.resolve('react-dev-utils/webpackHotDevClient'),
+      paths.appSrc + '/entries/article07.js'
+    ],
     classify01: [
       require.resolve('./polyfills'),
       require.resolve('react-dev-utils/webpackHotDevClient'),
@@ -350,6 +365,24 @@ module.exports = {
       chunks: ['article04'],
       title: '恋人劈腿 | 小鹿情感',
       filename: 'article04/index.html'
+    }),
+    new HtmlWebpackPlugin({
+      ...htmlWebpackPluginOptions,
+      chunks: ['article05'],
+      title: '感情淡化 | 小鹿情感',
+      filename: 'article05/index.html'
+    }),
+    new HtmlWebpackPlugin({
+      ...htmlWebpackPluginOptions,
+      chunks: ['article06'],
+      title: '挽回干货 | 小鹿情感',
+      filename: 'article06/index.html'
+    }),
+    new HtmlWebpackPlugin({
+      ...htmlWebpackPluginOptions,
+      chunks: ['article07'],
+      title: '矛盾积累 | 小鹿情感',
+      filename: 'article07/index.html'
     }),
     new HtmlWebpackPlugin({
       ...htmlWebpackPluginOptions,

@@ -121,6 +121,18 @@ module.exports = {
       require.resolve('./polyfills'),
       paths.appSrc + '/entries/article04.js'
     ],
+    article05: [
+      require.resolve('./polyfills'),
+      paths.appSrc + '/entries/article05.js'
+    ],
+    article06: [
+      require.resolve('./polyfills'),
+      paths.appSrc + '/entries/article06.js'
+    ],
+    article07: [
+      require.resolve('./polyfills'),
+      paths.appSrc + '/entries/article07.js'
+    ],
     classify01: [
       require.resolve('./polyfills'),
       paths.appSrc + '/entries/classify01.js'
@@ -370,6 +382,24 @@ module.exports = {
       chunks: ['article04'],
       filename: 'article04/index.html',
       title: '恋人劈腿 | 小鹿情感'
+    }),
+    new HtmlWebpackPlugin({
+      ...htmlWebpackPluginOptions,
+      chunks: ['article05'],
+      filename: 'article05/index.html',
+      title: '感情淡化 | 小鹿情感'
+    }),
+    new HtmlWebpackPlugin({
+      ...htmlWebpackPluginOptions,
+      chunks: ['article06'],
+      filename: 'article06/index.html',
+      title: '挽回干货 | 小鹿情感'
+    }),
+    new HtmlWebpackPlugin({
+      ...htmlWebpackPluginOptions,
+      chunks: ['article07'],
+      filename: 'article07/index.html',
+      title: '矛盾积累 | 小鹿情感'
     }),
     new HtmlWebpackPlugin({
       ...htmlWebpackPluginOptions,

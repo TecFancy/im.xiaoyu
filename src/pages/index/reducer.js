@@ -203,7 +203,7 @@ const classifies = [
     {
       type: 'article',
       title: '感情淡化',
-      href: './article04/',
+      href: './article05/',
       nav: [
 	{
 	  text: '分类一',
@@ -252,7 +252,7 @@ const classifies = [
     {
       type: 'article',
       title: '挽回干货',
-      href: './article04/',
+      href: './article06/',
       nav: [
 	{
 	  text: '分类一',
@@ -301,7 +301,7 @@ const classifies = [
     {
       type: 'article',
       title: '矛盾积累',
-      href: './article04/',
+      href: './article07/',
       nav: [
 	{
 	  text: '分类一',
