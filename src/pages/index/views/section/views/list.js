@@ -39,6 +39,7 @@ class ListContainer extends React.Component {
       <div className="section-list">
 	{
 	  this.props.listState.list.map((listItem, listIndex) => {
+	    if (listIndex > 2) return null;
 	    return (
 	      <ArticleList 
 		key={listIndex}

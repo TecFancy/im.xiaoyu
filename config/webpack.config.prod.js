@@ -105,6 +105,34 @@ module.exports = {
       require.resolve('./polyfills'),
       paths.appSrc + '/entries/page04.js'
     ],
+    classify01: [
+      require.resolve('./polyfills'),
+      paths.appSrc + '/entries/classify01.js'
+    ],
+    classify02: [
+      require.resolve('./polyfills'),
+      paths.appSrc + '/entries/classify02.js'
+    ],
+    classify03: [
+      require.resolve('./polyfills'),
+      paths.appSrc + '/entries/classify03.js'
+    ],
+    classify04: [
+      require.resolve('./polyfills'),
+      paths.appSrc + '/entries/classify04.js'
+    ],
+    classify05: [
+      require.resolve('./polyfills'),
+      paths.appSrc + '/entries/classify05.js'
+    ],
+    classify06: [
+      require.resolve('./polyfills'),
+      paths.appSrc + '/entries/classify06.js'
+    ],
+    classify07: [
+      require.resolve('./polyfills'),
+      paths.appSrc + '/entries/classify07.js'
+    ],
     article01: [
       require.resolve('./polyfills'),
       paths.appSrc + '/entries/article01.js'
@@ -121,9 +149,17 @@ module.exports = {
       require.resolve('./polyfills'),
       paths.appSrc + '/entries/article04.js'
     ],
-    classify01: [
+    article05: [
       require.resolve('./polyfills'),
-      paths.appSrc + '/entries/classify01.js'
+      paths.appSrc + '/entries/article05.js'
+    ],
+    article06: [
+      require.resolve('./polyfills'),
+      paths.appSrc + '/entries/article06.js'
+    ],
+    article07: [
+      require.resolve('./polyfills'),
+      paths.appSrc + '/entries/article07.js'
     ]
   },
   output: {
@@ -349,33 +385,87 @@ module.exports = {
     }),
     new HtmlWebpackPlugin({
       ...htmlWebpackPluginOptions,
+      chunks: ['classify01'],
+      filename: 'classify01/index.html',
+      title: 'Classify01'
+    }),
+    new HtmlWebpackPlugin({
+      ...htmlWebpackPluginOptions,
+      chunks: ['classify02'],
+      filename: 'classify02/index.html',
+      title: 'Classify02'
+    }),
+    new HtmlWebpackPlugin({
+      ...htmlWebpackPluginOptions,
+      chunks: ['classify03'],
+      filename: 'classify03/index.html',
+      title: 'Classify03'
+    }),
+    new HtmlWebpackPlugin({
+      ...htmlWebpackPluginOptions,
+      chunks: ['classify04'],
+      filename: 'classify04/index.html',
+      title: 'Classify04'
+    }),
+    new HtmlWebpackPlugin({
+      ...htmlWebpackPluginOptions,
+      chunks: ['classify05'],
+      filename: 'classify05/index.html',
+      title: 'Classify05'
+    }),
+    new HtmlWebpackPlugin({
+      ...htmlWebpackPluginOptions,
+      chunks: ['classify06'],
+      filename: 'classify06/index.html',
+      title: 'Classify06'
+    }),
+    new HtmlWebpackPlugin({
+      ...htmlWebpackPluginOptions,
+      chunks: ['classify07'],
+      filename: 'classify07/index.html',
+      title: 'Classify07'
+    }),
+    new HtmlWebpackPlugin({
+      ...htmlWebpackPluginOptions,
       chunks: ['article01'],
       filename: 'article01/index.html',
-      title: 'Article01'
+      title: '婚姻破裂 | 小鹿情感'
     }),
     new HtmlWebpackPlugin({
       ...htmlWebpackPluginOptions,
       chunks: ['article02'],
       filename: 'article02/index.html',
-      title: 'Article02'
+      title: '异地恋情 | 小鹿情感'
     }),
     new HtmlWebpackPlugin({
       ...htmlWebpackPluginOptions,
       chunks: ['article03'],
       filename: 'article03/index.html',
-      title: 'Article03'
+      title: '性格不合 | 小鹿情感'
     }),
     new HtmlWebpackPlugin({
       ...htmlWebpackPluginOptions,
       chunks: ['article04'],
       filename: 'article04/index.html',
-      title: 'Article04'
+      title: '恋人劈腿 | 小鹿情感'
     }),
     new HtmlWebpackPlugin({
       ...htmlWebpackPluginOptions,
-      chunks: ['classify01'],
-      filename: 'classify01/index.html',
-      title: 'Classify01'
+      chunks: ['article05'],
+      filename: 'article05/index.html',
+      title: '感情淡化 | 小鹿情感'
+    }),
+    new HtmlWebpackPlugin({
+      ...htmlWebpackPluginOptions,
+      chunks: ['article06'],
+      filename: 'article06/index.html',
+      title: '挽回干货 | 小鹿情感'
+    }),
+    new HtmlWebpackPlugin({
+      ...htmlWebpackPluginOptions,
+      chunks: ['article07'],
+      filename: 'article07/index.html',
+      title: '矛盾积累 | 小鹿情感'
     }),
     // Makes some environment variables available to the JS code, for example:
     // if (process.env.NODE_ENV === 'production') { ... }. See `./env.js`.

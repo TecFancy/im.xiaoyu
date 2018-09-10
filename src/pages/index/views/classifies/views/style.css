@@ -5,7 +5,7 @@
   padding: 10px 0;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: flex-start;
   align-items: center;
 }
 
@@ -67,6 +67,21 @@
 }
 
 .classifies a:nth-child(8) i {
+  background: url("./images/svg.svg") no-repeat center center;
+  background-size: 100%;
+}
+
+.classifies a:nth-child(9) i {
+  background: url("./images/svg.svg") no-repeat center center;
+  background-size: 100%;
+}
+
+.classifies a:nth-child(10) i {
+  background: url("./images/svg.svg") no-repeat center center;
+  background-size: 100%;
+}
+
+.classifies a:nth-child(11) i {
   background: url("./images/svg.svg") no-repeat center center;
   background-size: 100%;
 }

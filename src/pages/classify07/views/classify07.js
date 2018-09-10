@@ -1,14 +1,14 @@
 import React from 'react';
 import {view as Header} from '../../../components/header/';
 
-class Article03 extends React.Component {
+class Classify07 extends React.Component {
   render() {
-    return(
+    return (
       <div>
-	<Header home={false} title="性格不合" />
+	<Header home={false} title="矛盾积累" />
       </div>
     );
   }
 }
 
-export default Article03;
+export default Classify07;

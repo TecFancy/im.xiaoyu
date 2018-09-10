@@ -1,9 +1,12 @@
 import React from 'react';
+import {view as Header} from '../../../components/header/';
 
 class Classify01 extends React.Component {
   render() {
     return (
-      <div>分类页面: Classify01</div>
+      <div>
+	<Header home={false} title="婚姻破裂" />
+      </div>
     );
   }
 }
