@@ -160,7 +160,19 @@ module.exports = {
     article07: [
       require.resolve('./polyfills'),
       paths.appSrc + '/entries/article07.js'
-    ]
+    ],
+    article08: [
+      require.resolve('./polyfills'),
+      paths.appSrc + '/entries/article08.js'
+    ],
+    article09: [
+      require.resolve('./polyfills'),
+      paths.appSrc + '/entries/article09.js'
+    ],
+    article10: [
+      require.resolve('./polyfills'),
+      paths.appSrc + '/entries/article10.js'
+    ],
   },
   output: {
     // The build folder.
@@ -465,6 +477,24 @@ module.exports = {
       ...htmlWebpackPluginOptions,
       chunks: ['article07'],
       filename: 'article07/index.html',
+      title: '矛盾积累 | 小鹿情感'
+    }),
+    new HtmlWebpackPlugin({
+      ...htmlWebpackPluginOptions,
+      chunks: ['article08'],
+      filename: 'article08/index.html',
+      title: '矛盾积累 | 小鹿情感'
+    }),
+    new HtmlWebpackPlugin({
+      ...htmlWebpackPluginOptions,
+      chunks: ['article09'],
+      filename: 'article09/index.html',
+      title: '矛盾积累 | 小鹿情感'
+    }),
+    new HtmlWebpackPlugin({
+      ...htmlWebpackPluginOptions,
+      chunks: ['article10'],
+      filename: 'article10/index.html',
       title: '矛盾积累 | 小鹿情感'
     }),
     // Makes some environment variables available to the JS code, for example:

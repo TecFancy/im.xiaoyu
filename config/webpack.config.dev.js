@@ -160,7 +160,22 @@ module.exports = {
       require.resolve('./polyfills'),
       require.resolve('react-dev-utils/webpackHotDevClient'),
       paths.appSrc + '/entries/article07.js'
-    ]
+    ],
+    article08: [
+      require.resolve('./polyfills'),
+      require.resolve('react-dev-utils/webpackHotDevClient'),
+      paths.appSrc + '/entries/article08.js'
+    ],
+    article09: [
+      require.resolve('./polyfills'),
+      require.resolve('react-dev-utils/webpackHotDevClient'),
+      paths.appSrc + '/entries/article09.js'
+    ],
+    article10: [
+      require.resolve('./polyfills'),
+      require.resolve('react-dev-utils/webpackHotDevClient'),
+      paths.appSrc + '/entries/article10.js'
+    ],
   },
   output: {
     // Add /* filename */ comments to generated require()s in the output.
@@ -455,6 +470,24 @@ module.exports = {
       chunks: ['article07'],
       title: '矛盾积累 | 小鹿情感',
       filename: 'article07/index.html'
+    }),
+    new HtmlWebpackPlugin({
+      ...htmlWebpackPluginOptions,
+      chunks: ['article08'],
+      title: '矛盾积累 | 小鹿情感',
+      filename: 'article08/index.html'
+    }),
+    new HtmlWebpackPlugin({
+      ...htmlWebpackPluginOptions,
+      chunks: ['article09'],
+      title: '矛盾积累 | 小鹿情感',
+      filename: 'article09/index.html'
+    }),
+    new HtmlWebpackPlugin({
+      ...htmlWebpackPluginOptions,
+      chunks: ['article10'],
+      title: '矛盾积累 | 小鹿情感',
+      filename: 'article10/index.html'
     }),
     // Add module names to factory functions so they appear in browser profiler.
     new webpack.NamedModulesPlugin(),

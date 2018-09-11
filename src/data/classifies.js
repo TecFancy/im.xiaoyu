@@ -387,6 +387,171 @@ const classifies = [
       ]
     },
     {
+      type: 'article',
+      title: '矛盾积累',
+      href: 'classify08/',
+      nav: [
+	{
+	  text: '分类一',
+	  url: '#/nav'
+	},
+	{
+	  text: '分类二',
+	  url: '#/nav'
+	},
+	{
+	  text: '分类三',
+	  url: '#/nav'
+	},
+	{
+	  text: '分类四',
+	  url: '#/nav'
+	}
+      ],
+      list: [
+	{
+	  url: '#/',
+	  title: '冷战，只会让矛盾长期积压',
+	  description: '简短描述...',
+	  image: images.articleImages.articleImage001
+	},
+	{
+	  url: '#/',
+	  title: '小矛盾堆积成大问题，分手来的猝不及防',
+	  description: '简短描述...',
+	  image: images.articleImages.articleImage001
+	},
+	{
+	  url: '#/',
+	  title: '“破窗效应”告诉你：小事背后隐藏分手本质',
+	  description: '简短描述...',
+	  image: images.articleImages.articleImage001
+	},
+	{
+	  url: '#/',
+	  title: '小矛盾膨胀激化，最终引发分手，你做错了什么？',
+	  description: '简短描述...',
+	  image: images.articleImages.articleImage001
+	},
+	{
+	  url: '#/',
+	  title: '因为小事而分手？那是因为你不知道她忍了多久',
+	  description: '简短描述...',
+	  image: images.articleImages.articleImage001
+	}
+      ]
+    },
+    {
+      type: 'article',
+      title: '矛盾积累',
+      href: 'classify09/',
+      nav: [
+	{
+	  text: '分类一',
+	  url: '#/nav'
+	},
+	{
+	  text: '分类二',
+	  url: '#/nav'
+	},
+	{
+	  text: '分类三',
+	  url: '#/nav'
+	},
+	{
+	  text: '分类四',
+	  url: '#/nav'
+	}
+      ],
+      list: [
+	{
+	  url: '#/',
+	  title: '冷战，只会让矛盾长期积压',
+	  description: '简短描述...',
+	  image: images.articleImages.articleImage001
+	},
+	{
+	  url: '#/',
+	  title: '小矛盾堆积成大问题，分手来的猝不及防',
+	  description: '简短描述...',
+	  image: images.articleImages.articleImage001
+	},
+	{
+	  url: '#/',
+	  title: '“破窗效应”告诉你：小事背后隐藏分手本质',
+	  description: '简短描述...',
+	  image: images.articleImages.articleImage001
+	},
+	{
+	  url: '#/',
+	  title: '小矛盾膨胀激化，最终引发分手，你做错了什么？',
+	  description: '简短描述...',
+	  image: images.articleImages.articleImage001
+	},
+	{
+	  url: '#/',
+	  title: '因为小事而分手？那是因为你不知道她忍了多久',
+	  description: '简短描述...',
+	  image: images.articleImages.articleImage001
+	}
+      ]
+    },
+    {
+      type: 'article',
+      title: '矛盾积累',
+      href: 'classify10/',
+      nav: [
+	{
+	  text: '分类一',
+	  url: '#/nav'
+	},
+	{
+	  text: '分类二',
+	  url: '#/nav'
+	},
+	{
+	  text: '分类三',
+	  url: '#/nav'
+	},
+	{
+	  text: '分类四',
+	  url: '#/nav'
+	}
+      ],
+      list: [
+	{
+	  url: '#/',
+	  title: '冷战，只会让矛盾长期积压',
+	  description: '简短描述...',
+	  image: images.articleImages.articleImage001
+	},
+	{
+	  url: '#/',
+	  title: '小矛盾堆积成大问题，分手来的猝不及防',
+	  description: '简短描述...',
+	  image: images.articleImages.articleImage001
+	},
+	{
+	  url: '#/',
+	  title: '“破窗效应”告诉你：小事背后隐藏分手本质',
+	  description: '简短描述...',
+	  image: images.articleImages.articleImage001
+	},
+	{
+	  url: '#/',
+	  title: '小矛盾膨胀激化，最终引发分手，你做错了什么？',
+	  description: '简短描述...',
+	  image: images.articleImages.articleImage001
+	},
+	{
+	  url: '#/',
+	  title: '因为小事而分手？那是因为你不知道她忍了多久',
+	  description: '简短描述...',
+	  image: images.articleImages.articleImage001
+	}
+      ]
+    },
+    {
       type: 'page',
       title: '二级页面01',
       href: 'page01/',
