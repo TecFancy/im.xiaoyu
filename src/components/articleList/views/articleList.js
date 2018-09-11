@@ -4,7 +4,7 @@ import './style.css';
 
 const ArticleList = ({articleUrl, articleTitle, articleDescription, articleImage}) => (
   <div className="articles">
-    <a className="section-list-item" href={`../${articleUrl}`}>
+    <a className="section-list-item" href={articleUrl}>
       <div className="section-list-item-text">
 	<h3>{articleTitle}</h3>
 	<p>{articleDescription}</p>

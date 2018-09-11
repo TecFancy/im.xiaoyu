@@ -1,17 +1,5 @@
 import React from 'react';
-
-const ArticleList = ({articleTitle, articleDescription, articleImage, articleUrl}) => (
-    <a className="section-list-item" href={`./${articleUrl}`}>
-      <div className="section-list-item-text">
-	<h3>{articleTitle}</h3>
-	<p>{articleDescription}</p>
-      </div>
-      <div className="section-list-item-image">
-	<span className="section-list-item-image-mask"></span>
-	<img src={articleImage} alt="文章配图" />
-      </div>
-    </a>
-);
+import {view as ArticleList} from '../../../../../components/articleList/';
 
 class ListContainer extends React.Component {
   render() {
@@ -43,7 +31,7 @@ class ListContainer extends React.Component {
 	    return (
 	      <ArticleList 
 		key={listIndex}
-		articleUrl={listItem.url}
+		articleUrl={`./${listItem.url}`}
 		articleTitle={listItem.title}
 		articleDescription={listItem.description}
 		articleImage={listItem.image}
