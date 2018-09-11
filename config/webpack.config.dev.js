@@ -176,6 +176,11 @@ module.exports = {
       require.resolve('react-dev-utils/webpackHotDevClient'),
       paths.appSrc + '/entries/article10.js'
     ],
+    a1_1: [
+      require.resolve('./polyfills'),
+      require.resolve('react-dev-utils/webpackHotDevClient'),
+      paths.appSrc + '/entries/articles/a1/a1_1/a1_1.js'
+    ]
   },
   output: {
     // Add /* filename */ comments to generated require()s in the output.
@@ -489,6 +494,15 @@ module.exports = {
       title: '矛盾积累 | 小鹿情感',
       filename: 'article10/index.html'
     }),
+
+    // articles bellow
+    new HtmlWebpackPlugin({  // 文章 - a1_1
+      ...htmlWebpackPluginOptions,
+      chunks: ['a1_1'],
+      title: '文章页面 | 小鹿情感',
+      filename: 'articles/a1/a1_1/index.html'
+    }),
+
     // Add module names to factory functions so they appear in browser profiler.
     new webpack.NamedModulesPlugin(),
     // Makes some environment variables available to the JS code, for example:
