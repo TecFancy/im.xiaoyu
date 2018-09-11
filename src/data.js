@@ -1,13 +1,8 @@
-import {GET_CLASSIFY} from './actionTypes.js';
-
-// 导入文章图片
-import {images} from './views/section/';
-
 const classifies = [
     {
       type: 'article',
       title: '婚姻破裂',
-      href: 'classify01/',
+      href: './classify01/',
       nav: [
 	{
 	  text: '分类一',
@@ -28,31 +23,31 @@ const classifies = [
       ],
       list: [
 	{
-	  url: 'article01/',
+	  url: './article01/',
 	  title: '设计师注意 - 男人你听我说，你所追求的是“保姆式妻子”和“守寡式婚姻”',
 	  description: '右侧的配图大小为 80 * 80 - 简短描述...',
 	  image: images.articleImages.articleImage01
 	},
 	{
-	  url: 'article02/',
+	  url: './article02/',
 	  title: '傻女人，你真以为用孩子就能留住婚姻？！',
 	  description: '简短描述...',
 	  image: images.articleImages.articleImage01
 	},
 	{
-	  url: 'article03/',
+	  url: './article03/',
 	  title: '老公爱聊骚，我除了忍别无他法',
 	  description: '简短描述...',
 	  image: images.articleImages.articleImage01
 	},
 	{
-	  url: 'article04/',
+	  url: './article04/',
 	  title: '原配实力虐小三，男人想复婚只能靠跪舔吗？',
 	  description: '文章简短描述...',
 	  image: images.articleImages.articleImage01
 	},
 	{
-	  url: 'article05/',
+	  url: './article05/',
 	  title: '你的面子值钱，爱人的尊严就分文不值吗？',
 	  description: '简短描述...',
 	  image: images.articleImages.articleImage01
@@ -62,7 +57,7 @@ const classifies = [
     {
       type: 'article',
       title: '异地恋情',
-      href: 'classify02/',
+      href: './classify02/',
       nav: [
 	{
 	  text: '分类一',
@@ -117,7 +112,7 @@ const classifies = [
     {
       type: 'article',
       title: '性格不合',
-      href: 'classify03/',
+      href: './classify03/',
       nav: [
 	{
 	  text: '分类一',
@@ -172,7 +167,7 @@ const classifies = [
     {
       type: 'article',
       title: '恋人劈腿',
-      href: 'classify04/',
+      href: './classify04/',
       nav: [
 	{
 	  text: '分类一',
@@ -227,7 +222,7 @@ const classifies = [
     {
       type: 'article',
       title: '感情淡化',
-      href: 'classify05/',
+      href: './classify05/',
       nav: [
 	{
 	  text: '分类一',
@@ -282,7 +277,7 @@ const classifies = [
     {
       type: 'article',
       title: '挽回干货',
-      href: 'classify06/',
+      href: './classify06/',
       nav: [
 	{
 	  text: '分类一',
@@ -337,7 +332,7 @@ const classifies = [
     {
       type: 'article',
       title: '矛盾积累',
-      href: 'classify07/',
+      href: './classify07/',
       nav: [
 	{
 	  text: '分类一',
@@ -392,7 +387,7 @@ const classifies = [
     {
       type: 'page',
       title: '二级页面01',
-      href: 'page01/',
+      href: './page01/',
       nav: [
 	{
 	  text: '分类一',
@@ -415,7 +410,7 @@ const classifies = [
     {
       type: 'page',
       title: '二级页面02',
-      href: 'page02/',
+      href: './page02/',
       nav: [
 	{
 	  text: '分类一',
@@ -438,7 +433,7 @@ const classifies = [
     {
       type: 'page',
       title: '图标大小',
-      href: 'page03/',
+      href: './page03/',
       nav: [
 	{
 	  text: '分类一',
@@ -461,7 +456,7 @@ const classifies = [
     {
       type: 'page',
       title: '80 * 80',
-      href: 'page04/',
+      href: './page04/',
       nav: [
 	{
 	  text: '分类一',
@@ -483,11 +478,4 @@ const classifies = [
     },
 ];
 
-export default (state = classifies, action) => {
-  switch(action.type) {
-    case GET_CLASSIFY:
-      return state;
-    default:
-      return state;
-  }
-};
+export {classifies};

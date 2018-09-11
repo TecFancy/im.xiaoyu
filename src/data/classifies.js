@@ -1,7 +1,4 @@
-import {GET_CLASSIFY} from './actionTypes.js';
-
-// 导入文章图片
-import {images} from './views/section/';
+import {images} from '../pages/index/';
 
 const classifies = [
     {
@@ -483,11 +480,4 @@ const classifies = [
     },
 ];
 
-export default (state = classifies, action) => {
-  switch(action.type) {
-    case GET_CLASSIFY:
-      return state;
-    default:
-      return state;
-  }
-};
+export {classifies};
