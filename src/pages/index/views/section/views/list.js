@@ -24,7 +24,7 @@ class ListContainer extends React.Component {
 
     // 渲染 article 的 section
     return (
-      <div className="section-list">
+      <div>
 	{
 	  this.props.listState.list.map((listItem, listIndex) => {
 	    if (listIndex > 2) return null;

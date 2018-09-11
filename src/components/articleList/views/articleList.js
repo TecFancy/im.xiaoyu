@@ -3,7 +3,7 @@ import React from 'react';
 import './style.css';
 
 const ArticleList = ({articleUrl, articleTitle, articleDescription, articleImage}) => (
-  <div className="articles">
+  <div className="section-list articles">
     <a className="section-list-item" href={articleUrl}>
       <div className="section-list-item-text">
 	<h3>{articleTitle}</h3>
