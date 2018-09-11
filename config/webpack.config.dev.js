@@ -126,60 +126,32 @@ module.exports = {
       require.resolve('react-dev-utils/webpackHotDevClient'),
       paths.appSrc + '/entries/classify07.js'
     ],
-    article01: [
-      require.resolve('./polyfills'),
-      require.resolve('react-dev-utils/webpackHotDevClient'),
-      paths.appSrc + '/entries/article01.js'
-    ],
-    article02: [
-      require.resolve('./polyfills'),
-      require.resolve('react-dev-utils/webpackHotDevClient'),
-      paths.appSrc + '/entries/article02.js'
-    ],
-    article03: [
-      require.resolve('./polyfills'),
-      require.resolve('react-dev-utils/webpackHotDevClient'),
-      paths.appSrc + '/entries/article03.js'
-    ],
-    article04: [
-      require.resolve('./polyfills'),
-      require.resolve('react-dev-utils/webpackHotDevClient'),
-      paths.appSrc + '/entries/article04.js'
-    ],
-    article05: [
-      require.resolve('./polyfills'),
-      require.resolve('react-dev-utils/webpackHotDevClient'),
-      paths.appSrc + '/entries/article05.js'
-    ],
-    article06: [
-      require.resolve('./polyfills'),
-      require.resolve('react-dev-utils/webpackHotDevClient'),
-      paths.appSrc + '/entries/article06.js'
-    ],
-    article07: [
-      require.resolve('./polyfills'),
-      require.resolve('react-dev-utils/webpackHotDevClient'),
-      paths.appSrc + '/entries/article07.js'
-    ],
-    article08: [
-      require.resolve('./polyfills'),
-      require.resolve('react-dev-utils/webpackHotDevClient'),
-      paths.appSrc + '/entries/article08.js'
-    ],
-    article09: [
-      require.resolve('./polyfills'),
-      require.resolve('react-dev-utils/webpackHotDevClient'),
-      paths.appSrc + '/entries/article09.js'
-    ],
-    article10: [
-      require.resolve('./polyfills'),
-      require.resolve('react-dev-utils/webpackHotDevClient'),
-      paths.appSrc + '/entries/article10.js'
-    ],
+
+    // articles' entry bellow
     a1_1: [
       require.resolve('./polyfills'),
       require.resolve('react-dev-utils/webpackHotDevClient'),
-      paths.appSrc + '/entries/articles/a1/a1_1/a1_1.js'
+      paths.appSrc + '/entries/articles/a1/a1_1.js'
+    ],
+    a1_2: [
+      require.resolve('./polyfills'),
+      require.resolve('react-dev-utils/webpackHotDevClient'),
+      paths.appSrc + '/entries/articles/a1/a1_2.js'
+    ],
+    a1_3: [
+      require.resolve('./polyfills'),
+      require.resolve('react-dev-utils/webpackHotDevClient'),
+      paths.appSrc + '/entries/articles/a1/a1_3.js'
+    ],
+    a1_4: [
+      require.resolve('./polyfills'),
+      require.resolve('react-dev-utils/webpackHotDevClient'),
+      paths.appSrc + '/entries/articles/a1/a1_4.js'
+    ],
+    a1_5: [
+      require.resolve('./polyfills'),
+      require.resolve('react-dev-utils/webpackHotDevClient'),
+      paths.appSrc + '/entries/articles/a1/a1_5.js'
     ]
   },
   output: {
@@ -434,66 +406,6 @@ module.exports = {
       title: 'Classify07',
       filename: 'classify07/index.html'
     }),
-    new HtmlWebpackPlugin({
-      ...htmlWebpackPluginOptions,
-      chunks: ['article01'],
-      title: '婚姻破裂 | 小鹿情感',
-      filename: 'article01/index.html'
-    }),
-    new HtmlWebpackPlugin({
-      ...htmlWebpackPluginOptions,
-      chunks: ['article02'],
-      title: '异地恋情 | 小鹿情感',
-      filename: 'article02/index.html'
-    }),
-    new HtmlWebpackPlugin({
-      ...htmlWebpackPluginOptions,
-      chunks: ['article03'],
-      title: '性格不合 | 小鹿情感',
-      filename: 'article03/index.html'
-    }),
-    new HtmlWebpackPlugin({
-      ...htmlWebpackPluginOptions,
-      chunks: ['article04'],
-      title: '恋人劈腿 | 小鹿情感',
-      filename: 'article04/index.html'
-    }),
-    new HtmlWebpackPlugin({
-      ...htmlWebpackPluginOptions,
-      chunks: ['article05'],
-      title: '感情淡化 | 小鹿情感',
-      filename: 'article05/index.html'
-    }),
-    new HtmlWebpackPlugin({
-      ...htmlWebpackPluginOptions,
-      chunks: ['article06'],
-      title: '挽回干货 | 小鹿情感',
-      filename: 'article06/index.html'
-    }),
-    new HtmlWebpackPlugin({
-      ...htmlWebpackPluginOptions,
-      chunks: ['article07'],
-      title: '矛盾积累 | 小鹿情感',
-      filename: 'article07/index.html'
-    }),
-    new HtmlWebpackPlugin({
-      ...htmlWebpackPluginOptions,
-      chunks: ['article08'],
-      title: '矛盾积累 | 小鹿情感',
-      filename: 'article08/index.html'
-    }),
-    new HtmlWebpackPlugin({
-      ...htmlWebpackPluginOptions,
-      chunks: ['article09'],
-      title: '矛盾积累 | 小鹿情感',
-      filename: 'article09/index.html'
-    }),
-    new HtmlWebpackPlugin({
-      ...htmlWebpackPluginOptions,
-      chunks: ['article10'],
-      title: '矛盾积累 | 小鹿情感',
-      filename: 'article10/index.html'
-    }),
 
     // articles bellow
     new HtmlWebpackPlugin({  // 文章 - a1_1
@@ -501,6 +413,30 @@ module.exports = {
       chunks: ['a1_1'],
       title: '文章页面 | 小鹿情感',
       filename: 'articles/a1/a1_1/index.html'
+    }),
+    new HtmlWebpackPlugin({  // 文章 - a1_2
+      ...htmlWebpackPluginOptions,
+      chunks: ['a1_2'],
+      title: '文章页面 | 小鹿情感',
+      filename: 'articles/a1/a1_2/index.html'
+    }),
+    new HtmlWebpackPlugin({  // 文章 - a1_2
+      ...htmlWebpackPluginOptions,
+      chunks: ['a1_3'],
+      title: '文章页面 | 小鹿情感',
+      filename: 'articles/a1/a1_3/index.html'
+    }),
+    new HtmlWebpackPlugin({  // 文章 - a1_2
+      ...htmlWebpackPluginOptions,
+      chunks: ['a1_4'],
+      title: '文章页面 | 小鹿情感',
+      filename: 'articles/a1/a1_4/index.html'
+    }),
+    new HtmlWebpackPlugin({  // 文章 - a1_2
+      ...htmlWebpackPluginOptions,
+      chunks: ['a1_5'],
+      title: '文章页面 | 小鹿情感',
+      filename: 'articles/a1/a1_5/index.html'
     }),
 
     // Add module names to factory functions so they appear in browser profiler.
