@@ -28,31 +28,31 @@ const classifies = [
       ],
       list: [
 	{
-	  url: '#/',
+	  url: './article01/',
 	  title: '设计师注意 - 男人你听我说，你所追求的是“保姆式妻子”和“守寡式婚姻”',
 	  description: '右侧的配图大小为 80 * 80 - 简短描述...',
 	  image: images.articleImages.articleImage01
 	},
 	{
-	  url: '#/',
+	  url: './article02/',
 	  title: '傻女人，你真以为用孩子就能留住婚姻？！',
 	  description: '简短描述...',
 	  image: images.articleImages.articleImage01
 	},
 	{
-	  url: '#/',
+	  url: './article03/',
 	  title: '老公爱聊骚，我除了忍别无他法',
 	  description: '简短描述...',
 	  image: images.articleImages.articleImage01
 	},
 	{
-	  url: '#/',
+	  url: './article04/',
 	  title: '原配实力虐小三，男人想复婚只能靠跪舔吗？',
 	  description: '文章简短描述...',
 	  image: images.articleImages.articleImage01
 	},
 	{
-	  url: '#/',
+	  url: './article05/',
 	  title: '你的面子值钱，爱人的尊严就分文不值吗？',
 	  description: '简短描述...',
 	  image: images.articleImages.articleImage01

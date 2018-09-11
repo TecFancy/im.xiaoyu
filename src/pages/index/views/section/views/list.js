@@ -1,7 +1,7 @@
 import React from 'react';
 
-const ArticleList = ({articleTitle, articleDescription, articleImage}) => (
-    <a className="section-list-item" href="#/section-list-item">
+const ArticleList = ({articleTitle, articleDescription, articleImage, articleUrl}) => (
+    <a className="section-list-item" href={articleUrl}>
       <div className="section-list-item-text">
 	<h3>{articleTitle}</h3>
 	<p>{articleDescription}</p>
@@ -43,6 +43,7 @@ class ListContainer extends React.Component {
 	    return (
 	      <ArticleList 
 		key={listIndex}
+		articleUrl={listItem.url}
 		articleTitle={listItem.title}
 		articleDescription={listItem.description}
 		articleImage={listItem.image}
