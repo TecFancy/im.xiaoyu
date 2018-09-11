@@ -126,40 +126,32 @@ module.exports = {
       require.resolve('react-dev-utils/webpackHotDevClient'),
       paths.appSrc + '/entries/classify07.js'
     ],
-    article01: [
+
+    // articles' entry bellow
+    a1_1: [
       require.resolve('./polyfills'),
       require.resolve('react-dev-utils/webpackHotDevClient'),
-      paths.appSrc + '/entries/article01.js'
+      paths.appSrc + '/entries/articles/a1/a1_1.js'
     ],
-    article02: [
+    a1_2: [
       require.resolve('./polyfills'),
       require.resolve('react-dev-utils/webpackHotDevClient'),
-      paths.appSrc + '/entries/article02.js'
+      paths.appSrc + '/entries/articles/a1/a1_2.js'
     ],
-    article03: [
+    a1_3: [
       require.resolve('./polyfills'),
       require.resolve('react-dev-utils/webpackHotDevClient'),
-      paths.appSrc + '/entries/article03.js'
+      paths.appSrc + '/entries/articles/a1/a1_3.js'
     ],
-    article04: [
+    a1_4: [
       require.resolve('./polyfills'),
       require.resolve('react-dev-utils/webpackHotDevClient'),
-      paths.appSrc + '/entries/article04.js'
+      paths.appSrc + '/entries/articles/a1/a1_4.js'
     ],
-    article05: [
+    a1_5: [
       require.resolve('./polyfills'),
       require.resolve('react-dev-utils/webpackHotDevClient'),
-      paths.appSrc + '/entries/article05.js'
-    ],
-    article06: [
-      require.resolve('./polyfills'),
-      require.resolve('react-dev-utils/webpackHotDevClient'),
-      paths.appSrc + '/entries/article06.js'
-    ],
-    article07: [
-      require.resolve('./polyfills'),
-      require.resolve('react-dev-utils/webpackHotDevClient'),
-      paths.appSrc + '/entries/article07.js'
+      paths.appSrc + '/entries/articles/a1/a1_5.js'
     ]
   },
   output: {
@@ -306,6 +298,13 @@ module.exports = {
               },
             ],
           },
+
+	  // html-loader
+	  {
+	    test: /\.md$/,
+	    use: ['html-loader']
+	  },
+
           // "file" loader makes sure those assets get served by WebpackDevServer.
           // When you `import` an asset, you get its (virtual) filename.
           // In production, they would get copied to the `build` folder.
@@ -414,48 +413,39 @@ module.exports = {
       title: 'Classify07',
       filename: 'classify07/index.html'
     }),
-    new HtmlWebpackPlugin({
+
+    // articles bellow
+    new HtmlWebpackPlugin({  // 文章 - a1_1
       ...htmlWebpackPluginOptions,
-      chunks: ['article01'],
-      title: '婚姻破裂 | 小鹿情感',
-      filename: 'article01/index.html'
+      chunks: ['a1_1'],
+      title: '文章页面 | 小鹿情感',
+      filename: 'articles/a1/a1_1/index.html'
     }),
-    new HtmlWebpackPlugin({
+    new HtmlWebpackPlugin({  // 文章 - a1_2
       ...htmlWebpackPluginOptions,
-      chunks: ['article02'],
-      title: '异地恋情 | 小鹿情感',
-      filename: 'article02/index.html'
+      chunks: ['a1_2'],
+      title: '文章页面 | 小鹿情感',
+      filename: 'articles/a1/a1_2/index.html'
     }),
-    new HtmlWebpackPlugin({
+    new HtmlWebpackPlugin({  // 文章 - a1_2
       ...htmlWebpackPluginOptions,
-      chunks: ['article03'],
-      title: '性格不合 | 小鹿情感',
-      filename: 'article03/index.html'
+      chunks: ['a1_3'],
+      title: '文章页面 | 小鹿情感',
+      filename: 'articles/a1/a1_3/index.html'
     }),
-    new HtmlWebpackPlugin({
+    new HtmlWebpackPlugin({  // 文章 - a1_2
       ...htmlWebpackPluginOptions,
-      chunks: ['article04'],
-      title: '恋人劈腿 | 小鹿情感',
-      filename: 'article04/index.html'
+      chunks: ['a1_4'],
+      title: '文章页面 | 小鹿情感',
+      filename: 'articles/a1/a1_4/index.html'
     }),
-    new HtmlWebpackPlugin({
+    new HtmlWebpackPlugin({  // 文章 - a1_2
       ...htmlWebpackPluginOptions,
-      chunks: ['article05'],
-      title: '感情淡化 | 小鹿情感',
-      filename: 'article05/index.html'
+      chunks: ['a1_5'],
+      title: '文章页面 | 小鹿情感',
+      filename: 'articles/a1/a1_5/index.html'
     }),
-    new HtmlWebpackPlugin({
-      ...htmlWebpackPluginOptions,
-      chunks: ['article06'],
-      title: '挽回干货 | 小鹿情感',
-      filename: 'article06/index.html'
-    }),
-    new HtmlWebpackPlugin({
-      ...htmlWebpackPluginOptions,
-      chunks: ['article07'],
-      title: '矛盾积累 | 小鹿情感',
-      filename: 'article07/index.html'
-    }),
+
     // Add module names to factory functions so they appear in browser profiler.
     new webpack.NamedModulesPlugin(),
     // Makes some environment variables available to the JS code, for example:

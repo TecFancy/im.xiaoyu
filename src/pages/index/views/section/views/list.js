@@ -1,17 +1,5 @@
 import React from 'react';
-
-const ArticleList = ({articleTitle, articleDescription, articleImage}) => (
-    <a className="section-list-item" href="#/section-list-item">
-      <div className="section-list-item-text">
-	<h3>{articleTitle}</h3>
-	<p>{articleDescription}</p>
-      </div>
-      <div className="section-list-item-image">
-	<span className="section-list-item-image-mask"></span>
-	<img src={articleImage} alt="文章配图" />
-      </div>
-    </a>
-);
+import {view as ArticleList} from '../../../../../components/articleList/';
 
 class ListContainer extends React.Component {
   render() {
@@ -36,13 +24,14 @@ class ListContainer extends React.Component {
 
     // 渲染 article 的 section
     return (
-      <div className="section-list">
+      <div>
 	{
 	  this.props.listState.list.map((listItem, listIndex) => {
 	    if (listIndex > 2) return null;
 	    return (
 	      <ArticleList 
 		key={listIndex}
+		articleUrl={`./${listItem.url}`}
 		articleTitle={listItem.title}
 		articleDescription={listItem.description}
 		articleImage={listItem.image}
