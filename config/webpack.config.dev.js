@@ -335,116 +335,116 @@ module.exports = {
     new InterpolateHtmlPlugin(env.raw),
     // Generates an `index.html` file with the <script> injected.
     new HtmlWebpackPlugin({...htmlWebpackPluginOptions}),
-    new HtmlWebpackPlugin({
-      ...htmlWebpackPluginOptions,
-      chunks: ['about'],
-      title: ['关于'],
-      filename: 'about/index.html'
-    }),
-    new HtmlWebpackPlugin({
-      ...htmlWebpackPluginOptions,
-      chunks: ['topics'],
-      title: '话题',
-      filename: 'topics/index.html'
-    }),
-    new HtmlWebpackPlugin({
-      ...htmlWebpackPluginOptions,
-      chunks: ['page01'],
-      title: 'Page01',
-      filename: 'page01/index.html'
-    }),
-    new HtmlWebpackPlugin({
-      ...htmlWebpackPluginOptions,
-      chunks: ['page02'],
-      title: 'Page02',
-      filename: 'page02/index.html'
-    }),
-    new HtmlWebpackPlugin({
-      ...htmlWebpackPluginOptions,
-      chunks: ['page03'],
-      title: 'Page03',
-      filename: 'page03/index.html'
-    }),
-    new HtmlWebpackPlugin({
-      ...htmlWebpackPluginOptions,
-      chunks: ['page04'],
-      title: 'Page04',
-      filename: 'page04/index.html'
-    }),
+    // new HtmlWebpackPlugin({
+    //   ...htmlWebpackPluginOptions,
+    //   chunks: ['about'],
+    //   title: ['关于'],
+    //   filename: 'about/index.html'
+    // }),
+    // new HtmlWebpackPlugin({
+    //   ...htmlWebpackPluginOptions,
+    //   chunks: ['topics'],
+    //   title: '话题',
+    //   filename: 'topics/index.html'
+    // }),
+    // new HtmlWebpackPlugin({
+    //   ...htmlWebpackPluginOptions,
+    //   chunks: ['page01'],
+    //   title: 'Page01',
+    //   filename: 'page01/index.html'
+    // }),
+    // new HtmlWebpackPlugin({
+    //   ...htmlWebpackPluginOptions,
+    //   chunks: ['page02'],
+    //   title: 'Page02',
+    //   filename: 'page02/index.html'
+    // }),
+    // new HtmlWebpackPlugin({
+    //   ...htmlWebpackPluginOptions,
+    //   chunks: ['page03'],
+    //   title: 'Page03',
+    //   filename: 'page03/index.html'
+    // }),
+    // new HtmlWebpackPlugin({
+    //   ...htmlWebpackPluginOptions,
+    //   chunks: ['page04'],
+    //   title: 'Page04',
+    //   filename: 'page04/index.html'
+    // }),
     new HtmlWebpackPlugin({
       ...htmlWebpackPluginOptions,
       chunks: ['classify01'],
-      title: 'Classify01',
+      title: '婚姻破裂 | 小鱼情感',
       filename: 'classify01/index.html'
     }),
     new HtmlWebpackPlugin({
       ...htmlWebpackPluginOptions,
       chunks: ['classify02'],
-      title: 'Classify02',
+      title: '异地恋情 | 小鱼情感',
       filename: 'classify02/index.html'
     }),
-    new HtmlWebpackPlugin({
-      ...htmlWebpackPluginOptions,
-      chunks: ['classify03'],
-      title: 'Classify03',
-      filename: 'classify03/index.html'
-    }),
-    new HtmlWebpackPlugin({
-      ...htmlWebpackPluginOptions,
-      chunks: ['classify04'],
-      title: 'Classify04',
-      filename: 'classify04/index.html'
-    }),
-    new HtmlWebpackPlugin({
-      ...htmlWebpackPluginOptions,
-      chunks: ['classify05'],
-      title: 'Classify05',
-      filename: 'classify05/index.html'
-    }),
-    new HtmlWebpackPlugin({
-      ...htmlWebpackPluginOptions,
-      chunks: ['classify06'],
-      title: 'Classify06',
-      filename: 'classify06/index.html'
-    }),
-    new HtmlWebpackPlugin({
-      ...htmlWebpackPluginOptions,
-      chunks: ['classify07'],
-      title: 'Classify07',
-      filename: 'classify07/index.html'
-    }),
+    // new HtmlWebpackPlugin({
+    //   ...htmlWebpackPluginOptions,
+    //   chunks: ['classify03'],
+    //   title: '性格不合 | 小鱼情感',
+    //   filename: 'classify03/index.html'
+    // }),
+    // new HtmlWebpackPlugin({
+    //   ...htmlWebpackPluginOptions,
+    //   chunks: ['classify04'],
+    //   title: '恋人劈腿 | 小鱼情感',
+    //   filename: 'classify04/index.html'
+    // }),
+    // new HtmlWebpackPlugin({
+    //   ...htmlWebpackPluginOptions,
+    //   chunks: ['classify05'],
+    //   title: '感情淡化 | 小鱼情感',
+    //   filename: 'classify05/index.html'
+    // }),
+    // new HtmlWebpackPlugin({
+    //   ...htmlWebpackPluginOptions,
+    //   chunks: ['classify06'],
+    //   title: '挽回干货 | 小鱼情感',
+    //   filename: 'classify06/index.html'
+    // }),
+    // new HtmlWebpackPlugin({
+    //   ...htmlWebpackPluginOptions,
+    //   chunks: ['classify07'],
+    //   title: '矛盾积累 | 小鱼情感',
+    //   filename: 'classify07/index.html'
+    // }),
 
-    // articles bellow
+    // articles bellow - a1
     new HtmlWebpackPlugin({  // 文章 - a1_1
       ...htmlWebpackPluginOptions,
       chunks: ['a1_1'],
-      title: '文章页面 | 小鹿情感',
+      title: '男人你听我说，你所追求的是“保姆式妻子”和“守寡式婚姻” | 小鹿情感',
       filename: 'articles/a1/a1_1/index.html'
     }),
-    new HtmlWebpackPlugin({  // 文章 - a1_2
-      ...htmlWebpackPluginOptions,
-      chunks: ['a1_2'],
-      title: '文章页面 | 小鹿情感',
-      filename: 'articles/a1/a1_2/index.html'
-    }),
-    new HtmlWebpackPlugin({  // 文章 - a1_2
-      ...htmlWebpackPluginOptions,
-      chunks: ['a1_3'],
-      title: '文章页面 | 小鹿情感',
-      filename: 'articles/a1/a1_3/index.html'
-    }),
-    new HtmlWebpackPlugin({  // 文章 - a1_2
-      ...htmlWebpackPluginOptions,
-      chunks: ['a1_4'],
-      title: '文章页面 | 小鹿情感',
-      filename: 'articles/a1/a1_4/index.html'
-    }),
-    new HtmlWebpackPlugin({  // 文章 - a1_2
-      ...htmlWebpackPluginOptions,
-      chunks: ['a1_5'],
-      title: '文章页面 | 小鹿情感',
-      filename: 'articles/a1/a1_5/index.html'
-    }),
+    // new HtmlWebpackPlugin({  // 文章 - a1_2
+    //   ...htmlWebpackPluginOptions,
+    //   chunks: ['a1_2'],
+    //   title: '傻女人，你真以为用孩子就能留住婚姻？！ | 小鹿情感',
+    //   filename: 'articles/a1/a1_2/index.html'
+    // }),
+    // new HtmlWebpackPlugin({  // 文章 - a1_2
+    //   ...htmlWebpackPluginOptions,
+    //   chunks: ['a1_3'],
+    //   title: '老公爱聊骚，我除了忍别无他法 | 小鹿情感',
+    //   filename: 'articles/a1/a1_3/index.html'
+    // }),
+    // new HtmlWebpackPlugin({  // 文章 - a1_2
+    //   ...htmlWebpackPluginOptions,
+    //   chunks: ['a1_4'],
+    //   title: '原配实力虐小三，男人想复婚只能靠跪舔吗？ | 小鹿情感',
+    //   filename: 'articles/a1/a1_4/index.html'
+    // }),
+    // new HtmlWebpackPlugin({  // 文章 - a1_2
+    //   ...htmlWebpackPluginOptions,
+    //   chunks: ['a1_5'],
+    //   title: '你的面子值钱，爱人的尊严就分文不值吗？ | 小鹿情感',
+    //   filename: 'articles/a1/a1_5/index.html'
+    // }),
 
     // Add module names to factory functions so they appear in browser profiler.
     new webpack.NamedModulesPlugin(),
