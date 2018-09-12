@@ -1,1 +1,39 @@
-.article-content {margin: 15px;}
+.markdown-body {margin: 15px;}
+
+.article-content {
+  background: #fff;
+  height: 1500px;
+  overflow-y: hidden;
+}
+
+.article-content.show {
+  height: auto;
+  overflow-y: visible;
+}
+
+.article-content h1,
+.article-content h2,
+.article-content h3,
+.article-content h4,
+.article-content h5,
+.article-content h6 {
+  border-bottom: none;
+  line-height: 1.5;
+}
+
+.article-content p {
+  line-height: 1.8;
+  text-align: justify;
+}
+
+.article-content .text-center {text-align: center;}
+
+.article-content .color-red {color: #fd3232;}
+
+.article-content .avatar-box {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.article-content .avatar-box img {width: 30px;}
