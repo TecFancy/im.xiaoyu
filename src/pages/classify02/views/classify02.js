@@ -1,6 +1,7 @@
 import React from 'react';
 import {view as Header} from '../../../components/header/';
 import {view as ArticleList} from '../../../components/articleList/';
+import {view as Footer} from '../../../components/footer/';
 import {classifies} from '../../../data/';
 
 class Classify02 extends React.Component {
@@ -14,7 +15,7 @@ class Classify02 extends React.Component {
 
   render() {
     return (
-      <div>
+      <div className="page">
 	<Header home={false} title="异地恋情" />
 	{
 	  this.state.articleList.map((item, index) => {
@@ -29,6 +30,7 @@ class Classify02 extends React.Component {
 	    );
 	  })
 	}
+	<Footer />
       </div>
     );
   }
