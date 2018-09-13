@@ -8,6 +8,7 @@ class Header extends React.Component {
       return (
 	<div className="header home-header">
 	  <span className="header-logo"></span>
+	  <span className="header-text">专注情感 为爱而生</span>
 	</div>
       );
     }
