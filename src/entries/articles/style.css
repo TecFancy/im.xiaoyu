@@ -38,4 +38,6 @@
   align-items: center;
 }
 
+.article-content .image-title {width: 150px;}
+
 .article-content .avatar-box img {width: 30px;}
