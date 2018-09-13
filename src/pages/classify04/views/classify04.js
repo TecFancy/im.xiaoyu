@@ -22,7 +22,7 @@ class Classify04 extends React.Component {
 	    return (
 	      <ArticleList 
 		key={index}
-		articleUrl={item.url}
+		articleUrl={`../${item.url}`}
 		articleTitle={item.title}
 		articleDescription={item.description}
 		articleImage={item.image}

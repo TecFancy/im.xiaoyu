@@ -6,11 +6,11 @@ import {view as ArticleBreadCrumb} from '../../../../../components/articleBreadC
 import {view as ArticleOverflow} from '../../../../../components/articleOverflow/';
 import {view as Footer} from '../../../../../components/footer/';
 import markdown from '../../../../../utilities/markdown.js';
-import markdownFile from './a1_4.md';
+import markdownFile from './a4_4.md';
 
 const result = markdown.render(markdownFile);
 
-class A1_4 extends React.Component {
+class A4_4 extends React.Component {
   constructor(props, context) {
     super(props, context);
 
@@ -45,7 +45,7 @@ class A1_4 extends React.Component {
     return (
       <div className="article">
 	<Header home={true}/>
-	<ArticleBreadCrumb text="婚姻破裂" url="../../../classify01/"/>
+	<ArticleBreadCrumb text="恋人劈腿" url="../../../classify04/"/>
 	<div className={`${hideState ? 'article-content show' : 'article-content'}`}>
 	  <div className="markdown-body" dangerouslySetInnerHTML={{__html: result}}></div>
 	  <ArticleOverflow />
@@ -56,8 +56,8 @@ class A1_4 extends React.Component {
   }
 }
 
-A1_4.contextTypes = {
+A4_4.contextTypes = {
   store: PropTypes.object
 };
 
-export default A1_4;
+export default A4_4;
