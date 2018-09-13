@@ -152,7 +152,32 @@ module.exports = {
       require.resolve('./polyfills'),
       require.resolve('react-dev-utils/webpackHotDevClient'),
       paths.appSrc + '/entries/articles/a1/a1_5.js'
-    ]
+    ],
+    a2_1: [
+      require.resolve('./polyfills'),
+      require.resolve('react-dev-utils/webpackHotDevClient'),
+      paths.appSrc + '/entries/articles/a2/a2_1.js'
+    ],
+    a2_2: [
+      require.resolve('./polyfills'),
+      require.resolve('react-dev-utils/webpackHotDevClient'),
+      paths.appSrc + '/entries/articles/a2/a2_2.js'
+    ],
+    a2_3: [
+      require.resolve('./polyfills'),
+      require.resolve('react-dev-utils/webpackHotDevClient'),
+      paths.appSrc + '/entries/articles/a2/a2_3.js'
+    ],
+    a2_4: [
+      require.resolve('./polyfills'),
+      require.resolve('react-dev-utils/webpackHotDevClient'),
+      paths.appSrc + '/entries/articles/a2/a2_4.js'
+    ],
+    a2_5: [
+      require.resolve('./polyfills'),
+      require.resolve('react-dev-utils/webpackHotDevClient'),
+      paths.appSrc + '/entries/articles/a2/a2_5.js'
+    ],
   },
   output: {
     // Add /* filename */ comments to generated require()s in the output.
@@ -445,6 +470,38 @@ module.exports = {
     //   title: '你的面子值钱，爱人的尊严就分文不值吗？ | 小鹿情感',
     //   filename: 'articles/a1/a1_5/index.html'
     // }),
+
+    // articles bellow - a2
+    new HtmlWebpackPlugin({  // 文章 - a2_1
+      ...htmlWebpackPluginOptions,
+      chunks: ['a2_1'],
+      title: '：别把原因一味归咎给距离！ | 小鹿情感',
+      filename: 'articles/a2/a2_1/index.html'
+    }),
+    new HtmlWebpackPlugin({  // 文章 - a2_2
+      ...htmlWebpackPluginOptions,
+      chunks: ['a2_2'],
+      title: '：别把原因一味归咎给距离！ | 小鹿情感',
+      filename: 'articles/a2/a2_2/index.html'
+    }),
+    new HtmlWebpackPlugin({  // 文章 - a2_3
+      ...htmlWebpackPluginOptions,
+      chunks: ['a2_3'],
+      title: '：别把原因一味归咎给距离！ | 小鹿情感',
+      filename: 'articles/a2/a2_3/index.html'
+    }),
+    new HtmlWebpackPlugin({  // 文章 - a2_4
+      ...htmlWebpackPluginOptions,
+      chunks: ['a2_4'],
+      title: '：别把原因一味归咎给距离！ | 小鹿情感',
+      filename: 'articles/a2/a2_4/index.html'
+    }),
+    new HtmlWebpackPlugin({  // 文章 - a2_5
+      ...htmlWebpackPluginOptions,
+      chunks: ['a2_5'],
+      title: '：别把原因一味归咎给距离！ | 小鹿情感',
+      filename: 'articles/a2/a2_5/index.html'
+    }),
 
     // Add module names to factory functions so they appear in browser profiler.
     new webpack.NamedModulesPlugin(),

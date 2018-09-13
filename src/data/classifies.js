@@ -80,31 +80,31 @@ const classifies = [
       ],
       list: [
 	{
-	  url: '#/',
+	  url: 'articles/a2/a2_1/',
 	  title: '异地恋分手：别把原因一味归咎给距离！',
 	  description: '简短描述...',
 	  image: images.articleImages.articleImage001
 	},
 	{
-	  url: '#/',
+	  url: 'articles/a2/a2_2/',
 	  title: '两年异地恋，三个月见一面，找个小姐怎么了？',
 	  description: '简短描述...',
 	  image: images.articleImages.articleImage001
 	},
 	{
-	  url: '#/',
+	  url: 'articles/a2/a2_3/',
 	  title: '异地恋是真的不容易，你看我这满满的火车票就知道了',
 	  description: '简短描述...',
 	  image: images.articleImages.articleImage001
 	},
 	{
-	  url: '#/',
+	  url: 'articles/a2/a2_4/',
 	  title: '一段被包养的异地恋情，还有机会挽回吗？',
 	  description: '简短描述...',
 	  image: images.articleImages.articleImage001
 	},
 	{
-	  url: '#/',
+	  url: 'articles/a2/a2_5/',
 	  title: '异地恋，到底有多煎熬？网友：累了，真的累了',
 	  description: '简短描述...',
 	  image: images.articleImages.articleImage001

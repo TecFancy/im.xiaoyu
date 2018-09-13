@@ -6,11 +6,11 @@ import {view as ArticleBreadCrumb} from '../../../../../components/articleBreadC
 import {view as ArticleOverflow} from '../../../../../components/articleOverflow/';
 import {view as Footer} from '../../../../../components/footer/';
 import markdown from '../../../../../utilities/markdown.js';
-import markdownFile from './a1_5.md';
+import markdownFile from './a2_5.md';
 
 const result = markdown.render(markdownFile);
 
-class A1_5 extends React.Component {
+class A2_5 extends React.Component {
   constructor(props, context) {
     super(props, context);
 
@@ -56,8 +56,8 @@ class A1_5 extends React.Component {
   }
 }
 
-A1_5.contextTypes = {
+A2_5.contextTypes = {
   store: PropTypes.object
 };
 
-export default A1_5;
+export default A2_5;
