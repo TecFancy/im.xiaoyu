@@ -178,6 +178,31 @@ module.exports = {
       require.resolve('react-dev-utils/webpackHotDevClient'),
       paths.appSrc + '/entries/articles/a2/a2_5.js'
     ],
+    a3_1: [
+      require.resolve('./polyfills'),
+      require.resolve('react-dev-utils/webpackHotDevClient'),
+      paths.appSrc + '/entries/articles/a3/a3_1.js'
+    ],
+    a3_2: [
+      require.resolve('./polyfills'),
+      require.resolve('react-dev-utils/webpackHotDevClient'),
+      paths.appSrc + '/entries/articles/a3/a3_2.js'
+    ],
+    a3_3: [
+      require.resolve('./polyfills'),
+      require.resolve('react-dev-utils/webpackHotDevClient'),
+      paths.appSrc + '/entries/articles/a3/a3_3.js'
+    ],
+    a3_4: [
+      require.resolve('./polyfills'),
+      require.resolve('react-dev-utils/webpackHotDevClient'),
+      paths.appSrc + '/entries/articles/a3/a3_4.js'
+    ],
+    a3_5: [
+      require.resolve('./polyfills'),
+      require.resolve('react-dev-utils/webpackHotDevClient'),
+      paths.appSrc + '/entries/articles/a3/a3_5.js'
+    ],
   },
   output: {
     // Add /* filename */ comments to generated require()s in the output.
@@ -408,12 +433,12 @@ module.exports = {
       title: '异地恋情 | 小鱼情感',
       filename: 'classify02/index.html'
     }),
-    // new HtmlWebpackPlugin({
-    //   ...htmlWebpackPluginOptions,
-    //   chunks: ['classify03'],
-    //   title: '性格不合 | 小鱼情感',
-    //   filename: 'classify03/index.html'
-    // }),
+    new HtmlWebpackPlugin({
+      ...htmlWebpackPluginOptions,
+      chunks: ['classify03'],
+      title: '性格不合 | 小鱼情感',
+      filename: 'classify03/index.html'
+    }),
     // new HtmlWebpackPlugin({
     //   ...htmlWebpackPluginOptions,
     //   chunks: ['classify04'],
@@ -475,32 +500,64 @@ module.exports = {
     new HtmlWebpackPlugin({  // 文章 - a2_1
       ...htmlWebpackPluginOptions,
       chunks: ['a2_1'],
-      title: '：别把原因一味归咎给距离！ | 小鹿情感',
+      title: '：异地恋分手：别把原因一味归咎给距离！ | 小鹿情感',
       filename: 'articles/a2/a2_1/index.html'
     }),
-    new HtmlWebpackPlugin({  // 文章 - a2_2
+    // new HtmlWebpackPlugin({  // 文章 - a2_2
+    //   ...htmlWebpackPluginOptions,
+    //   chunks: ['a2_2'],
+    //   title: '：两年异地恋，三个月见一面，找个小姐怎么了？ | 小鹿情感',
+    //   filename: 'articles/a2/a2_2/index.html'
+    // }),
+    // new HtmlWebpackPlugin({  // 文章 - a2_3
+    //   ...htmlWebpackPluginOptions,
+    //   chunks: ['a2_3'],
+    //   title: '：异地恋是真的不容易，你看我这满满的火车票就知道了 | 小鹿情感',
+    //   filename: 'articles/a2/a2_3/index.html'
+    // }),
+    // new HtmlWebpackPlugin({  // 文章 - a2_4
+    //   ...htmlWebpackPluginOptions,
+    //   chunks: ['a2_4'],
+    //   title: '：一段被包养的异地恋情，还有机会挽回吗？ | 小鹿情感',
+    //   filename: 'articles/a2/a2_4/index.html'
+    // }),
+    // new HtmlWebpackPlugin({  // 文章 - a2_5
+    //   ...htmlWebpackPluginOptions,
+    //   chunks: ['a2_5'],
+    //   title: '：异地恋，到底有多煎熬？网友：累了，真的累了 | 小鹿情感',
+    //   filename: 'articles/a2/a2_5/index.html'
+    // }),
+
+    // articles bellow - a3
+    new HtmlWebpackPlugin({  // 文章 - a3_1
       ...htmlWebpackPluginOptions,
-      chunks: ['a2_2'],
-      title: '：别把原因一味归咎给距离！ | 小鹿情感',
-      filename: 'articles/a2/a2_2/index.html'
+      chunks: ['a3_1'],
+      title: '：面对“性格不合 对你没感觉”的分手，我该如何挽回？ | 小鹿情感',
+      filename: 'articles/a3/a3_1/index.html'
     }),
-    new HtmlWebpackPlugin({  // 文章 - a2_3
+    new HtmlWebpackPlugin({  // 文章 - a3_2
       ...htmlWebpackPluginOptions,
-      chunks: ['a2_3'],
-      title: '：别把原因一味归咎给距离！ | 小鹿情感',
-      filename: 'articles/a2/a2_3/index.html'
+      chunks: ['a3_2'],
+      title: '：优柔寡断的男人如何改善性格成功挽回？ | 小鹿情感',
+      filename: 'articles/a3/a3_2/index.html'
     }),
-    new HtmlWebpackPlugin({  // 文章 - a2_4
+    new HtmlWebpackPlugin({  // 文章 - a3_3
       ...htmlWebpackPluginOptions,
-      chunks: ['a2_4'],
-      title: '：别把原因一味归咎给距离！ | 小鹿情感',
-      filename: 'articles/a2/a2_4/index.html'
+      chunks: ['a3_3'],
+      title: '：“分手了，都怪我性格太内向了！” | 小鹿情感',
+      filename: 'articles/a3/a3_3/index.html'
     }),
-    new HtmlWebpackPlugin({  // 文章 - a2_5
+    new HtmlWebpackPlugin({  // 文章 - a3_4
       ...htmlWebpackPluginOptions,
-      chunks: ['a2_5'],
-      title: '：别把原因一味归咎给距离！ | 小鹿情感',
-      filename: 'articles/a2/a2_5/index.html'
+      chunks: ['a3_4'],
+      title: '：别真信了“性格不合”的分手理由，你必须要看清这背后隐藏的问题 | 小鹿情感',
+      filename: 'articles/a3/a3_4/index.html'
+    }),
+    new HtmlWebpackPlugin({  // 文章 - a3_5
+      ...htmlWebpackPluginOptions,
+      chunks: ['a3_5'],
+      title: '：性格偏执型恋人追求爱情完美 最终断送幸福 | 小鹿情感',
+      filename: 'articles/a3/a3_5/index.html'
     }),
 
     // Add module names to factory functions so they appear in browser profiler.

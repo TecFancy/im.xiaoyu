@@ -135,31 +135,31 @@ const classifies = [
       ],
       list: [
 	{
-	  url: '#/',
+	  url: 'articles/a3/a3_1/',
 	  title: '面对“性格不合 对你没感觉”的分手，我该如何挽回？',
 	  description: '简短描述...',
 	  image: images.articleImages.articleImage001
 	},
 	{
-	  url: '#/',
+	  url: 'articles/a3/a3_2/',
 	  title: '优柔寡断的男人如何改善性格成功挽回？',
 	  description: '简短描述...',
 	  image: images.articleImages.articleImage001
 	},
 	{
-	  url: '#/',
+	  url: 'articles/a3/a3_3/',
 	  title: '“分手了，都怪我性格太内向了！”',
 	  description: '简短描述...',
 	  image: images.articleImages.articleImage001
 	},
 	{
-	  url: '#/',
+	  url: 'articles/a3/a3_4/',
 	  title: '别真信了“性格不合”的分手理由，你必须要看清这背后隐藏的问题',
 	  description: '简短描述...',
 	  image: images.articleImages.articleImage001
 	},
 	{
-	  url: '#/',
+	  url: 'articles/a3/a3_5/',
 	  title: '性格偏执型恋人追求爱情完美 最终断送幸福',
 	  description: '简短描述...',
 	  image: images.articleImages.articleImage001
