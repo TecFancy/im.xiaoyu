@@ -7,7 +7,7 @@ class Header extends React.Component {
     if (this.props.home) {  // 渲染首页 header
       return (
 	<div className="header home-header">
-	  Header (height: 36px)
+	  <span className="header-logo"></span>
 	</div>
       );
     }
