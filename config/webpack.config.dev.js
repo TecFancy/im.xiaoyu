@@ -111,16 +111,16 @@ module.exports = {
     //   require.resolve('react-dev-utils/webpackHotDevClient'),
     //   paths.appSrc + '/entries/classify04.js'
     // ],
-    classify05: [
-      require.resolve('./polyfills'),
-      require.resolve('react-dev-utils/webpackHotDevClient'),
-      paths.appSrc + '/entries/classify05.js'
-    ],
-    // classify06: [
+    // classify05: [
     //   require.resolve('./polyfills'),
     //   require.resolve('react-dev-utils/webpackHotDevClient'),
-    //   paths.appSrc + '/entries/classify06.js'
+    //   paths.appSrc + '/entries/classify05.js'
     // ],
+    classify06: [
+      require.resolve('./polyfills'),
+      require.resolve('react-dev-utils/webpackHotDevClient'),
+      paths.appSrc + '/entries/classify06.js'
+    ],
     // classify07: [
     //   require.resolve('./polyfills'),
     //   require.resolve('react-dev-utils/webpackHotDevClient'),
@@ -495,18 +495,18 @@ module.exports = {
     //   title: '恋人劈腿 | 小鱼情感',
     //   filename: 'classify04/index.html'
     // }),
-    new HtmlWebpackPlugin({
-      ...htmlWebpackPluginOptions,
-      chunks: ['classify05'],
-      title: '感情淡化 | 小鱼情感',
-      filename: 'classify05/index.html'
-    }),
     // new HtmlWebpackPlugin({
     //   ...htmlWebpackPluginOptions,
-    //   chunks: ['classify06'],
-    //   title: '挽回干货 | 小鱼情感',
-    //   filename: 'classify06/index.html'
+    //   chunks: ['classify05'],
+    //   title: '感情淡化 | 小鱼情感',
+    //   filename: 'classify05/index.html'
     // }),
+    new HtmlWebpackPlugin({
+      ...htmlWebpackPluginOptions,
+      chunks: ['classify06'],
+      title: '挽回干货 | 小鱼情感',
+      filename: 'classify06/index.html'
+    }),
     // new HtmlWebpackPlugin({
     //   ...htmlWebpackPluginOptions,
     //   chunks: ['classify07'],
@@ -643,36 +643,36 @@ module.exports = {
     // }),
 
     // articles bellow - a5
-    new HtmlWebpackPlugin({  // 文章 - a5_1
-      ...htmlWebpackPluginOptions,
-      chunks: ['a5_1'],
-      title: '新鲜感褪去后，爱情该何去何从？ | 小鹿情感',
-      filename: 'articles/a5/a5_1/index.html'
-    }),
-    new HtmlWebpackPlugin({  // 文章 - a5_2
-      ...htmlWebpackPluginOptions,
-      chunks: ['a5_2'],
-      title: '情侣间新鲜感殆尽，除了分手我们还能做什么？ | 小鹿情感',
-      filename: 'articles/a5/a5_2/index.html'
-    }),
-    new HtmlWebpackPlugin({  // 文章 - a5_3
-      ...htmlWebpackPluginOptions,
-      chunks: ['a5_3'],
-      title: '七年感情一朝散，我们的爱情“过期”了 | 小鹿情感',
-      filename: 'articles/a5/a5_3/index.html'
-    }),
-    new HtmlWebpackPlugin({  // 文章 - a5_4
-      ...htmlWebpackPluginOptions,
-      chunks: ['a5_4'],
-      title: '爱情没有新鲜感 恩爱情侣告诉你需要三种“距离感”来拯救 | 小鹿情感',
-      filename: 'articles/a5/a5_4/index.html'
-    }),
-    new HtmlWebpackPlugin({  // 文章 - a5_5
-      ...htmlWebpackPluginOptions,
-      chunks: ['a5_5'],
-      title: '面对新鲜感缺失该怎么办？ | 小鹿情感',
-      filename: 'articles/a5/a5_5/index.html'
-    }),
+    // new HtmlWebpackPlugin({  // 文章 - a5_1
+    //   ...htmlWebpackPluginOptions,
+    //   chunks: ['a5_1'],
+    //   title: '新鲜感褪去后，爱情该何去何从？ | 小鹿情感',
+    //   filename: 'articles/a5/a5_1/index.html'
+    // }),
+    // new HtmlWebpackPlugin({  // 文章 - a5_2
+    //   ...htmlWebpackPluginOptions,
+    //   chunks: ['a5_2'],
+    //   title: '情侣间新鲜感殆尽，除了分手我们还能做什么？ | 小鹿情感',
+    //   filename: 'articles/a5/a5_2/index.html'
+    // }),
+    // new HtmlWebpackPlugin({  // 文章 - a5_3
+    //   ...htmlWebpackPluginOptions,
+    //   chunks: ['a5_3'],
+    //   title: '七年感情一朝散，我们的爱情“过期”了 | 小鹿情感',
+    //   filename: 'articles/a5/a5_3/index.html'
+    // }),
+    // new HtmlWebpackPlugin({  // 文章 - a5_4
+    //   ...htmlWebpackPluginOptions,
+    //   chunks: ['a5_4'],
+    //   title: '爱情没有新鲜感 恩爱情侣告诉你需要三种“距离感”来拯救 | 小鹿情感',
+    //   filename: 'articles/a5/a5_4/index.html'
+    // }),
+    // new HtmlWebpackPlugin({  // 文章 - a5_5
+    //   ...htmlWebpackPluginOptions,
+    //   chunks: ['a5_5'],
+    //   title: '面对新鲜感缺失该怎么办？ | 小鹿情感',
+    //   filename: 'articles/a5/a5_5/index.html'
+    // }),
 
     // articles bellow - a5
 
