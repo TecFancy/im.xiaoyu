@@ -245,31 +245,31 @@ const classifies = [
       ],
       list: [
 	{
-	  url: '#/',
+	  url: 'articles/a5/a5_1/',
 	  title: '新鲜感褪去后，爱情该何去何从？',
 	  description: '简短描述...',
 	  image: images.articleImages.articleImage001
 	},
 	{
-	  url: '#/',
+	  url: 'articles/a5/a5_2/',
 	  title: '情侣间新鲜感殆尽，除了分手我们还能做什么？',
 	  description: '简短描述...',
 	  image: images.articleImages.articleImage001
 	},
 	{
-	  url: '#/',
+	  url: 'articles/a5/a5_3/',
 	  title: '七年感情一朝散，我们的爱情“过期”了',
 	  description: '简短描述...',
 	  image: images.articleImages.articleImage001
 	},
 	{
-	  url: '#/',
+	  url: 'articles/a5/a5_4/',
 	  title: '爱情没有新鲜感 恩爱情侣告诉你需要三种“距离感”来拯救',
 	  description: '简短描述...',
 	  image: images.articleImages.articleImage001
 	},
 	{
-	  url: '#/',
+	  url: 'articles/a5/a5_5/',
 	  title: '面对新鲜感缺失该怎么办？',
 	  description: '简短描述...',
 	  image: images.articleImages.articleImage001

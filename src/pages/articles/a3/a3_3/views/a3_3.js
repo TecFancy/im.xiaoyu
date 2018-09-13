@@ -45,7 +45,7 @@ class A3_3 extends React.Component {
     return (
       <div className="article">
 	<Header home={true}/>
-	<ArticleBreadCrumb text="婚姻破裂" url="../../../classify01/"/>
+	<ArticleBreadCrumb text="性格不合" url="../../../classify03/"/>
 	<div className={`${hideState ? 'article-content show' : 'article-content'}`}>
 	  <div className="markdown-body" dangerouslySetInnerHTML={{__html: result}}></div>
 	  <ArticleOverflow />
