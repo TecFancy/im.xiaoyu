@@ -228,30 +228,55 @@ module.exports = {
     //  require.resolve('react-dev-utils/webpackHotDevClient'),
     //  paths.appSrc + '/entries/articles/a4/a4_5.js'
     // ],
-    a5_1: [
+    // a5_1: [
+    //   require.resolve('./polyfills'),
+    //   require.resolve('react-dev-utils/webpackHotDevClient'),
+    //   paths.appSrc + '/entries/articles/a5/a5_1.js'
+    // ],
+    // a5_2: [
+    //   require.resolve('./polyfills'),
+    //   require.resolve('react-dev-utils/webpackHotDevClient'),
+    //   paths.appSrc + '/entries/articles/a5/a5_2.js'
+    // ],
+    // a5_3: [
+    //   require.resolve('./polyfills'),
+    //   require.resolve('react-dev-utils/webpackHotDevClient'),
+    //   paths.appSrc + '/entries/articles/a5/a5_3.js'
+    // ],
+    // a5_4: [
+    //   require.resolve('./polyfills'),
+    //   require.resolve('react-dev-utils/webpackHotDevClient'),
+    //   paths.appSrc + '/entries/articles/a5/a5_4.js'
+    // ],
+    // a5_5: [
+    //   require.resolve('./polyfills'),
+    //   require.resolve('react-dev-utils/webpackHotDevClient'),
+    //   paths.appSrc + '/entries/articles/a5/a5_5.js'
+    // ],
+    a6_1: [
       require.resolve('./polyfills'),
       require.resolve('react-dev-utils/webpackHotDevClient'),
-      paths.appSrc + '/entries/articles/a5/a5_1.js'
+      paths.appSrc + '/entries/articles/a6/a6_1.js'
     ],
-    a5_2: [
+    a6_2: [
       require.resolve('./polyfills'),
       require.resolve('react-dev-utils/webpackHotDevClient'),
-      paths.appSrc + '/entries/articles/a5/a5_2.js'
+      paths.appSrc + '/entries/articles/a6/a6_2.js'
     ],
-    a5_3: [
+    a6_3: [
       require.resolve('./polyfills'),
       require.resolve('react-dev-utils/webpackHotDevClient'),
-      paths.appSrc + '/entries/articles/a5/a5_3.js'
+      paths.appSrc + '/entries/articles/a6/a6_3.js'
     ],
-    a5_4: [
+    a6_4: [
       require.resolve('./polyfills'),
       require.resolve('react-dev-utils/webpackHotDevClient'),
-      paths.appSrc + '/entries/articles/a5/a5_4.js'
+      paths.appSrc + '/entries/articles/a6/a6_4.js'
     ],
-    a5_5: [
+    a6_5: [
       require.resolve('./polyfills'),
       require.resolve('react-dev-utils/webpackHotDevClient'),
-      paths.appSrc + '/entries/articles/a5/a5_5.js'
+      paths.appSrc + '/entries/articles/a6/a6_5.js'
     ],
   },
   output: {
@@ -674,9 +699,39 @@ module.exports = {
     //   filename: 'articles/a5/a5_5/index.html'
     // }),
 
-    // articles bellow - a5
+    // articles bellow - a6
+    new HtmlWebpackPlugin({  // 文章 - a6_1
+      ...htmlWebpackPluginOptions,
+      chunks: ['a6_1'],
+      title: '情侣分手后复合的概率是82%，你为什么失败了？ | 小鹿情感',
+      filename: 'articles/a6/a6_1/index.html'
+    }),
+    new HtmlWebpackPlugin({  // 文章 - a6_2
+      ...htmlWebpackPluginOptions,
+      chunks: ['a6_2'],
+      title: '当爱情被直男癌症状击垮 我该如何挽回？ | 小鹿情感',
+      filename: 'articles/a6/a6_2/index.html'
+    }),
+    new HtmlWebpackPlugin({  // 文章 - a6_3
+      ...htmlWebpackPluginOptions,
+      chunks: ['a6_3'],
+      title: '当心了！男人只想玩暧昧的几种表现，女生必看！ | 小鹿情感',
+      filename: 'articles/a6/a6_3/index.html'
+    }),
+    new HtmlWebpackPlugin({  // 文章 - a6_4
+      ...htmlWebpackPluginOptions,
+      chunks: ['a6_4'],
+      title: '因“依恋损伤”而分手，如何快速走出心理创伤？ | 小鹿情感',
+      filename: 'articles/a6/a6_4/index.html'
+    }),
+    new HtmlWebpackPlugin({  // 文章 - a6_5
+      ...htmlWebpackPluginOptions,
+      chunks: ['a6_5'],
+      title: '谈了100次恋爱屡战屡败？因为你陷入了“低自尊型恋爱” | 小鹿情感',
+      filename: 'articles/a6/a6_5/index.html'
+    }),
 
-    // articles bellow - a5
+    // articles bellow - a7
 
     // Add module names to factory functions so they appear in browser profiler.
     new webpack.NamedModulesPlugin(),
