@@ -116,16 +116,16 @@ module.exports = {
     //   require.resolve('react-dev-utils/webpackHotDevClient'),
     //   paths.appSrc + '/entries/classify05.js'
     // ],
-    classify06: [
-      require.resolve('./polyfills'),
-      require.resolve('react-dev-utils/webpackHotDevClient'),
-      paths.appSrc + '/entries/classify06.js'
-    ],
-    // classify07: [
+    // classify06: [
     //   require.resolve('./polyfills'),
     //   require.resolve('react-dev-utils/webpackHotDevClient'),
-    //   paths.appSrc + '/entries/classify07.js'
+    //   paths.appSrc + '/entries/classify06.js'
     // ],
+    classify07: [
+      require.resolve('./polyfills'),
+      require.resolve('react-dev-utils/webpackHotDevClient'),
+      paths.appSrc + '/entries/classify07.js'
+    ],
 
     // articles' entry bellow
     // a1_1: [
@@ -253,30 +253,55 @@ module.exports = {
     //   require.resolve('react-dev-utils/webpackHotDevClient'),
     //   paths.appSrc + '/entries/articles/a5/a5_5.js'
     // ],
-    a6_1: [
+    // a6_1: [
+    //   require.resolve('./polyfills'),
+    //   require.resolve('react-dev-utils/webpackHotDevClient'),
+    //   paths.appSrc + '/entries/articles/a6/a6_1.js'
+    // ],
+    // a6_2: [
+    //   require.resolve('./polyfills'),
+    //   require.resolve('react-dev-utils/webpackHotDevClient'),
+    //   paths.appSrc + '/entries/articles/a6/a6_2.js'
+    // ],
+    // a6_3: [
+    //   require.resolve('./polyfills'),
+    //   require.resolve('react-dev-utils/webpackHotDevClient'),
+    //   paths.appSrc + '/entries/articles/a6/a6_3.js'
+    // ],
+    // a6_4: [
+    //   require.resolve('./polyfills'),
+    //   require.resolve('react-dev-utils/webpackHotDevClient'),
+    //   paths.appSrc + '/entries/articles/a6/a6_4.js'
+    // ],
+    // a6_5: [
+    //   require.resolve('./polyfills'),
+    //   require.resolve('react-dev-utils/webpackHotDevClient'),
+    //   paths.appSrc + '/entries/articles/a6/a6_5.js'
+    // ],
+    a7_1: [
       require.resolve('./polyfills'),
       require.resolve('react-dev-utils/webpackHotDevClient'),
-      paths.appSrc + '/entries/articles/a6/a6_1.js'
+      paths.appSrc + '/entries/articles/a7/a7_1.js'
     ],
-    a6_2: [
+    a7_2: [
       require.resolve('./polyfills'),
       require.resolve('react-dev-utils/webpackHotDevClient'),
-      paths.appSrc + '/entries/articles/a6/a6_2.js'
+      paths.appSrc + '/entries/articles/a7/a7_2.js'
     ],
-    a6_3: [
+    a7_3: [
       require.resolve('./polyfills'),
       require.resolve('react-dev-utils/webpackHotDevClient'),
-      paths.appSrc + '/entries/articles/a6/a6_3.js'
+      paths.appSrc + '/entries/articles/a7/a7_3.js'
     ],
-    a6_4: [
+    a7_4: [
       require.resolve('./polyfills'),
       require.resolve('react-dev-utils/webpackHotDevClient'),
-      paths.appSrc + '/entries/articles/a6/a6_4.js'
+      paths.appSrc + '/entries/articles/a7/a7_4.js'
     ],
-    a6_5: [
+    a7_5: [
       require.resolve('./polyfills'),
       require.resolve('react-dev-utils/webpackHotDevClient'),
-      paths.appSrc + '/entries/articles/a6/a6_5.js'
+      paths.appSrc + '/entries/articles/a7/a7_5.js'
     ],
   },
   output: {
@@ -526,18 +551,18 @@ module.exports = {
     //   title: '感情淡化 | 小鱼情感',
     //   filename: 'classify05/index.html'
     // }),
-    new HtmlWebpackPlugin({
-      ...htmlWebpackPluginOptions,
-      chunks: ['classify06'],
-      title: '挽回干货 | 小鱼情感',
-      filename: 'classify06/index.html'
-    }),
     // new HtmlWebpackPlugin({
     //   ...htmlWebpackPluginOptions,
-    //   chunks: ['classify07'],
-    //   title: '矛盾积累 | 小鱼情感',
-    //   filename: 'classify07/index.html'
+    //   chunks: ['classify06'],
+    //   title: '挽回干货 | 小鱼情感',
+    //   filename: 'classify06/index.html'
     // }),
+    new HtmlWebpackPlugin({
+      ...htmlWebpackPluginOptions,
+      chunks: ['classify07'],
+      title: '矛盾积累 | 小鱼情感',
+      filename: 'classify07/index.html'
+    }),
 
     // articles bellow - a1
     // new HtmlWebpackPlugin({  // 文章 - a1_1
@@ -700,38 +725,68 @@ module.exports = {
     // }),
 
     // articles bellow - a6
-    new HtmlWebpackPlugin({  // 文章 - a6_1
-      ...htmlWebpackPluginOptions,
-      chunks: ['a6_1'],
-      title: '情侣分手后复合的概率是82%，你为什么失败了？ | 小鹿情感',
-      filename: 'articles/a6/a6_1/index.html'
-    }),
-    new HtmlWebpackPlugin({  // 文章 - a6_2
-      ...htmlWebpackPluginOptions,
-      chunks: ['a6_2'],
-      title: '当爱情被直男癌症状击垮 我该如何挽回？ | 小鹿情感',
-      filename: 'articles/a6/a6_2/index.html'
-    }),
-    new HtmlWebpackPlugin({  // 文章 - a6_3
-      ...htmlWebpackPluginOptions,
-      chunks: ['a6_3'],
-      title: '当心了！男人只想玩暧昧的几种表现，女生必看！ | 小鹿情感',
-      filename: 'articles/a6/a6_3/index.html'
-    }),
-    new HtmlWebpackPlugin({  // 文章 - a6_4
-      ...htmlWebpackPluginOptions,
-      chunks: ['a6_4'],
-      title: '因“依恋损伤”而分手，如何快速走出心理创伤？ | 小鹿情感',
-      filename: 'articles/a6/a6_4/index.html'
-    }),
-    new HtmlWebpackPlugin({  // 文章 - a6_5
-      ...htmlWebpackPluginOptions,
-      chunks: ['a6_5'],
-      title: '谈了100次恋爱屡战屡败？因为你陷入了“低自尊型恋爱” | 小鹿情感',
-      filename: 'articles/a6/a6_5/index.html'
-    }),
+    // new HtmlWebpackPlugin({  // 文章 - a6_1
+    //   ...htmlWebpackPluginOptions,
+    //   chunks: ['a6_1'],
+    //   title: '情侣分手后复合的概率是82%，你为什么失败了？ | 小鹿情感',
+    //   filename: 'articles/a6/a6_1/index.html'
+    // }),
+    // new HtmlWebpackPlugin({  // 文章 - a6_2
+    //   ...htmlWebpackPluginOptions,
+    //   chunks: ['a6_2'],
+    //   title: '当爱情被直男癌症状击垮 我该如何挽回？ | 小鹿情感',
+    //   filename: 'articles/a6/a6_2/index.html'
+    // }),
+    // new HtmlWebpackPlugin({  // 文章 - a6_3
+    //   ...htmlWebpackPluginOptions,
+    //   chunks: ['a6_3'],
+    //   title: '当心了！男人只想玩暧昧的几种表现，女生必看！ | 小鹿情感',
+    //   filename: 'articles/a6/a6_3/index.html'
+    // }),
+    // new HtmlWebpackPlugin({  // 文章 - a6_4
+    //   ...htmlWebpackPluginOptions,
+    //   chunks: ['a6_4'],
+    //   title: '因“依恋损伤”而分手，如何快速走出心理创伤？ | 小鹿情感',
+    //   filename: 'articles/a6/a6_4/index.html'
+    // }),
+    // new HtmlWebpackPlugin({  // 文章 - a6_5
+    //   ...htmlWebpackPluginOptions,
+    //   chunks: ['a6_5'],
+    //   title: '谈了100次恋爱屡战屡败？因为你陷入了“低自尊型恋爱” | 小鹿情感',
+    //   filename: 'articles/a6/a6_5/index.html'
+    // }),
 
     // articles bellow - a7
+    new HtmlWebpackPlugin({  // 文章 - a7_1
+      ...htmlWebpackPluginOptions,
+      chunks: ['a7_1'],
+      title: '冷战，只会让矛盾长期积压 | 小鹿情感',
+      filename: 'articles/a7/a7_1/index.html'
+    }),
+    new HtmlWebpackPlugin({  // 文章 - a7_2
+      ...htmlWebpackPluginOptions,
+      chunks: ['a7_2'],
+      title: '小矛盾堆积成大问题，分手来的猝不及防 | 小鹿情感',
+      filename: 'articles/a7/a7_2/index.html'
+    }),
+    new HtmlWebpackPlugin({  // 文章 - a7_3
+      ...htmlWebpackPluginOptions,
+      chunks: ['a7_3'],
+      title: '“破窗效应”告诉你：小事背后隐藏分手本质 | 小鹿情感',
+      filename: 'articles/a7/a7_3/index.html'
+    }),
+    new HtmlWebpackPlugin({  // 文章 - a7_4
+      ...htmlWebpackPluginOptions,
+      chunks: ['a7_4'],
+      title: '小矛盾膨胀激化，最终引发分手，你做错了什么？ | 小鹿情感',
+      filename: 'articles/a7/a7_4/index.html'
+    }),
+    new HtmlWebpackPlugin({  // 文章 - a7_5
+      ...htmlWebpackPluginOptions,
+      chunks: ['a7_5'],
+      title: '因为小事而分手？那是因为你不知道她忍了多久 | 小鹿情感',
+      filename: 'articles/a7/a7_5/index.html'
+    }),
 
     // Add module names to factory functions so they appear in browser profiler.
     new webpack.NamedModulesPlugin(),
