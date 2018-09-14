@@ -81,30 +81,30 @@ module.exports = {
       // paths.appIndexJs
       paths.appIndexJs
     ],
-    about: [
-      require.resolve('./polyfills'),
-      paths.appSrc + '/entries/about.js'
-    ],
-    topics: [
-      require.resolve('./polyfills'),
-      paths.appSrc + '/entries/topics.js'
-    ],
-    page01: [
-      require.resolve('./polyfills'),
-      paths.appSrc + '/entries/page01.js'
-    ],
-    page02: [
-      require.resolve('./polyfills'),
-      paths.appSrc + '/entries/page02.js'
-    ],
-    page03: [
-      require.resolve('./polyfills'),
-      paths.appSrc + '/entries/page03.js'
-    ],
-    page04: [
-      require.resolve('./polyfills'),
-      paths.appSrc + '/entries/page04.js'
-    ],
+    // about: [
+    //   require.resolve('./polyfills'),
+    //   paths.appSrc + '/entries/about.js'
+    // ],
+    // topics: [
+    //   require.resolve('./polyfills'),
+    //   paths.appSrc + '/entries/topics.js'
+    // ],
+    // page01: [
+    //   require.resolve('./polyfills'),
+    //   paths.appSrc + '/entries/page01.js'
+    // ],
+    // page02: [
+    //   require.resolve('./polyfills'),
+    //   paths.appSrc + '/entries/page02.js'
+    // ],
+    // page03: [
+    //   require.resolve('./polyfills'),
+    //   paths.appSrc + '/entries/page03.js'
+    // ],
+    // page04: [
+    //   require.resolve('./polyfills'),
+    //   paths.appSrc + '/entries/page04.js'
+    // ],
     classify01: [
       require.resolve('./polyfills'),
       paths.appSrc + '/entries/classify01.js'
@@ -142,7 +142,139 @@ module.exports = {
     a1_2: [
       require.resolve('./polyfills'),
       paths.appSrc + '/entries/articles/a1/a1_2.js'
-    ]
+    ],
+    a1_3: [
+      require.resolve('./polyfills'),
+      paths.appSrc + '/entries/articles/a1/a1_3.js'
+    ],
+    a1_4: [
+      require.resolve('./polyfills'),
+      paths.appSrc + '/entries/articles/a1/a1_4.js'
+    ],
+    a1_5: [
+      require.resolve('./polyfills'),
+      paths.appSrc + '/entries/articles/a1/a1_5.js'
+    ],
+    a2_1: [
+      require.resolve('./polyfills'),
+      paths.appSrc + '/entries/articles/a2/a2_1.js'
+    ],
+    a2_2: [
+      require.resolve('./polyfills'),
+      paths.appSrc + '/entries/articles/a2/a2_2.js'
+    ],
+    a2_3: [
+      require.resolve('./polyfills'),
+      paths.appSrc + '/entries/articles/a2/a2_3.js'
+    ],
+    a2_4: [
+      require.resolve('./polyfills'),
+      paths.appSrc + '/entries/articles/a2/a2_4.js'
+    ],
+    a2_5: [
+      require.resolve('./polyfills'),
+      paths.appSrc + '/entries/articles/a2/a2_5.js'
+    ],
+    a3_1: [
+      require.resolve('./polyfills'),
+      paths.appSrc + '/entries/articles/a3/a3_1.js'
+    ],
+    a3_2: [
+      require.resolve('./polyfills'),
+      paths.appSrc + '/entries/articles/a3/a3_2.js'
+    ],
+    a3_3: [
+      require.resolve('./polyfills'),
+      paths.appSrc + '/entries/articles/a3/a3_3.js'
+    ],
+    a3_4: [
+      require.resolve('./polyfills'),
+      paths.appSrc + '/entries/articles/a3/a3_4.js'
+    ],
+    a3_5: [
+      require.resolve('./polyfills'),
+      paths.appSrc + '/entries/articles/a3/a3_5.js'
+    ],
+    a4_1: [
+      require.resolve('./polyfills'),
+      paths.appSrc + '/entries/articles/a4/a4_1.js'
+    ],
+    a4_2: [
+      require.resolve('./polyfills'),
+      paths.appSrc + '/entries/articles/a4/a4_2.js'
+    ],
+    a4_3: [
+      require.resolve('./polyfills'),
+      paths.appSrc + '/entries/articles/a4/a4_3.js'
+    ],
+    a4_4: [
+      require.resolve('./polyfills'),
+      paths.appSrc + '/entries/articles/a4/a4_4.js'
+    ],
+    a4_5: [
+      require.resolve('./polyfills'),
+      paths.appSrc + '/entries/articles/a4/a4_5.js'
+    ],
+    a5_1: [
+      require.resolve('./polyfills'),
+      paths.appSrc + '/entries/articles/a5/a5_1.js'
+    ],
+    a5_2: [
+      require.resolve('./polyfills'),
+      paths.appSrc + '/entries/articles/a5/a5_2.js'
+    ],
+    a5_3: [
+      require.resolve('./polyfills'),
+      paths.appSrc + '/entries/articles/a5/a5_3.js'
+    ],
+    a5_4: [
+      require.resolve('./polyfills'),
+      paths.appSrc + '/entries/articles/a5/a5_4.js'
+    ],
+    a5_5: [
+      require.resolve('./polyfills'),
+      paths.appSrc + '/entries/articles/a5/a5_5.js'
+    ],
+    a6_1: [
+      require.resolve('./polyfills'),
+      paths.appSrc + '/entries/articles/a6/a6_1.js'
+    ],
+    a6_2: [
+      require.resolve('./polyfills'),
+      paths.appSrc + '/entries/articles/a6/a6_2.js'
+    ],
+    a6_3: [
+      require.resolve('./polyfills'),
+      paths.appSrc + '/entries/articles/a6/a6_3.js'
+    ],
+    a6_4: [
+      require.resolve('./polyfills'),
+      paths.appSrc + '/entries/articles/a6/a6_4.js'
+    ],
+    a6_5: [
+      require.resolve('./polyfills'),
+      paths.appSrc + '/entries/articles/a6/a6_5.js'
+    ],
+    a7_1: [
+      require.resolve('./polyfills'),
+      paths.appSrc + '/entries/articles/a7/a7_1.js'
+    ],
+    a7_2: [
+      require.resolve('./polyfills'),
+      paths.appSrc + '/entries/articles/a7/a7_2.js'
+    ],
+    a7_3: [
+      require.resolve('./polyfills'),
+      paths.appSrc + '/entries/articles/a7/a7_3.js'
+    ],
+    a7_4: [
+      require.resolve('./polyfills'),
+      paths.appSrc + '/entries/articles/a7/a7_4.js'
+    ],
+    a7_5: [
+      require.resolve('./polyfills'),
+      paths.appSrc + '/entries/articles/a7/a7_5.js'
+    ],
   },
   output: {
     // The build folder.
@@ -336,42 +468,46 @@ module.exports = {
     new InterpolateHtmlPlugin(env.raw),
     // Generates an `index.html` file with the <script> injected.
     new HtmlWebpackPlugin({...htmlWebpackPluginOptions}),
-    new HtmlWebpackPlugin({
-      ...htmlWebpackPluginOptions,
-      chunks: ['about'],
-      filename: 'about/index.html',
-      title: '关于'
-    }),
-    new HtmlWebpackPlugin({
-      ...htmlWebpackPluginOptions,
-      chunks: ['topics'],
-      filename: 'topics/index.html',
-      title: '话题'
-    }),
-    new HtmlWebpackPlugin({
-      ...htmlWebpackPluginOptions,
-      chunks: ['page01'],
-      filename: 'page01/index.html',
-      title: 'Page01'
-    }),
-    new HtmlWebpackPlugin({
-      ...htmlWebpackPluginOptions,
-      chunks: ['page02'],
-      filename: 'page02/index.html',
-      title: 'Page02'
-    }),
-    new HtmlWebpackPlugin({
-      ...htmlWebpackPluginOptions,
-      chunks: ['page03'],
-      filename: 'page03/index.html',
-      title: 'Page03'
-    }),
-    new HtmlWebpackPlugin({
-      ...htmlWebpackPluginOptions,
-      chunks: ['page04'],
-      filename: 'page04/index.html',
-      title: 'Page04'
-    }),
+    // new HtmlWebpackPlugin({
+    //   ...htmlWebpackPluginOptions,
+    //   chunks: ['about'],
+    //   filename: 'about/index.html',
+    //   title: '关于'
+    // }),
+    // new HtmlWebpackPlugin({
+    //   ...htmlWebpackPluginOptions,
+    //   chunks: ['topics'],
+    //   filename: 'topics/index.html',
+    //   title: '话题'
+    // }),
+
+    // pages bellow
+    // new HtmlWebpackPlugin({
+    //   ...htmlWebpackPluginOptions,
+    //   chunks: ['page01'],
+    //   filename: 'page01/index.html',
+    //   title: 'Page01'
+    // }),
+    // new HtmlWebpackPlugin({
+    //   ...htmlWebpackPluginOptions,
+    //   chunks: ['page02'],
+    //   filename: 'page02/index.html',
+    //   title: 'Page02'
+    // }),
+    // new HtmlWebpackPlugin({
+    //   ...htmlWebpackPluginOptions,
+    //   chunks: ['page03'],
+    //   filename: 'page03/index.html',
+    //   title: 'Page03'
+    // }),
+    // new HtmlWebpackPlugin({
+    //   ...htmlWebpackPluginOptions,
+    //   chunks: ['page04'],
+    //   filename: 'page04/index.html',
+    //   title: 'Page04'
+    // }),
+
+    // classfies bellow
     new HtmlWebpackPlugin({
       ...htmlWebpackPluginOptions,
       chunks: ['classify01'],
@@ -415,12 +551,228 @@ module.exports = {
       title: 'Classify07'
     }),
 
-    // articles bellow
+    // articles bellow - a1
     new HtmlWebpackPlugin({  // 文章 - a1_1
       ...htmlWebpackPluginOptions,
       chunks: ['a1_1'],
-      title: '文章页面 | 小鹿情感',
+      title: '男人你听我说，你所追求的是“保姆式妻子”和“守寡式婚姻” | 小鹿情感',
       filename: 'articles/a1/a1_1/index.html'
+    }),
+    new HtmlWebpackPlugin({  // 文章 - a1_2
+      ...htmlWebpackPluginOptions,
+      chunks: ['a1_2'],
+      title: '傻女人，你真以为用孩子就能留住婚姻？！ | 小鹿情感',
+      filename: 'articles/a1/a1_2/index.html'
+    }),
+    new HtmlWebpackPlugin({  // 文章 - a1_2
+      ...htmlWebpackPluginOptions,
+      chunks: ['a1_3'],
+      title: '老公爱聊骚，我除了忍别无他法 | 小鹿情感',
+      filename: 'articles/a1/a1_3/index.html'
+    }),
+    new HtmlWebpackPlugin({  // 文章 - a1_2
+      ...htmlWebpackPluginOptions,
+      chunks: ['a1_4'],
+      title: '原配实力虐小三，男人想复婚只能靠跪舔吗？ | 小鹿情感',
+      filename: 'articles/a1/a1_4/index.html'
+    }),
+    new HtmlWebpackPlugin({  // 文章 - a1_2
+      ...htmlWebpackPluginOptions,
+      chunks: ['a1_5'],
+      title: '你的面子值钱，爱人的尊严就分文不值吗？ | 小鹿情感',
+      filename: 'articles/a1/a1_5/index.html'
+    }),
+
+    // // articles bellow - a2
+    new HtmlWebpackPlugin({  // 文章 - a2_1
+      ...htmlWebpackPluginOptions,
+      chunks: ['a2_1'],
+      title: '：异地恋分手：别把原因一味归咎给距离！ | 小鹿情感',
+      filename: 'articles/a2/a2_1/index.html'
+    }),
+    new HtmlWebpackPlugin({  // 文章 - a2_2
+      ...htmlWebpackPluginOptions,
+      chunks: ['a2_2'],
+      title: '：两年异地恋，三个月见一面，找个小姐怎么了？ | 小鹿情感',
+      filename: 'articles/a2/a2_2/index.html'
+    }),
+    new HtmlWebpackPlugin({  // 文章 - a2_3
+      ...htmlWebpackPluginOptions,
+      chunks: ['a2_3'],
+      title: '：异地恋是真的不容易，你看我这满满的火车票就知道了 | 小鹿情感',
+      filename: 'articles/a2/a2_3/index.html'
+    }),
+    new HtmlWebpackPlugin({  // 文章 - a2_4
+      ...htmlWebpackPluginOptions,
+      chunks: ['a2_4'],
+      title: '：一段被包养的异地恋情，还有机会挽回吗？ | 小鹿情感',
+      filename: 'articles/a2/a2_4/index.html'
+    }),
+    new HtmlWebpackPlugin({  // 文章 - a2_5
+      ...htmlWebpackPluginOptions,
+      chunks: ['a2_5'],
+      title: '：异地恋，到底有多煎熬？网友：累了，真的累了 | 小鹿情感',
+      filename: 'articles/a2/a2_5/index.html'
+    }),
+
+    // articles bellow - a3
+    new HtmlWebpackPlugin({  // 文章 - a3_1
+      ...htmlWebpackPluginOptions,
+      chunks: ['a3_1'],
+      title: '：面对“性格不合 对你没感觉”的分手，我该如何挽回？ | 小鹿情感',
+      filename: 'articles/a3/a3_1/index.html'
+    }),
+    new HtmlWebpackPlugin({  // 文章 - a3_2
+      ...htmlWebpackPluginOptions,
+      chunks: ['a3_2'],
+      title: '：优柔寡断的男人如何改善性格成功挽回？ | 小鹿情感',
+      filename: 'articles/a3/a3_2/index.html'
+    }),
+    new HtmlWebpackPlugin({  // 文章 - a3_3
+      ...htmlWebpackPluginOptions,
+      chunks: ['a3_3'],
+      title: '：“分手了，都怪我性格太内向了！” | 小鹿情感',
+      filename: 'articles/a3/a3_3/index.html'
+    }),
+    new HtmlWebpackPlugin({  // 文章 - a3_4
+      ...htmlWebpackPluginOptions,
+      chunks: ['a3_4'],
+      title: '：别真信了“性格不合”的分手理由，你必须要看清这背后隐藏的问题 | 小鹿情感',
+      filename: 'articles/a3/a3_4/index.html'
+    }),
+    new HtmlWebpackPlugin({  // 文章 - a3_5
+      ...htmlWebpackPluginOptions,
+      chunks: ['a3_5'],
+      title: '：性格偏执型恋人追求爱情完美 最终断送幸福 | 小鹿情感',
+      filename: 'articles/a3/a3_5/index.html'
+    }),
+
+    // articles bellow - a4
+    new HtmlWebpackPlugin({  // 文章 - a4_1
+      ...htmlWebpackPluginOptions,
+      chunks: ['a4_1'],
+      title: '：文章标题 | 小鹿情感',
+      filename: 'articles/a4/a4_1/index.html'
+    }),
+    new HtmlWebpackPlugin({  // 文章 - a4_2
+      ...htmlWebpackPluginOptions,
+      chunks: ['a4_2'],
+      title: '：文章标题 | 小鹿情感',
+      filename: 'articles/a4/a4_2/index.html'
+    }),
+    new HtmlWebpackPlugin({  // 文章 - a4_3
+      ...htmlWebpackPluginOptions,
+      chunks: ['a4_3'],
+      title: '：文章标题 | 小鹿情感',
+      filename: 'articles/a4/a4_3/index.html'
+    }),
+    new HtmlWebpackPlugin({  // 文章 - a4_4
+      ...htmlWebpackPluginOptions,
+      chunks: ['a4_4'],
+      title: '：文章标题 | 小鹿情感',
+      filename: 'articles/a4/a4_4/index.html'
+    }),
+    new HtmlWebpackPlugin({  // 文章 - a4_5
+      ...htmlWebpackPluginOptions,
+      chunks: ['a4_5'],
+      title: '：文章标题 | 小鹿情感',
+      filename: 'articles/a4/a4_5/index.html'
+    }),
+
+    // articles bellow - a5
+    new HtmlWebpackPlugin({  // 文章 - a5_1
+      ...htmlWebpackPluginOptions,
+      chunks: ['a5_1'],
+      title: '新鲜感褪去后，爱情该何去何从？ | 小鹿情感',
+      filename: 'articles/a5/a5_1/index.html'
+    }),
+    new HtmlWebpackPlugin({  // 文章 - a5_2
+      ...htmlWebpackPluginOptions,
+      chunks: ['a5_2'],
+      title: '情侣间新鲜感殆尽，除了分手我们还能做什么？ | 小鹿情感',
+      filename: 'articles/a5/a5_2/index.html'
+    }),
+    new HtmlWebpackPlugin({  // 文章 - a5_3
+      ...htmlWebpackPluginOptions,
+      chunks: ['a5_3'],
+      title: '七年感情一朝散，我们的爱情“过期”了 | 小鹿情感',
+      filename: 'articles/a5/a5_3/index.html'
+    }),
+    new HtmlWebpackPlugin({  // 文章 - a5_4
+      ...htmlWebpackPluginOptions,
+      chunks: ['a5_4'],
+      title: '爱情没有新鲜感 恩爱情侣告诉你需要三种“距离感”来拯救 | 小鹿情感',
+      filename: 'articles/a5/a5_4/index.html'
+    }),
+    new HtmlWebpackPlugin({  // 文章 - a5_5
+      ...htmlWebpackPluginOptions,
+      chunks: ['a5_5'],
+      title: '面对新鲜感缺失该怎么办？ | 小鹿情感',
+      filename: 'articles/a5/a5_5/index.html'
+    }),
+
+    // articles bellow - a6
+    new HtmlWebpackPlugin({  // 文章 - a6_1
+      ...htmlWebpackPluginOptions,
+      chunks: ['a6_1'],
+      title: '情侣分手后复合的概率是82%，你为什么失败了？ | 小鹿情感',
+      filename: 'articles/a6/a6_1/index.html'
+    }),
+    new HtmlWebpackPlugin({  // 文章 - a6_2
+      ...htmlWebpackPluginOptions,
+      chunks: ['a6_2'],
+      title: '当爱情被直男癌症状击垮 我该如何挽回？ | 小鹿情感',
+      filename: 'articles/a6/a6_2/index.html'
+    }),
+    new HtmlWebpackPlugin({  // 文章 - a6_3
+      ...htmlWebpackPluginOptions,
+      chunks: ['a6_3'],
+      title: '当心了！男人只想玩暧昧的几种表现，女生必看！ | 小鹿情感',
+      filename: 'articles/a6/a6_3/index.html'
+    }),
+    new HtmlWebpackPlugin({  // 文章 - a6_4
+      ...htmlWebpackPluginOptions,
+      chunks: ['a6_4'],
+      title: '因“依恋损伤”而分手，如何快速走出心理创伤？ | 小鹿情感',
+      filename: 'articles/a6/a6_4/index.html'
+    }),
+    new HtmlWebpackPlugin({  // 文章 - a6_5
+      ...htmlWebpackPluginOptions,
+      chunks: ['a6_5'],
+      title: '谈了100次恋爱屡战屡败？因为你陷入了“低自尊型恋爱” | 小鹿情感',
+      filename: 'articles/a6/a6_5/index.html'
+    }),
+
+    // articles bellow - a7
+    new HtmlWebpackPlugin({  // 文章 - a7_1
+      ...htmlWebpackPluginOptions,
+      chunks: ['a7_1'],
+      title: '冷战，只会让矛盾长期积压 | 小鹿情感',
+      filename: 'articles/a7/a7_1/index.html'
+    }),
+    new HtmlWebpackPlugin({  // 文章 - a7_2
+      ...htmlWebpackPluginOptions,
+      chunks: ['a7_2'],
+      title: '小矛盾堆积成大问题，分手来的猝不及防 | 小鹿情感',
+      filename: 'articles/a7/a7_2/index.html'
+    }),
+    new HtmlWebpackPlugin({  // 文章 - a7_3
+      ...htmlWebpackPluginOptions,
+      chunks: ['a7_3'],
+      title: '“破窗效应”告诉你：小事背后隐藏分手本质 | 小鹿情感',
+      filename: 'articles/a7/a7_3/index.html'
+    }),
+    new HtmlWebpackPlugin({  // 文章 - a7_4
+      ...htmlWebpackPluginOptions,
+      chunks: ['a7_4'],
+      title: '小矛盾膨胀激化，最终引发分手，你做错了什么？ | 小鹿情感',
+      filename: 'articles/a7/a7_4/index.html'
+    }),
+    new HtmlWebpackPlugin({  // 文章 - a7_5
+      ...htmlWebpackPluginOptions,
+      chunks: ['a7_5'],
+      title: '因为小事而分手？那是因为你不知道她忍了多久 | 小鹿情感',
+      filename: 'articles/a7/a7_5/index.html'
     }),
 
     // Makes some environment variables available to the JS code, for example:
