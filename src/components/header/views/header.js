@@ -15,7 +15,7 @@ class Header extends React.Component {
 
     return (  // 渲染非首页 header
       <div className="header">
-	<a href="/">
+	<a href="/im/">
 	  <i></i>
 	  首页
 	</a>
