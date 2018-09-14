@@ -355,31 +355,31 @@ const classifies = [
       ],
       list: [
 	{
-	  url: '#/',
+	  url: 'articles/a7/a7_1/',
 	  title: '冷战，只会让矛盾长期积压',
 	  description: '简短描述...',
 	  image: images.articleImages.articleImage001
 	},
 	{
-	  url: '#/',
+	  url: 'articles/a7/a7_2/',
 	  title: '小矛盾堆积成大问题，分手来的猝不及防',
 	  description: '简短描述...',
 	  image: images.articleImages.articleImage001
 	},
 	{
-	  url: '#/',
+	  url: 'articles/a7/a7_3/',
 	  title: '“破窗效应”告诉你：小事背后隐藏分手本质',
 	  description: '简短描述...',
 	  image: images.articleImages.articleImage001
 	},
 	{
-	  url: '#/',
+	  url: 'articles/a7/a7_4/',
 	  title: '小矛盾膨胀激化，最终引发分手，你做错了什么？',
 	  description: '简短描述...',
 	  image: images.articleImages.articleImage001
 	},
 	{
-	  url: '#/',
+	  url: 'articles/a7/a7_5/',
 	  title: '因为小事而分手？那是因为你不知道她忍了多久',
 	  description: '简短描述...',
 	  image: images.articleImages.articleImage001
