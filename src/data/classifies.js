@@ -300,31 +300,31 @@ const classifies = [
       ],
       list: [
 	{
-	  url: '#/',
+	  url: 'articles/a6/a6_1/',
 	  title: '情侣分手后复合的概率是82%，你为什么失败了？',
 	  description: '简短描述...',
 	  image: images.articleImages.articleImage001
 	},
 	{
-	  url: '#/',
+	  url: 'articles/a6/a6_2/',
 	  title: '当爱情被直男癌症状击垮 我该如何挽回？',
 	  description: '简短描述...',
 	  image: images.articleImages.articleImage001
 	},
 	{
-	  url: '#/',
+	  url: 'articles/a6/a6_3/',
 	  title: '当心了！男人只想玩暧昧的几种表现，女生必看！',
 	  description: '简短描述...',
 	  image: images.articleImages.articleImage001
 	},
 	{
-	  url: '#/',
+	  url: 'articles/a6/a6_4/',
 	  title: '因“依恋损伤”而分手，如何快速走出心理创伤？',
 	  description: '简短描述...',
 	  image: images.articleImages.articleImage001
 	},
 	{
-	  url: '#/',
+	  url: 'articles/a6/a6_5/',
 	  title: '谈了100次恋爱屡战屡败？因为你陷入了“低自尊型恋爱”',
 	  description: '简短描述...',
 	  image: images.articleImages.articleImage001
