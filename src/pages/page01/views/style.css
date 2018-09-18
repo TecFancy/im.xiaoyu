@@ -151,3 +151,9 @@
   padding-bottom: 5px;
 }
 /* End: 四大保障 */
+
+/* Start: 小鱼环境 */
+.page01-environment h3 {font-weight: normal;}
+.page01-environment-image {padding: 0 15px;}
+.page01-environment img {width: 100%;}
+/* End: 小鱼环境 */
