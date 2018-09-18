@@ -198,3 +198,93 @@
   margin-right: 5px;
 }
 /* End: 服务步骤 */
+
+/* Start: 合作媒体 */
+.page01-cooperation h3 {font-weight: normal;}
+
+.page01-cooperation-content span {
+  display: inline-block;
+  width: 54px;
+  height: 18px;
+}
+
+.page01-cooperation-content-group {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.page01-cooperation-content-group:last-child {
+  margin-bottom: 0;
+}
+
+.page01-cooperation-content-group span {
+  margin-right: 30px;
+}
+
+.page01-cooperation-content-group span:last-child {
+  margin-right: 0;
+}
+
+.page01-cooperation-content-group:nth-child(1) span:nth-child(1) {
+  background: url("./images/cooperation_icon01.png") no-repeat center center;
+  background-size: 100%;
+}
+
+.page01-cooperation-content-group:nth-child(1) span:nth-child(2) {
+  background: url("./images/cooperation_icon02.png") no-repeat center center;
+  background-size: 100%;
+}
+
+.page01-cooperation-content-group:nth-child(1) span:nth-child(3) {
+  background: url("./images/cooperation_icon03.png") no-repeat center center;
+  background-size: 100%;
+}
+
+.page01-cooperation-content-group:nth-child(1) span:nth-child(4) {
+  background: url("./images/cooperation_icon04.png") no-repeat center center;
+  background-size: 100%;
+}
+
+.page01-cooperation-content-group:nth-child(2) span:nth-child(1) {
+  background: url("./images/cooperation_icon05.png") no-repeat center center;
+  background-size: 100%;
+}
+
+.page01-cooperation-content-group:nth-child(2) span:nth-child(2) {
+  background: url("./images/cooperation_icon06.png") no-repeat center center;
+  background-size: 100%;
+}
+
+.page01-cooperation-content-group:nth-child(2) span:nth-child(3) {
+  background: url("./images/cooperation_icon07.png") no-repeat center center;
+  background-size: 100%;
+}
+
+.page01-cooperation-content-group:nth-child(2) span:nth-child(4) {
+  background: url("./images/cooperation_icon08.png") no-repeat center center;
+  background-size: 100%;
+}
+
+.page01-cooperation-content-group:nth-child(3) span:nth-child(1) {
+  background: url("./images/cooperation_icon09.png") no-repeat center center;
+  background-size: 100%;
+}
+
+.page01-cooperation-content-group:nth-child(3) span:nth-child(2) {
+  background: url("./images/cooperation_icon10.png") no-repeat center center;
+  background-size: 100%;
+}
+
+.page01-cooperation-content-group:nth-child(3) span:nth-child(3) {
+  background: url("./images/cooperation_icon11.png") no-repeat center center;
+  background-size: 100%;
+}
+
+.page01-cooperation-content-group:nth-child(3) span:nth-child(4) {
+  background: url("./images/cooperation_icon12.png") no-repeat center center;
+  background-size: 100%;
+}
+
+/* End: 合作媒体 */
