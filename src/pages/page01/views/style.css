@@ -81,3 +81,73 @@
 .page01-box-content-infos div span:last-child {
   font-size: 12px;
 }
+
+/* Start: 四大保障 */
+.page01-guarantee h3 {
+  font-weight: normal;
+}
+
+.page01-guarantee-content {
+  padding: 0 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.page01-guarantee-content-group {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.page01-guarantee-content-group:first-child {
+  margin-bottom: 20px;
+}
+
+.page01-guarantee-content-group-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.page01-guarantee-content-group-item i {
+  diaplay: inline-block;
+  width: 60px;
+  height: 60px;
+  margin-bottom: 5px;
+}
+
+.page01-guarantee-content-group:first-child .page01-guarantee-content-group-item:first-child i {
+  background: url("./images/icon-wuwei.png") no-repeat center center;
+  background-size: 100%;
+}
+
+.page01-guarantee-content-group:first-child .page01-guarantee-content-group-item:last-child i {
+  background: url("./images/icon-zhuanye.png") no-repeat center center;
+  background-size: 100%;
+}
+
+.page01-guarantee-content-group:last-child .page01-guarantee-content-group-item:first-child i {
+  background: url("./images/icon-siren.png") no-repeat center center;
+  background-size: 100%;
+}
+
+.page01-guarantee-content-group:last-child .page01-guarantee-content-group-item:last-child i {
+  background: url("./images/icon-yonghu.png") no-repeat center center;
+  background-size: 100%;
+}
+
+.page01-guarantee-content-group-item p {
+  margin: 0;
+}
+
+.page01-guarantee-content-group-item p {
+  color: #616161;
+}
+.page01-guarantee-content-group-item p:nth-child(2) {
+  color: #313131;
+  padding-bottom: 5px;
+}
+/* End: 四大保障 */
