@@ -89,10 +89,10 @@ module.exports = {
     //   require.resolve('./polyfills'),
     //   paths.appSrc + '/entries/topics.js'
     // ],
-    // page01: [
-    //   require.resolve('./polyfills'),
-    //   paths.appSrc + '/entries/page01.js'
-    // ],
+    page01: [  // 小鱼简介(关于我们)
+      require.resolve('./polyfills'),
+      paths.appSrc + '/entries/page01.js'
+    ],
     // page02: [
     //   require.resolve('./polyfills'),
     //   paths.appSrc + '/entries/page02.js'
@@ -482,12 +482,12 @@ module.exports = {
     // }),
 
     // pages bellow
-    // new HtmlWebpackPlugin({
-    //   ...htmlWebpackPluginOptions,
-    //   chunks: ['page01'],
-    //   filename: 'page01/index.html',
-    //   title: 'Page01'
-    // }),
+    new HtmlWebpackPlugin({
+      ...htmlWebpackPluginOptions,
+      chunks: ['page01'],
+      filename: 'page01/index.html',
+      title: '小鱼简介 | 小鱼情感'
+    }),
     // new HtmlWebpackPlugin({
     //   ...htmlWebpackPluginOptions,
     //   chunks: ['page02'],

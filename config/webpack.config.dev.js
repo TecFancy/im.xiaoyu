@@ -71,11 +71,11 @@ module.exports = {
     //   require.resolve('react-dev-utils/webpackHotDevClient'),
     //   paths.appSrc + '/entries/topics.js'
     // ],
-    // page01: [
-    //   require.resolve('./polyfills'),
-    //   require.resolve('react-dev-utils/webpackHotDevClient'),
-    //   paths.appSrc + '/entries/page01.js'
-    // ],
+    page01: [  // 小鱼简介(关于我们)
+      require.resolve('./polyfills'),
+      require.resolve('react-dev-utils/webpackHotDevClient'),
+      paths.appSrc + '/entries/page01.js'
+    ],
     // page02: [
     //   require.resolve('./polyfills'),
     //   require.resolve('react-dev-utils/webpackHotDevClient'),
@@ -121,11 +121,11 @@ module.exports = {
     //   require.resolve('react-dev-utils/webpackHotDevClient'),
     //   paths.appSrc + '/entries/classify06.js'
     // ],
-    classify07: [
-      require.resolve('./polyfills'),
-      require.resolve('react-dev-utils/webpackHotDevClient'),
-      paths.appSrc + '/entries/classify07.js'
-    ],
+    // classify07: [
+    //   require.resolve('./polyfills'),
+    //   require.resolve('react-dev-utils/webpackHotDevClient'),
+    //   paths.appSrc + '/entries/classify07.js'
+    // ],
 
     // articles' entry bellow
     // a1_1: [
@@ -278,31 +278,31 @@ module.exports = {
     //   require.resolve('react-dev-utils/webpackHotDevClient'),
     //   paths.appSrc + '/entries/articles/a6/a6_5.js'
     // ],
-    a7_1: [
-      require.resolve('./polyfills'),
-      require.resolve('react-dev-utils/webpackHotDevClient'),
-      paths.appSrc + '/entries/articles/a7/a7_1.js'
-    ],
-    a7_2: [
-      require.resolve('./polyfills'),
-      require.resolve('react-dev-utils/webpackHotDevClient'),
-      paths.appSrc + '/entries/articles/a7/a7_2.js'
-    ],
-    a7_3: [
-      require.resolve('./polyfills'),
-      require.resolve('react-dev-utils/webpackHotDevClient'),
-      paths.appSrc + '/entries/articles/a7/a7_3.js'
-    ],
-    a7_4: [
-      require.resolve('./polyfills'),
-      require.resolve('react-dev-utils/webpackHotDevClient'),
-      paths.appSrc + '/entries/articles/a7/a7_4.js'
-    ],
-    a7_5: [
-      require.resolve('./polyfills'),
-      require.resolve('react-dev-utils/webpackHotDevClient'),
-      paths.appSrc + '/entries/articles/a7/a7_5.js'
-    ],
+    // a7_1: [
+    //   require.resolve('./polyfills'),
+    //   require.resolve('react-dev-utils/webpackHotDevClient'),
+    //   paths.appSrc + '/entries/articles/a7/a7_1.js'
+    // ],
+    // a7_2: [
+    //   require.resolve('./polyfills'),
+    //   require.resolve('react-dev-utils/webpackHotDevClient'),
+    //   paths.appSrc + '/entries/articles/a7/a7_2.js'
+    // ],
+    // a7_3: [
+    //   require.resolve('./polyfills'),
+    //   require.resolve('react-dev-utils/webpackHotDevClient'),
+    //   paths.appSrc + '/entries/articles/a7/a7_3.js'
+    // ],
+    // a7_4: [
+    //   require.resolve('./polyfills'),
+    //   require.resolve('react-dev-utils/webpackHotDevClient'),
+    //   paths.appSrc + '/entries/articles/a7/a7_4.js'
+    // ],
+    // a7_5: [
+    //   require.resolve('./polyfills'),
+    //   require.resolve('react-dev-utils/webpackHotDevClient'),
+    //   paths.appSrc + '/entries/articles/a7/a7_5.js'
+    // ],
   },
   output: {
     // Add /* filename */ comments to generated require()s in the output.
@@ -488,7 +488,7 @@ module.exports = {
     // new HtmlWebpackPlugin({
     //   ...htmlWebpackPluginOptions,
     //   chunks: ['about'],
-    //   title: ['关于'],
+    //   title: ['小鱼简介 | 小鱼情感'],
     //   filename: 'about/index.html'
     // }),
     // new HtmlWebpackPlugin({
@@ -497,12 +497,12 @@ module.exports = {
     //   title: '话题',
     //   filename: 'topics/index.html'
     // }),
-    // new HtmlWebpackPlugin({
-    //   ...htmlWebpackPluginOptions,
-    //   chunks: ['page01'],
-    //   title: 'Page01',
-    //   filename: 'page01/index.html'
-    // }),
+    new HtmlWebpackPlugin({  // 小鱼简介(关于我们)
+      ...htmlWebpackPluginOptions,
+      chunks: ['page01'],
+      title: 'Page01',
+      filename: 'page01/index.html'
+    }),
     // new HtmlWebpackPlugin({
     //   ...htmlWebpackPluginOptions,
     //   chunks: ['page02'],
@@ -557,12 +557,12 @@ module.exports = {
     //   title: '挽回干货 | 小鱼情感',
     //   filename: 'classify06/index.html'
     // }),
-    new HtmlWebpackPlugin({
-      ...htmlWebpackPluginOptions,
-      chunks: ['classify07'],
-      title: '矛盾积累 | 小鱼情感',
-      filename: 'classify07/index.html'
-    }),
+    // new HtmlWebpackPlugin({
+    //   ...htmlWebpackPluginOptions,
+    //   chunks: ['classify07'],
+    //   title: '矛盾积累 | 小鱼情感',
+    //   filename: 'classify07/index.html'
+    // }),
 
     // articles bellow - a1
     // new HtmlWebpackPlugin({  // 文章 - a1_1
@@ -757,36 +757,36 @@ module.exports = {
     // }),
 
     // articles bellow - a7
-    new HtmlWebpackPlugin({  // 文章 - a7_1
-      ...htmlWebpackPluginOptions,
-      chunks: ['a7_1'],
-      title: '冷战，只会让矛盾长期积压 | 小鹿情感',
-      filename: 'articles/a7/a7_1/index.html'
-    }),
-    new HtmlWebpackPlugin({  // 文章 - a7_2
-      ...htmlWebpackPluginOptions,
-      chunks: ['a7_2'],
-      title: '小矛盾堆积成大问题，分手来的猝不及防 | 小鹿情感',
-      filename: 'articles/a7/a7_2/index.html'
-    }),
-    new HtmlWebpackPlugin({  // 文章 - a7_3
-      ...htmlWebpackPluginOptions,
-      chunks: ['a7_3'],
-      title: '“破窗效应”告诉你：小事背后隐藏分手本质 | 小鹿情感',
-      filename: 'articles/a7/a7_3/index.html'
-    }),
-    new HtmlWebpackPlugin({  // 文章 - a7_4
-      ...htmlWebpackPluginOptions,
-      chunks: ['a7_4'],
-      title: '小矛盾膨胀激化，最终引发分手，你做错了什么？ | 小鹿情感',
-      filename: 'articles/a7/a7_4/index.html'
-    }),
-    new HtmlWebpackPlugin({  // 文章 - a7_5
-      ...htmlWebpackPluginOptions,
-      chunks: ['a7_5'],
-      title: '因为小事而分手？那是因为你不知道她忍了多久 | 小鹿情感',
-      filename: 'articles/a7/a7_5/index.html'
-    }),
+    // new HtmlWebpackPlugin({  // 文章 - a7_1
+    //   ...htmlWebpackPluginOptions,
+    //   chunks: ['a7_1'],
+    //   title: '冷战，只会让矛盾长期积压 | 小鹿情感',
+    //   filename: 'articles/a7/a7_1/index.html'
+    // }),
+    // new HtmlWebpackPlugin({  // 文章 - a7_2
+    //   ...htmlWebpackPluginOptions,
+    //   chunks: ['a7_2'],
+    //   title: '小矛盾堆积成大问题，分手来的猝不及防 | 小鹿情感',
+    //   filename: 'articles/a7/a7_2/index.html'
+    // }),
+    // new HtmlWebpackPlugin({  // 文章 - a7_3
+    //   ...htmlWebpackPluginOptions,
+    //   chunks: ['a7_3'],
+    //   title: '“破窗效应”告诉你：小事背后隐藏分手本质 | 小鹿情感',
+    //   filename: 'articles/a7/a7_3/index.html'
+    // }),
+    // new HtmlWebpackPlugin({  // 文章 - a7_4
+    //   ...htmlWebpackPluginOptions,
+    //   chunks: ['a7_4'],
+    //   title: '小矛盾膨胀激化，最终引发分手，你做错了什么？ | 小鹿情感',
+    //   filename: 'articles/a7/a7_4/index.html'
+    // }),
+    // new HtmlWebpackPlugin({  // 文章 - a7_5
+    //   ...htmlWebpackPluginOptions,
+    //   chunks: ['a7_5'],
+    //   title: '因为小事而分手？那是因为你不知道她忍了多久 | 小鹿情感',
+    //   filename: 'articles/a7/a7_5/index.html'
+    // }),
 
     // Add module names to factory functions so they appear in browser profiler.
     new webpack.NamedModulesPlugin(),

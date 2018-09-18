@@ -5,7 +5,7 @@ class Page01 extends React.Component {
   render() {
     return (
       <div>
-	<Header home={false} title="二级页面: Page01" />
+	<Header home={false} title="小鱼简介" />
       </div>
     );
   }
