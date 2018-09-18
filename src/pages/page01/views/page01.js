@@ -1,6 +1,7 @@
 import React from 'react';
 import {view as Header} from '../../../components/header/';
 import Guarantee from './guarantee.js';
+import Environment from './environment.js';
 
 import bannerImage from './images/banner.png';
 import boxImage01 from './images/image-1.png';
@@ -37,6 +38,7 @@ class Page01 extends React.Component {
 	  </div>
 	</div>
 	<Guarantee />
+	<Environment />
       </div>
     );
   }
