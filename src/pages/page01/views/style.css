@@ -157,3 +157,44 @@
 .page01-environment-image {padding: 0 15px;}
 .page01-environment img {width: 100%;}
 /* End: 小鱼环境 */
+
+/* Start: 服务步骤 */
+.page01-service h3 {font-weight: normal;}
+
+.page01-service-content {padding: 0 15px;}
+
+.page01-service-content-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #f2f5fa;
+  border-radius: 5px;
+  padding: 10px 5px;
+  margin-bottom: 10px;
+}
+
+.page01-service-content-item:last-child {
+  margin-bottom: 0;
+}
+
+.page01-service-content-item p {
+  margin: 0;
+}
+
+.page01-service-content-item p:first-child {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.page01-service-content-item p span {
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  line-height: 26px;
+  border-radius: 50%;
+  background: #d44c52;
+  color: #fff;
+  margin-right: 5px;
+}
+/* End: 服务步骤 */
