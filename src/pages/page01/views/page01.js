@@ -2,6 +2,7 @@ import React from 'react';
 import {view as Header} from '../../../components/header/';
 import Guarantee from './guarantee.js';
 import Environment from './environment.js';
+import Service from './service.js';
 
 import bannerImage from './images/banner.png';
 import boxImage01 from './images/image-1.png';
@@ -39,6 +40,7 @@ class Page01 extends React.Component {
 	</div>
 	<Guarantee />
 	<Environment />
+	<Service />
       </div>
     );
   }
