@@ -3,6 +3,9 @@ body {
   margin: 0;
   font-family: 'Microsoft YaHei';
   background: #f9f9f9;
+  color: #313131;
 }
 
 .page {background: #fff;}
+
+.text-center {text-align: center;}
