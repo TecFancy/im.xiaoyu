@@ -2,6 +2,75 @@ import images from './images.js';
 
 const classifies = [
     {
+      type: 'page',
+      title: '小鱼简介',
+      href: 'page01/',
+      nav: [
+	{
+	  text: '分类一',
+	  url: '#/nav'
+	},
+	{
+	  text: '分类二',
+	  url: '#/nav'
+	},
+	{
+	  text: '分类三',
+	  url: '#/nav'
+	},
+	{
+	  text: '分类四',
+	  url: '#/nav'
+	}
+      ]
+    },
+    {
+      type: 'page',
+      title: '服务范围',
+      href: 'page02/',
+      nav: [
+	{
+	  text: '分类一',
+	  url: '#/nav'
+	},
+	{
+	  text: '分类二',
+	  url: '#/nav'
+	},
+	{
+	  text: '分类三',
+	  url: '#/nav'
+	},
+	{
+	  text: '分类四',
+	  url: '#/nav'
+	}
+      ]
+    },
+    {
+      type: 'page',
+      title: '权威团队',
+      href: 'page02/',
+      nav: [
+	{
+	  text: '分类一',
+	  url: '#/nav'
+	},
+	{
+	  text: '分类二',
+	  url: '#/nav'
+	},
+	{
+	  text: '分类三',
+	  url: '#/nav'
+	},
+	{
+	  text: '分类四',
+	  url: '#/nav'
+	}
+      ]
+    },
+    {
       type: 'article',
       title: '婚姻破裂',
       href: 'classify01/',
@@ -388,76 +457,7 @@ const classifies = [
     },
     {
       type: 'page',
-      title: '二级页面01',
-      href: 'page01/',
-      nav: [
-	{
-	  text: '分类一',
-	  url: '#/nav'
-	},
-	{
-	  text: '分类二',
-	  url: '#/nav'
-	},
-	{
-	  text: '分类三',
-	  url: '#/nav'
-	},
-	{
-	  text: '分类四',
-	  url: '#/nav'
-	}
-      ]
-    },
-    {
-      type: 'page',
-      title: '二级页面02',
-      href: 'page02/',
-      nav: [
-	{
-	  text: '分类一',
-	  url: '#/nav'
-	},
-	{
-	  text: '分类二',
-	  url: '#/nav'
-	},
-	{
-	  text: '分类三',
-	  url: '#/nav'
-	},
-	{
-	  text: '分类四',
-	  url: '#/nav'
-	}
-      ]
-    },
-    {
-      type: 'page',
-      title: '图标大小',
-      href: 'page03/',
-      nav: [
-	{
-	  text: '分类一',
-	  url: '#/nav'
-	},
-	{
-	  text: '分类二',
-	  url: '#/nav'
-	},
-	{
-	  text: '分类三',
-	  url: '#/nav'
-	},
-	{
-	  text: '分类四',
-	  url: '#/nav'
-	}
-      ]
-    },
-    {
-      type: 'page',
-      title: '80 * 80',
+      title: '成功案例',
       href: 'page04/',
       nav: [
 	{
@@ -478,6 +478,29 @@ const classifies = [
 	}
       ]
     },
+    {
+      type: 'page',
+      title: '咨询热线',
+      href: 'page05/',
+      nav: [
+	{
+	  text: '分类一',
+	  url: '#/nav'
+	},
+	{
+	  text: '分类二',
+	  url: '#/nav'
+	},
+	{
+	  text: '分类三',
+	  url: '#/nav'
+	},
+	{
+	  text: '分类四',
+	  url: '#/nav'
+	}
+      ]
+    }
 ];
 
 export {classifies};
