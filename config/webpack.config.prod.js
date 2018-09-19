@@ -93,10 +93,10 @@ module.exports = {
       require.resolve('./polyfills'),
       paths.appSrc + '/entries/page01.js'
     ],
-    // page02: [
-    //   require.resolve('./polyfills'),
-    //   paths.appSrc + '/entries/page02.js'
-    // ],
+    page02: [  // 权威团队(权威专家)
+      require.resolve('./polyfills'),
+      paths.appSrc + '/entries/page02.js'
+    ],
     // page03: [
     //   require.resolve('./polyfills'),
     //   paths.appSrc + '/entries/page03.js'
@@ -482,18 +482,18 @@ module.exports = {
     // }),
 
     // pages bellow
-    new HtmlWebpackPlugin({
+    new HtmlWebpackPlugin({  // 小鱼简介(关于我们)
       ...htmlWebpackPluginOptions,
       chunks: ['page01'],
       filename: 'page01/index.html',
       title: '小鱼简介 | 小鱼情感'
     }),
-    // new HtmlWebpackPlugin({
-    //   ...htmlWebpackPluginOptions,
-    //   chunks: ['page02'],
-    //   filename: 'page02/index.html',
-    //   title: 'Page02'
-    // }),
+    new HtmlWebpackPlugin({  // 权威团队(权威专家)
+      ...htmlWebpackPluginOptions,
+      chunks: ['page02'],
+      filename: 'page02/index.html',
+      title: '权威团队 | 小鱼情感'
+    }),
     // new HtmlWebpackPlugin({
     //   ...htmlWebpackPluginOptions,
     //   chunks: ['page03'],

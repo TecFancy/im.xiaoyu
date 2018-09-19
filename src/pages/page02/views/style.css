@@ -1,0 +1,64 @@
+.text-justify {text-align: justify;}
+
+.text-indent {text-indent: 32px;}
+
+.page02-bannerImage {width: 100%;}
+
+.page02-para {padding: 0 15px;}
+
+.page02-para p {
+  line-height: 26px;
+  margin: 0;
+}
+
+.page02-para p:first-child {margin: 30px 0 20px;}
+
+/* Start: section title */
+.page02-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 0;
+}
+
+.page02-title i {
+  display: inline-block;
+  width: 9px;
+  height: 10px;
+}
+
+.page02-title-icon_left {
+  background: url("./images/icon_right.png") no-repeat center center;
+  background-size: 100%;
+  margin-right: 5px;
+}
+
+.page02-title-icon_right {
+  background: url("./images/icon_left.png") no-repeat center center;
+  background-size: 100%;
+  margin-left: 5px;
+}
+
+.page02-title-text {
+  color: #F6394C;
+  margin: 0;
+}
+/* End: section title */
+
+/* Start: mentor theme */
+.page02-theme {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 15px;
+}
+
+.page02-theme.page02-theme_one img,
+.page02-theme.page02-theme_two img {
+  width: 129px;
+}
+
+.page02-theme-content {
+  width: 60%;
+}
+/* End: mentor theme */
