@@ -71,16 +71,16 @@ module.exports = {
     //   require.resolve('react-dev-utils/webpackHotDevClient'),
     //   paths.appSrc + '/entries/topics.js'
     // ],
-    page01: [  // 小鱼简介(关于我们)
-      require.resolve('./polyfills'),
-      require.resolve('react-dev-utils/webpackHotDevClient'),
-      paths.appSrc + '/entries/page01.js'
-    ],
-    // page02: [
+    // page01: [  // 小鱼简介(关于我们)
     //   require.resolve('./polyfills'),
     //   require.resolve('react-dev-utils/webpackHotDevClient'),
-    //   paths.appSrc + '/entries/page02.js'
+    //   paths.appSrc + '/entries/page01.js'
     // ],
+    page02: [  // 权威团队(权威专家)
+      require.resolve('./polyfills'),
+      require.resolve('react-dev-utils/webpackHotDevClient'),
+      paths.appSrc + '/entries/page02.js'
+    ],
     // page03: [
     //   require.resolve('./polyfills'),
     //   require.resolve('react-dev-utils/webpackHotDevClient'),
@@ -497,18 +497,18 @@ module.exports = {
     //   title: '话题',
     //   filename: 'topics/index.html'
     // }),
-    new HtmlWebpackPlugin({  // 小鱼简介(关于我们)
-      ...htmlWebpackPluginOptions,
-      chunks: ['page01'],
-      title: 'Page01',
-      filename: 'page01/index.html'
-    }),
-    // new HtmlWebpackPlugin({
+    // new HtmlWebpackPlugin({  // 小鱼简介(关于我们)
     //   ...htmlWebpackPluginOptions,
-    //   chunks: ['page02'],
-    //   title: 'Page02',
-    //   filename: 'page02/index.html'
+    //   chunks: ['page01'],
+    //   title: 'Page01',
+    //   filename: 'page01/index.html'
     // }),
+    new HtmlWebpackPlugin({  // 权威团队(权威专家)
+      ...htmlWebpackPluginOptions,
+      chunks: ['page02'],
+      title: '权威团队 | 小鱼情感',
+      filename: 'page02/index.html'
+    }),
     // new HtmlWebpackPlugin({
     //   ...htmlWebpackPluginOptions,
     //   chunks: ['page03'],
