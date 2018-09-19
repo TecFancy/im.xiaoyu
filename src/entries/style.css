@@ -6,6 +6,8 @@ body {
   color: #313131;
 }
 
-.page {background: #fff;}
+.page,
+.page01,
+.page02 {background: #fff;}
 
 .text-center {text-align: center;}

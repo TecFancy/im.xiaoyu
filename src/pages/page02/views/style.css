@@ -62,3 +62,33 @@
   width: 60%;
 }
 /* End: mentor theme */
+
+/* Start: section02 */
+.page02-section02 {background: #f1f1f1;}
+
+.page02-section02-content {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding-bottom: 20px;
+}
+
+.page02-section02-content>img {
+  width: 70px;
+  margin: 0 15px;
+  margin-right: 25px;
+}
+
+.page02-section02-content>div h4,
+.page02-section02-content>div p {
+  margin: 0;
+}
+
+.page02-section02-content>div h4 {
+  font-weight: normal;
+  padding-bottom: 5px;
+}
+
+.page02-section02-content>div p {color: #616161;}
+/* End: section02 */
