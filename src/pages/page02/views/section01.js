@@ -29,7 +29,7 @@ const mentorInfos = [
   },
   {
     themeType: 'themeOne',
-    mentorImage: mentorImage02,
+    mentorImage: mentorImage03,
     alt: 'HOPE导师',
     title: 'HOPE导师',
     des01: '婚姻恋爱咨询师',
