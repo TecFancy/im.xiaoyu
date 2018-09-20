@@ -25,7 +25,7 @@ const env = getClientEnvironment(publicUrl);
 const htmlWebpackPluginOptions = {
   inject: true,
   chunks: ['index'],
-  title: '首页',
+  title: '首页 | 小鱼情感',
   template: paths.appHtml
 };
 
