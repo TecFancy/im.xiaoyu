@@ -62,7 +62,7 @@ const htmlWebpackPluginOptions = {
     minifyCSS: true,
     minifyURLs: true,
   },
-  title: '首页'
+  title: '首页 | 小鱼情感'
 };
 
 // This is the production configuration.
