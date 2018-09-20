@@ -5,7 +5,7 @@ import './style.css';
 
 const Page02 = () => (
   <div className="page02">
-    <Header home={false} title="权威团队"/>
+    <Header home={false} title="服务范围"/>
   </div>
 );
 

@@ -93,10 +93,10 @@ module.exports = {
       require.resolve('./polyfills'),
       paths.appSrc + '/entries/page01.js'
     ],
-    // page02: [
-    //   require.resolve('./polyfills'),
-    //   paths.appSrc + '/entries/page02.js'
-    // ],
+    page02: [  // 服务范围(挽爱计划)
+      require.resolve('./polyfills'),
+      paths.appSrc + '/entries/page02.js'
+    ],
     page03: [  // 权威团队(权威专家)
       require.resolve('./polyfills'),
       paths.appSrc + '/entries/page03.js'
@@ -488,12 +488,12 @@ module.exports = {
       filename: 'page01/index.html',
       title: '小鱼简介 | 小鱼情感'
     }),
-    // new HtmlWebpackPlugin({  // 权威团队(权威专家)
-    //   ...htmlWebpackPluginOptions,
-    //   chunks: ['page02'],
-    //   filename: 'page02/index.html',
-    //   title: 'Page02'
-    // }),
+    new HtmlWebpackPlugin({  // 服务范围(挽爱计划)
+      ...htmlWebpackPluginOptions,
+      chunks: ['page02'],
+      filename: 'page02/index.html',
+      title: 'Page02'
+    }),
     new HtmlWebpackPlugin({  // 权威团队(权威专家)
       ...htmlWebpackPluginOptions,
       chunks: ['page03'],
