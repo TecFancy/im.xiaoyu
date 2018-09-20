@@ -50,7 +50,7 @@ const classifies = [
     {
       type: 'page',
       title: '权威团队',
-      href: 'page02/',
+      href: 'page03/',
       nav: [
 	{
 	  text: '分类一',
