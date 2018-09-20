@@ -93,14 +93,14 @@ module.exports = {
       require.resolve('./polyfills'),
       paths.appSrc + '/entries/page01.js'
     ],
-    page02: [  // 权威团队(权威专家)
-      require.resolve('./polyfills'),
-      paths.appSrc + '/entries/page02.js'
-    ],
-    // page03: [
+    // page02: [
     //   require.resolve('./polyfills'),
-    //   paths.appSrc + '/entries/page03.js'
+    //   paths.appSrc + '/entries/page02.js'
     // ],
+    page03: [  // 权威团队(权威专家)
+      require.resolve('./polyfills'),
+      paths.appSrc + '/entries/page03.js'
+    ],
     // page04: [
     //   require.resolve('./polyfills'),
     //   paths.appSrc + '/entries/page04.js'
@@ -488,18 +488,18 @@ module.exports = {
       filename: 'page01/index.html',
       title: '小鱼简介 | 小鱼情感'
     }),
+    // new HtmlWebpackPlugin({  // 权威团队(权威专家)
+    //   ...htmlWebpackPluginOptions,
+    //   chunks: ['page02'],
+    //   filename: 'page02/index.html',
+    //   title: 'Page02'
+    // }),
     new HtmlWebpackPlugin({  // 权威团队(权威专家)
       ...htmlWebpackPluginOptions,
-      chunks: ['page02'],
-      filename: 'page02/index.html',
+      chunks: ['page03'],
+      filename: 'page03/index.html',
       title: '权威团队 | 小鱼情感'
     }),
-    // new HtmlWebpackPlugin({
-    //   ...htmlWebpackPluginOptions,
-    //   chunks: ['page03'],
-    //   filename: 'page03/index.html',
-    //   title: 'Page03'
-    // }),
     // new HtmlWebpackPlugin({
     //   ...htmlWebpackPluginOptions,
     //   chunks: ['page04'],
