@@ -9,7 +9,7 @@ class Classify02 extends React.Component {
     super();
 
     this.state = {
-      articleList: classifies[1].list
+      articleList: classifies[4].list
     };
   }
 
