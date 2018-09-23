@@ -1,7 +1,9 @@
 import React from 'react';
 import {view as Header} from '../../../components/header/';
+import {view as Footer} from '../../../components/footer/';
 import Service from './service.js';
 import Circuit from './circuit.js';
+import Guarantee from './guarantee.js';
 
 import './style.css';
 
@@ -13,6 +15,8 @@ const Page02 = () => (
     <img className="page02-banner" src={bannerImage} alt="服务范围_权威专家" />
     <Service />
     <Circuit />
+    <Guarantee />
+    <Footer />
   </div>
 );
 
