@@ -1,5 +1,6 @@
 import React from 'react';
 import {view as Header} from '../../../components/header/';
+import {view as Footer} from '../../../components/footer/';
 import Service from './service.js';
 import Circuit from './circuit.js';
 import Guarantee from './guarantee.js';
@@ -15,6 +16,7 @@ const Page02 = () => (
     <Service />
     <Circuit />
     <Guarantee />
+    <Footer />
   </div>
 );
 
