@@ -10,6 +10,7 @@ rsync -av --delete ~/www/im.xiaoyu/build/articles\
 		   ~/www/im.xiaoyu/build/classify07\
 		   ~/www/im.xiaoyu/build/im/*\
 		   ~/www/im.xiaoyu/build/page01\
+		   ~/www/im.xiaoyu/build/page02\
 		   ~/www/im.xiaoyu/build/page03\
 		   ~/www/im.xiaoyu/build/index.html\
 		   ~/www/im.xiaoyu/build/asset-manifest.json\

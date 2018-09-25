@@ -69,7 +69,8 @@
     "build": "node scripts/build.js",
     "test": "node scripts/test.js --env=jsdom",
     "sitemap": "cd build && sitemap-static --prefix=http://www.xiaoyuqinggan.com/im > sitemap.xml",
-    "build:copy": "./scripts/build.copy.sh"
+    "build:copy": "./scripts/build.copy.sh",
+    "build:test": "./scripts/test.sh"
   },
   "jest": {
     "collectCoverageFrom": [
