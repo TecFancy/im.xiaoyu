@@ -10,7 +10,6 @@ class ListContainer extends React.Component {
 	<div className="section-list">
 	  <a className="section-list-item" href="#/section-list-item">
 	    <div className="section-list-item-text">
-	      <h3>page's title</h3>
 	      <p>page's description</p>
 	    </div>
 	    <div className="section-list-item-image">
