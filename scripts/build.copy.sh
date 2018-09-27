@@ -12,6 +12,7 @@ rsync -av --delete ~/www/im.xiaoyu/build/articles\
 		   ~/www/im.xiaoyu/build/page01\
 		   ~/www/im.xiaoyu/build/page02\
 		   ~/www/im.xiaoyu/build/page03\
+		   ~/www/im.xiaoyu/build/page04\
 		   ~/www/im.xiaoyu/build/index.html\
 		   ~/www/im.xiaoyu/build/asset-manifest.json\
 		   ~/www/im.xiaoyu/build/favicon.ico\

@@ -37,6 +37,10 @@ import articleImage043 from './articleImages/43.png';
 import articleImage044 from './articleImages/44.png';
 import articleImage045 from './articleImages/45.png';
 
+import articleImage076 from './articleImages/76.jpg';
+import articleImage077 from './articleImages/77.jpg';
+import articleImage078 from './articleImages/78.jpg';
+
 export default {
   articleImages: {
     articleImage001,
@@ -79,6 +83,9 @@ export default {
     articleImage042,
     articleImage043,
     articleImage044,
-    articleImage045
+    articleImage045,
+    articleImage076,
+    articleImage077,
+    articleImage078
   }
 };

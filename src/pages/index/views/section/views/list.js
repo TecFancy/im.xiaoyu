@@ -10,11 +10,12 @@ class ListContainer extends React.Component {
 	<div className="section-list">
 	  <a className="section-list-item" href="#/section-list-item">
 	    <div className="section-list-item-text">
-	      <p>page's description</p>
+	      <h3>{this.props.listState.h3}</h3>
+	      <p>{this.props.listState.des}</p>
 	    </div>
 	    <div className="section-list-item-image">
 	      <span className="section-list-item-image-mask"></span>
-	      <img src="#" alt="文章配图" />
+	      <img src={this.props.listState.image} alt="文章配图" />
 	    </div>
 	  </a>
 	</div>

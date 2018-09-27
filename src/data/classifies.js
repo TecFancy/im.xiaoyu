@@ -5,6 +5,9 @@ const classifies = [
       type: 'page',
       title: '小鱼简介',
       href: 'page01/',
+      image: images.articleImages.articleImage076,
+      h3: '专注于情感挽回、婚姻修复、爱情保鲜等服务',
+      des: '创立之初便崛起于中国两性情感咨询市场，用最专业的师资团队，打造全国最专业的情感咨询培训机构，现已是整个行业的领导者，树立了行业标杆',
       nav: [
 	{
 	  text: '分类一',
@@ -28,6 +31,9 @@ const classifies = [
       type: 'page',
       title: '服务范围',
       href: 'page02/',
+      image: images.articleImages.articleImage078,
+      h3: '专注于情感挽回、婚姻修复、爱情保鲜等服务',
+      des: '创立之初便崛起于中国两性情感咨询市场，用最专业的师资团队，打造全国最专业的情感咨询培训机构，现已是整个行业的领导者，树立了行业标杆',
       nav: [
 	{
 	  text: '分类一',
@@ -51,6 +57,9 @@ const classifies = [
       type: 'page',
       title: '权威团队',
       href: 'page03/',
+      image: images.articleImages.articleImage077,
+      h3: '九大维度，全面分析指导你的具体情感问题',
+      des: '你在感情中遇到的每一个问题，都会被导师团队预估，并且解决',
       nav: [
 	{
 	  text: '分类一',
@@ -459,6 +468,9 @@ const classifies = [
       type: 'page',
       title: '成功案例',
       href: 'page04/',
+      image: images.articleImages.articleImage076,
+      h3: '专注于情感挽回、婚姻修复、爱情保鲜等服务',
+      des: '创立之初便崛起于中国两性情感咨询市场，用最专业的师资团队，打造全国最专业的情感咨询培训机构，现已是整个行业的领导者，树立了行业标杆',
       nav: [
 	{
 	  text: '分类一',

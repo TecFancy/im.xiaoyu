@@ -28,6 +28,9 @@ class Index extends React.Component {
 		sectionHref={classify.href}
 		sectionNav={classify.nav}
 		list={classify.list}
+		image={classify.image}
+		h3={classify.h3}
+		des={classify.des}
 	      />
 	    );
 	  })
