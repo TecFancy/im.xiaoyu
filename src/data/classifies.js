@@ -477,29 +477,6 @@ const classifies = [
 	  url: '#/nav'
 	}
       ]
-    },
-    {
-      type: 'page',
-      title: '咨询热线',
-      href: 'page05/',
-      nav: [
-	{
-	  text: '分类一',
-	  url: '#/nav'
-	},
-	{
-	  text: '分类二',
-	  url: '#/nav'
-	},
-	{
-	  text: '分类三',
-	  url: '#/nav'
-	},
-	{
-	  text: '分类四',
-	  url: '#/nav'
-	}
-      ]
     }
 ];
 
