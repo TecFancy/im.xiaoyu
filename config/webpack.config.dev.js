@@ -76,21 +76,21 @@ module.exports = {
     //   require.resolve('react-dev-utils/webpackHotDevClient'),
     //   paths.appSrc + '/entries/page01.js'
     // ],
-    // page02: [  // 服务范围(挽爱计划)
-    //   require.resolve('./polyfills'),
-    //   require.resolve('react-dev-utils/webpackHotDevClient'),
-    //   paths.appSrc + '/entries/page02.js'
-    // ],
+    page02: [  // 服务范围(挽爱计划)
+      require.resolve('./polyfills'),
+      require.resolve('react-dev-utils/webpackHotDevClient'),
+      paths.appSrc + '/entries/page02.js'
+    ],
     // page03: [  // 权威团队(权威专家)
     //   require.resolve('./polyfills'),
     //   require.resolve('react-dev-utils/webpackHotDevClient'),
     //   paths.appSrc + '/entries/page03.js'
     // ],
-    page04: [  // 成功案例
-      require.resolve('./polyfills'),
-      require.resolve('react-dev-utils/webpackHotDevClient'),
-      paths.appSrc + '/entries/page04.js'
-    ],
+    // page04: [  // 成功案例
+    //   require.resolve('./polyfills'),
+    //   require.resolve('react-dev-utils/webpackHotDevClient'),
+    //   paths.appSrc + '/entries/page04.js'
+    // ],
     // classify01: [
     //   require.resolve('./polyfills'),
     //   require.resolve('react-dev-utils/webpackHotDevClient'),
@@ -503,24 +503,24 @@ module.exports = {
     //   title: 'Page01',
     //   filename: 'page01/index.html'
     // }),
-    // new HtmlWebpackPlugin({  // 服务范围(挽爱计划)
-    //   ...htmlWebpackPluginOptions,
-    //   chunks: ['page02'],
-    //   title: '服务范围 | 小鱼情感',
-    //   filename: 'page02/index.html'
-    // }),
+    new HtmlWebpackPlugin({  // 服务范围(挽爱计划)
+      ...htmlWebpackPluginOptions,
+      chunks: ['page02'],
+      title: '服务范围 | 小鱼情感',
+      filename: 'page02/index.html'
+    }),
     // new HtmlWebpackPlugin({  // 权威团队(权威专家)
     //   ...htmlWebpackPluginOptions,
     //   chunks: ['page03'],
     //   title: '权威团队 | 小鱼情感',
     //   filename: 'page03/index.html'
     // }),
-    new HtmlWebpackPlugin({  // 成功案例
-      ...htmlWebpackPluginOptions,
-      chunks: ['page04'],
-      title: '成功案例 | 小鱼情感',
-      filename: 'page04/index.html'
-    }),
+    // new HtmlWebpackPlugin({  // 成功案例
+    //   ...htmlWebpackPluginOptions,
+    //   chunks: ['page04'],
+    //   title: '成功案例 | 小鱼情感',
+    //   filename: 'page04/index.html'
+    // }),
     // new HtmlWebpackPlugin({
     //   ...htmlWebpackPluginOptions,
     //   chunks: ['classify01'],
