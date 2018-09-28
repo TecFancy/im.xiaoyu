@@ -81,11 +81,11 @@ module.exports = {
       require.resolve('react-dev-utils/webpackHotDevClient'),
       paths.appSrc + '/entries/page02.js'
     ],
-    // page03: [  // 权威团队(权威专家)
-    //   require.resolve('./polyfills'),
-    //   require.resolve('react-dev-utils/webpackHotDevClient'),
-    //   paths.appSrc + '/entries/page03.js'
-    // ],
+    page03: [  // 权威团队(权威专家)
+      require.resolve('./polyfills'),
+      require.resolve('react-dev-utils/webpackHotDevClient'),
+      paths.appSrc + '/entries/page03.js'
+    ],
     page04: [  // 成功案例
       require.resolve('./polyfills'),
       require.resolve('react-dev-utils/webpackHotDevClient'),
@@ -509,12 +509,12 @@ module.exports = {
       title: '服务范围 | 小鱼情感',
       filename: 'page02/index.html'
     }),
-    // new HtmlWebpackPlugin({  // 权威团队(权威专家)
-    //   ...htmlWebpackPluginOptions,
-    //   chunks: ['page03'],
-    //   title: '权威团队 | 小鱼情感',
-    //   filename: 'page03/index.html'
-    // }),
+    new HtmlWebpackPlugin({  // 权威团队(权威专家)
+      ...htmlWebpackPluginOptions,
+      chunks: ['page03'],
+      title: '权威团队 | 小鱼情感',
+      filename: 'page03/index.html'
+    }),
     new HtmlWebpackPlugin({  // 成功案例
       ...htmlWebpackPluginOptions,
       chunks: ['page04'],
