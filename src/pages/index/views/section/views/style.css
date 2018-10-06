@@ -3,6 +3,7 @@ section {
   background: #fff;
 }
 
+
 .section-header {
   border-bottom: 1px solid #e4e4e4;
 }
@@ -19,15 +20,15 @@ section {
   display: inline-block;
   width: 3px;
   height: 16px;
-  background: #ffa000;
-  margin-right: 15px;
+  background: #ee4646;
+  margin-right: 10px;
   margin-bottom: 2px;
 }
 
 .section-header-title span {
   height: 16px;
   line-height: 16px;
-  color: #ffa000;
+  color: #ee4646;
   font-size: 16px;
 }
 
@@ -63,3 +64,7 @@ section {
 }
 
 .section-header-nav a:last-child i {display: none;}
+
+.section-list {padding: 15px 0;}
+
+.section-list-item {margin: 0;}

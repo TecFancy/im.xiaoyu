@@ -9,6 +9,7 @@ body {
 .page,
 .page01,
 .page02,
-.page03 {background: #fff;}
+.page03,
+.page04 {background: #fff;}
 
 .text-center {text-align: center;}

@@ -66,7 +66,10 @@
 }
 
 .page03-theme-content h4,
-.page03-theme-content p {margin: 0;}
+.page03-theme-content p {
+  font-size: 13px;
+  margin: 0;
+}
 
 .page03-theme-content h4 {
   color: #F6394C;

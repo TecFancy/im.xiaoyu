@@ -101,10 +101,10 @@ module.exports = {
       require.resolve('./polyfills'),
       paths.appSrc + '/entries/page03.js'
     ],
-    // page04: [
-    //   require.resolve('./polyfills'),
-    //   paths.appSrc + '/entries/page04.js'
-    // ],
+    page04: [  // 成功案例
+      require.resolve('./polyfills'),
+      paths.appSrc + '/entries/page04.js'
+    ],
     classify01: [
       require.resolve('./polyfills'),
       paths.appSrc + '/entries/classify01.js'
@@ -500,12 +500,12 @@ module.exports = {
       filename: 'page03/index.html',
       title: '权威团队 | 小鱼情感'
     }),
-    // new HtmlWebpackPlugin({
-    //   ...htmlWebpackPluginOptions,
-    //   chunks: ['page04'],
-    //   filename: 'page04/index.html',
-    //   title: 'Page04'
-    // }),
+    new HtmlWebpackPlugin({  // 成功案例
+      ...htmlWebpackPluginOptions,
+      chunks: ['page04'],
+      filename: 'page04/index.html',
+      title: '成功案例 | 小鱼情感'
+    }),
 
     // classfies bellow
     new HtmlWebpackPlugin({

@@ -32,15 +32,15 @@
 
 /* @TODO 小图标 */
 .classifies a:nth-child(1) i {
-  background: url("./images/svg.svg") no-repeat center center;
+  background: url("./images/icon08.png") no-repeat center center;
   background-size: 100%;
 }
 .classifies a:nth-child(2) i {
-  background: url("./images/svg.svg") no-repeat center center;
+  background: url("./images/icon09.png") no-repeat center center;
   background-size: 100%;
 }
 .classifies a:nth-child(3) i {
-  background: url("./images/svg.svg") no-repeat center center;
+  background: url("./images/icon10.png") no-repeat center center;
   background-size: 100%;
 }
 .classifies a:nth-child(4) i {
@@ -79,12 +79,7 @@
 }
 
 .classifies a:nth-child(11) i {
-  background: url("./images/svg.svg") no-repeat center center;
-  background-size: 100%;
-}
-
-.classifies a:nth-child(12) i {
-  background: url("./images/svg.svg") no-repeat center center;
+  background: url("./images/icon11.png") no-repeat center center;
   background-size: 100%;
 }
 

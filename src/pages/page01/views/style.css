@@ -145,8 +145,10 @@
 
 .page01-guarantee-content-group-item p {
   color: #616161;
+  font-size: 13px;
 }
 .page01-guarantee-content-group-item p:nth-child(2) {
+  font-size: 16px;
   color: #313131;
   padding-bottom: 5px;
 }
@@ -200,6 +202,8 @@
 /* End: 服务步骤 */
 
 /* Start: 合作媒体 */
+.page01-cooperation {margin-bottom: 30px;}
+
 .page01-cooperation h3 {font-weight: normal;}
 
 .page01-cooperation-content span {
