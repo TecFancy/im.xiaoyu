@@ -5,9 +5,13 @@ import {view as Footer} from '../../../components/footer/';
 import Section01 from './section01.js';
 import Section02 from './section02.js';
 
+import toPc from '../../../utilities/toPc';
+
 import './style.css';
 
 import bannerImage from './images/banner.png';
+
+toPc();
 
 const Page03 = () => (
   <div className="page03">

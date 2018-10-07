@@ -4,6 +4,9 @@ import {view as ArticleList} from '../../../components/articleList/';
 import {view as Footer} from '../../../components/footer/';
 import {classifies} from '../../../data/';
 
+import toPc from '../../../utilities/toPc';
+toPc();
+
 class Classify05 extends React.Component {
   constructor() {
     super();

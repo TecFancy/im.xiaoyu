@@ -16,6 +16,9 @@ import image03 from './images/image03.png';
 import image04 from './images/image04.png';
 import image05 from './images/image05.png';
 
+import toPc from '../../../utilities/toPc';
+toPc();
+
 const Title = ({title}) => (  // 模块标题
   <div className="page04-title">
     <span className="page04-title-line"></span>

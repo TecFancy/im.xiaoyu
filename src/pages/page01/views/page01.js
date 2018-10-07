@@ -10,9 +10,15 @@ import bannerImage from './images/banner.png';
 import boxImage01 from './images/image-1.png';
 import boxImage02 from './images/image-2.png';
 
+import toPc from '../../../utilities/toPc';
+
 import './style.css';
 
 class Page01 extends React.Component {
+  componentWillMount() {
+    toPc();
+  }
+
   render() {
     return (
       <div className="page01">

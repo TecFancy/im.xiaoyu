@@ -5,9 +5,13 @@ import Service from './service.js';
 import Circuit from './circuit.js';
 import Guarantee from './guarantee.js';
 
+import toPc from '../../../utilities/toPc';
+
 import './style.css';
 
 import bannerImage from './images/banner.png';
+
+toPc();
 
 const Page02 = () => (
   <div className="page02">

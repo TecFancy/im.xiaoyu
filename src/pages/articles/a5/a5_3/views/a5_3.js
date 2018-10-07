@@ -8,6 +8,9 @@ import {view as Footer} from '../../../../../components/footer/';
 import markdown from '../../../../../utilities/markdown.js';
 import markdownFile from './a5_3.md';
 
+import toPc from '../../../utilities/toPc';
+toPc();
+
 const result = markdown.render(markdownFile);
 
 class A5_3 extends React.Component {

@@ -7,9 +7,15 @@ import {view as Banner} from './banner/';
 import {view as Classifies} from './classifies/';
 import {view as Section} from './section/';
 
+import toPc from '../../../utilities/toPc';
+
 import '../../style.css';
 
 class Index extends React.Component {
+  componentWillMount() {
+    toPc();
+  }
+
   render() {
     const {classifies} = this.context.store.getState();
 
