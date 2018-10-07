@@ -113,22 +113,22 @@ module.exports = {
       require.resolve('./polyfills'),
       paths.appSrc + '/entries/classify02.js'
     ],
-    classify03: [
-      require.resolve('./polyfills'),
-      paths.appSrc + '/entries/classify03.js'
-    ],
+    // classify03: [
+    //   require.resolve('./polyfills'),
+    //   paths.appSrc + '/entries/classify03.js'
+    // ],
     classify04: [
       require.resolve('./polyfills'),
       paths.appSrc + '/entries/classify04.js'
     ],
-    classify05: [
-      require.resolve('./polyfills'),
-      paths.appSrc + '/entries/classify05.js'
-    ],
-    classify06: [
-      require.resolve('./polyfills'),
-      paths.appSrc + '/entries/classify06.js'
-    ],
+    // classify05: [
+    //   require.resolve('./polyfills'),
+    //   paths.appSrc + '/entries/classify05.js'
+    // ],
+    // classify06: [
+    //   require.resolve('./polyfills'),
+    //   paths.appSrc + '/entries/classify06.js'
+    // ],
     classify07: [
       require.resolve('./polyfills'),
       paths.appSrc + '/entries/classify07.js'
@@ -520,30 +520,30 @@ module.exports = {
       filename: 'classify02/index.html',
       title: 'Classify02'
     }),
-    new HtmlWebpackPlugin({
-      ...htmlWebpackPluginOptions,
-      chunks: ['classify03'],
-      filename: 'classify03/index.html',
-      title: 'Classify03'
-    }),
+    // new HtmlWebpackPlugin({
+    //   ...htmlWebpackPluginOptions,
+    //   chunks: ['classify03'],
+    //   filename: 'classify03/index.html',
+    //   title: 'Classify03'
+    // }),
     new HtmlWebpackPlugin({
       ...htmlWebpackPluginOptions,
       chunks: ['classify04'],
       filename: 'classify04/index.html',
       title: 'Classify04'
     }),
-    new HtmlWebpackPlugin({
-      ...htmlWebpackPluginOptions,
-      chunks: ['classify05'],
-      filename: 'classify05/index.html',
-      title: 'Classify05'
-    }),
-    new HtmlWebpackPlugin({
-      ...htmlWebpackPluginOptions,
-      chunks: ['classify06'],
-      filename: 'classify06/index.html',
-      title: 'Classify06'
-    }),
+    // new HtmlWebpackPlugin({
+    //   ...htmlWebpackPluginOptions,
+    //   chunks: ['classify05'],
+    //   filename: 'classify05/index.html',
+    //   title: 'Classify05'
+    // }),
+    // new HtmlWebpackPlugin({
+    //   ...htmlWebpackPluginOptions,
+    //   chunks: ['classify06'],
+    //   filename: 'classify06/index.html',
+    //   title: 'Classify06'
+    // }),
     new HtmlWebpackPlugin({
       ...htmlWebpackPluginOptions,
       chunks: ['classify07'],
@@ -616,36 +616,36 @@ module.exports = {
     }),
 
     // articles bellow - a3
-    new HtmlWebpackPlugin({  // 文章 - a3_1
-      ...htmlWebpackPluginOptions,
-      chunks: ['a3_1'],
-      title: '：面对“性格不合 对你没感觉”的分手，我该如何挽回？ | 小鹿情感',
-      filename: 'articles/a3/a3_1/index.html'
-    }),
-    new HtmlWebpackPlugin({  // 文章 - a3_2
-      ...htmlWebpackPluginOptions,
-      chunks: ['a3_2'],
-      title: '：优柔寡断的男人如何改善性格成功挽回？ | 小鹿情感',
-      filename: 'articles/a3/a3_2/index.html'
-    }),
-    new HtmlWebpackPlugin({  // 文章 - a3_3
-      ...htmlWebpackPluginOptions,
-      chunks: ['a3_3'],
-      title: '：“分手了，都怪我性格太内向了！” | 小鹿情感',
-      filename: 'articles/a3/a3_3/index.html'
-    }),
-    new HtmlWebpackPlugin({  // 文章 - a3_4
-      ...htmlWebpackPluginOptions,
-      chunks: ['a3_4'],
-      title: '：别真信了“性格不合”的分手理由，你必须要看清这背后隐藏的问题 | 小鹿情感',
-      filename: 'articles/a3/a3_4/index.html'
-    }),
-    new HtmlWebpackPlugin({  // 文章 - a3_5
-      ...htmlWebpackPluginOptions,
-      chunks: ['a3_5'],
-      title: '：性格偏执型恋人追求爱情完美 最终断送幸福 | 小鹿情感',
-      filename: 'articles/a3/a3_5/index.html'
-    }),
+    // new HtmlWebpackPlugin({  // 文章 - a3_1
+    //   ...htmlWebpackPluginOptions,
+    //   chunks: ['a3_1'],
+    //   title: '：面对“性格不合 对你没感觉”的分手，我该如何挽回？ | 小鹿情感',
+    //   filename: 'articles/a3/a3_1/index.html'
+    // }),
+    // new HtmlWebpackPlugin({  // 文章 - a3_2
+    //   ...htmlWebpackPluginOptions,
+    //   chunks: ['a3_2'],
+    //   title: '：优柔寡断的男人如何改善性格成功挽回？ | 小鹿情感',
+    //   filename: 'articles/a3/a3_2/index.html'
+    // }),
+    // new HtmlWebpackPlugin({  // 文章 - a3_3
+    //   ...htmlWebpackPluginOptions,
+    //   chunks: ['a3_3'],
+    //   title: '：“分手了，都怪我性格太内向了！” | 小鹿情感',
+    //   filename: 'articles/a3/a3_3/index.html'
+    // }),
+    // new HtmlWebpackPlugin({  // 文章 - a3_4
+    //   ...htmlWebpackPluginOptions,
+    //   chunks: ['a3_4'],
+    //   title: '：别真信了“性格不合”的分手理由，你必须要看清这背后隐藏的问题 | 小鹿情感',
+    //   filename: 'articles/a3/a3_4/index.html'
+    // }),
+    // new HtmlWebpackPlugin({  // 文章 - a3_5
+    //   ...htmlWebpackPluginOptions,
+    //   chunks: ['a3_5'],
+    //   title: '：性格偏执型恋人追求爱情完美 最终断送幸福 | 小鹿情感',
+    //   filename: 'articles/a3/a3_5/index.html'
+    // }),
 
     // articles bellow - a4
     new HtmlWebpackPlugin({  // 文章 - a4_1
@@ -680,68 +680,68 @@ module.exports = {
     }),
 
     // articles bellow - a5
-    new HtmlWebpackPlugin({  // 文章 - a5_1
-      ...htmlWebpackPluginOptions,
-      chunks: ['a5_1'],
-      title: '新鲜感褪去后，爱情该何去何从？ | 小鹿情感',
-      filename: 'articles/a5/a5_1/index.html'
-    }),
-    new HtmlWebpackPlugin({  // 文章 - a5_2
-      ...htmlWebpackPluginOptions,
-      chunks: ['a5_2'],
-      title: '情侣间新鲜感殆尽，除了分手我们还能做什么？ | 小鹿情感',
-      filename: 'articles/a5/a5_2/index.html'
-    }),
-    new HtmlWebpackPlugin({  // 文章 - a5_3
-      ...htmlWebpackPluginOptions,
-      chunks: ['a5_3'],
-      title: '七年感情一朝散，我们的爱情“过期”了 | 小鹿情感',
-      filename: 'articles/a5/a5_3/index.html'
-    }),
-    new HtmlWebpackPlugin({  // 文章 - a5_4
-      ...htmlWebpackPluginOptions,
-      chunks: ['a5_4'],
-      title: '爱情没有新鲜感 恩爱情侣告诉你需要三种“距离感”来拯救 | 小鹿情感',
-      filename: 'articles/a5/a5_4/index.html'
-    }),
-    new HtmlWebpackPlugin({  // 文章 - a5_5
-      ...htmlWebpackPluginOptions,
-      chunks: ['a5_5'],
-      title: '面对新鲜感缺失该怎么办？ | 小鹿情感',
-      filename: 'articles/a5/a5_5/index.html'
-    }),
+    // new HtmlWebpackPlugin({  // 文章 - a5_1
+    //   ...htmlWebpackPluginOptions,
+    //   chunks: ['a5_1'],
+    //   title: '新鲜感褪去后，爱情该何去何从？ | 小鹿情感',
+    //   filename: 'articles/a5/a5_1/index.html'
+    // }),
+    // new HtmlWebpackPlugin({  // 文章 - a5_2
+    //   ...htmlWebpackPluginOptions,
+    //   chunks: ['a5_2'],
+    //   title: '情侣间新鲜感殆尽，除了分手我们还能做什么？ | 小鹿情感',
+    //   filename: 'articles/a5/a5_2/index.html'
+    // }),
+    // new HtmlWebpackPlugin({  // 文章 - a5_3
+    //   ...htmlWebpackPluginOptions,
+    //   chunks: ['a5_3'],
+    //   title: '七年感情一朝散，我们的爱情“过期”了 | 小鹿情感',
+    //   filename: 'articles/a5/a5_3/index.html'
+    // }),
+    // new HtmlWebpackPlugin({  // 文章 - a5_4
+    //   ...htmlWebpackPluginOptions,
+    //   chunks: ['a5_4'],
+    //   title: '爱情没有新鲜感 恩爱情侣告诉你需要三种“距离感”来拯救 | 小鹿情感',
+    //   filename: 'articles/a5/a5_4/index.html'
+    // }),
+    // new HtmlWebpackPlugin({  // 文章 - a5_5
+    //   ...htmlWebpackPluginOptions,
+    //   chunks: ['a5_5'],
+    //   title: '面对新鲜感缺失该怎么办？ | 小鹿情感',
+    //   filename: 'articles/a5/a5_5/index.html'
+    // }),
 
-    // articles bellow - a6
-    new HtmlWebpackPlugin({  // 文章 - a6_1
-      ...htmlWebpackPluginOptions,
-      chunks: ['a6_1'],
-      title: '情侣分手后复合的概率是82%，你为什么失败了？ | 小鹿情感',
-      filename: 'articles/a6/a6_1/index.html'
-    }),
-    new HtmlWebpackPlugin({  // 文章 - a6_2
-      ...htmlWebpackPluginOptions,
-      chunks: ['a6_2'],
-      title: '当爱情被直男癌症状击垮 我该如何挽回？ | 小鹿情感',
-      filename: 'articles/a6/a6_2/index.html'
-    }),
-    new HtmlWebpackPlugin({  // 文章 - a6_3
-      ...htmlWebpackPluginOptions,
-      chunks: ['a6_3'],
-      title: '当心了！男人只想玩暧昧的几种表现，女生必看！ | 小鹿情感',
-      filename: 'articles/a6/a6_3/index.html'
-    }),
-    new HtmlWebpackPlugin({  // 文章 - a6_4
-      ...htmlWebpackPluginOptions,
-      chunks: ['a6_4'],
-      title: '因“依恋损伤”而分手，如何快速走出心理创伤？ | 小鹿情感',
-      filename: 'articles/a6/a6_4/index.html'
-    }),
-    new HtmlWebpackPlugin({  // 文章 - a6_5
-      ...htmlWebpackPluginOptions,
-      chunks: ['a6_5'],
-      title: '谈了100次恋爱屡战屡败？因为你陷入了“低自尊型恋爱” | 小鹿情感',
-      filename: 'articles/a6/a6_5/index.html'
-    }),
+    // // articles bellow - a6
+    // new HtmlWebpackPlugin({  // 文章 - a6_1
+    //   ...htmlWebpackPluginOptions,
+    //   chunks: ['a6_1'],
+    //   title: '情侣分手后复合的概率是82%，你为什么失败了？ | 小鹿情感',
+    //   filename: 'articles/a6/a6_1/index.html'
+    // }),
+    // new HtmlWebpackPlugin({  // 文章 - a6_2
+    //   ...htmlWebpackPluginOptions,
+    //   chunks: ['a6_2'],
+    //   title: '当爱情被直男癌症状击垮 我该如何挽回？ | 小鹿情感',
+    //   filename: 'articles/a6/a6_2/index.html'
+    // }),
+    // new HtmlWebpackPlugin({  // 文章 - a6_3
+    //   ...htmlWebpackPluginOptions,
+    //   chunks: ['a6_3'],
+    //   title: '当心了！男人只想玩暧昧的几种表现，女生必看！ | 小鹿情感',
+    //   filename: 'articles/a6/a6_3/index.html'
+    // }),
+    // new HtmlWebpackPlugin({  // 文章 - a6_4
+    //   ...htmlWebpackPluginOptions,
+    //   chunks: ['a6_4'],
+    //   title: '因“依恋损伤”而分手，如何快速走出心理创伤？ | 小鹿情感',
+    //   filename: 'articles/a6/a6_4/index.html'
+    // }),
+    // new HtmlWebpackPlugin({  // 文章 - a6_5
+    //   ...htmlWebpackPluginOptions,
+    //   chunks: ['a6_5'],
+    //   title: '谈了100次恋爱屡战屡败？因为你陷入了“低自尊型恋爱” | 小鹿情感',
+    //   filename: 'articles/a6/a6_5/index.html'
+    // }),
 
     // articles bellow - a7
     new HtmlWebpackPlugin({  // 文章 - a7_1

@@ -3,10 +3,7 @@
 rsync -av --delete ~/www/im.xiaoyu/build/articles\
                    ~/www/im.xiaoyu/build/classify01\
                    ~/www/im.xiaoyu/build/classify02\
-		   ~/www/im.xiaoyu/build/classify03\
 		   ~/www/im.xiaoyu/build/classify04\
-		   ~/www/im.xiaoyu/build/classify05\
-		   ~/www/im.xiaoyu/build/classify06\
 		   ~/www/im.xiaoyu/build/classify07\
 		   ~/www/im.xiaoyu/build/im/*\
 		   ~/www/im.xiaoyu/build/page01\
