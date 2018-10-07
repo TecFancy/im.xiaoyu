@@ -2,7 +2,7 @@
 const toPc = () => {
   const screen = window.screen;
 
-  if (screen.width > 375) {
+  if (screen.width > 768) {
     window.location.href = 'https://www.xiaoyuqinggan.com/';
   }
 };
