@@ -175,26 +175,26 @@ module.exports = {
       require.resolve('./polyfills'),
       paths.appSrc + '/entries/articles/a2/a2_5.js'
     ],
-    a3_1: [
-      require.resolve('./polyfills'),
-      paths.appSrc + '/entries/articles/a3/a3_1.js'
-    ],
-    a3_2: [
-      require.resolve('./polyfills'),
-      paths.appSrc + '/entries/articles/a3/a3_2.js'
-    ],
-    a3_3: [
-      require.resolve('./polyfills'),
-      paths.appSrc + '/entries/articles/a3/a3_3.js'
-    ],
-    a3_4: [
-      require.resolve('./polyfills'),
-      paths.appSrc + '/entries/articles/a3/a3_4.js'
-    ],
-    a3_5: [
-      require.resolve('./polyfills'),
-      paths.appSrc + '/entries/articles/a3/a3_5.js'
-    ],
+    // a3_1: [
+    //   require.resolve('./polyfills'),
+    //   paths.appSrc + '/entries/articles/a3/a3_1.js'
+    // ],
+    // a3_2: [
+    //   require.resolve('./polyfills'),
+    //   paths.appSrc + '/entries/articles/a3/a3_2.js'
+    // ],
+    // a3_3: [
+    //   require.resolve('./polyfills'),
+    //   paths.appSrc + '/entries/articles/a3/a3_3.js'
+    // ],
+    // a3_4: [
+    //   require.resolve('./polyfills'),
+    //   paths.appSrc + '/entries/articles/a3/a3_4.js'
+    // ],
+    // a3_5: [
+    //   require.resolve('./polyfills'),
+    //   paths.appSrc + '/entries/articles/a3/a3_5.js'
+    // ],
     a4_1: [
       require.resolve('./polyfills'),
       paths.appSrc + '/entries/articles/a4/a4_1.js'
@@ -215,46 +215,46 @@ module.exports = {
       require.resolve('./polyfills'),
       paths.appSrc + '/entries/articles/a4/a4_5.js'
     ],
-    a5_1: [
-      require.resolve('./polyfills'),
-      paths.appSrc + '/entries/articles/a5/a5_1.js'
-    ],
-    a5_2: [
-      require.resolve('./polyfills'),
-      paths.appSrc + '/entries/articles/a5/a5_2.js'
-    ],
-    a5_3: [
-      require.resolve('./polyfills'),
-      paths.appSrc + '/entries/articles/a5/a5_3.js'
-    ],
-    a5_4: [
-      require.resolve('./polyfills'),
-      paths.appSrc + '/entries/articles/a5/a5_4.js'
-    ],
-    a5_5: [
-      require.resolve('./polyfills'),
-      paths.appSrc + '/entries/articles/a5/a5_5.js'
-    ],
-    a6_1: [
-      require.resolve('./polyfills'),
-      paths.appSrc + '/entries/articles/a6/a6_1.js'
-    ],
-    a6_2: [
-      require.resolve('./polyfills'),
-      paths.appSrc + '/entries/articles/a6/a6_2.js'
-    ],
-    a6_3: [
-      require.resolve('./polyfills'),
-      paths.appSrc + '/entries/articles/a6/a6_3.js'
-    ],
-    a6_4: [
-      require.resolve('./polyfills'),
-      paths.appSrc + '/entries/articles/a6/a6_4.js'
-    ],
-    a6_5: [
-      require.resolve('./polyfills'),
-      paths.appSrc + '/entries/articles/a6/a6_5.js'
-    ],
+    // a5_1: [
+    //   require.resolve('./polyfills'),
+    //   paths.appSrc + '/entries/articles/a5/a5_1.js'
+    // ],
+    // a5_2: [
+    //   require.resolve('./polyfills'),
+    //   paths.appSrc + '/entries/articles/a5/a5_2.js'
+    // ],
+    // a5_3: [
+    //   require.resolve('./polyfills'),
+    //   paths.appSrc + '/entries/articles/a5/a5_3.js'
+    // ],
+    // a5_4: [
+    //   require.resolve('./polyfills'),
+    //   paths.appSrc + '/entries/articles/a5/a5_4.js'
+    // ],
+    // a5_5: [
+    //   require.resolve('./polyfills'),
+    //   paths.appSrc + '/entries/articles/a5/a5_5.js'
+    // ],
+    // a6_1: [
+    //   require.resolve('./polyfills'),
+    //   paths.appSrc + '/entries/articles/a6/a6_1.js'
+    // ],
+    // a6_2: [
+    //   require.resolve('./polyfills'),
+    //   paths.appSrc + '/entries/articles/a6/a6_2.js'
+    // ],
+    // a6_3: [
+    //   require.resolve('./polyfills'),
+    //   paths.appSrc + '/entries/articles/a6/a6_3.js'
+    // ],
+    // a6_4: [
+    //   require.resolve('./polyfills'),
+    //   paths.appSrc + '/entries/articles/a6/a6_4.js'
+    // ],
+    // a6_5: [
+    //   require.resolve('./polyfills'),
+    //   paths.appSrc + '/entries/articles/a6/a6_5.js'
+    // ],
     a7_1: [
       require.resolve('./polyfills'),
       paths.appSrc + '/entries/articles/a7/a7_1.js'
