@@ -6,7 +6,8 @@ const Footer = () => (
   <div className="footer">
     <div className="footer-info">
       <span>咨询热线: xxxx-xxx-xxx</span>
-      <span>Copyright©2018 小鱼情感 xxx-xxx-xxx</span>
+      <span>Copyright©2018 北京小鱼果果科技有限公司</span>
+      <span>京ICP备18050673号-1</span>
     </div>
   </div>
 );
