@@ -4,11 +4,13 @@ import {view as ArticleList} from '../../../../../components/articleList/';
 class ListContainer extends React.Component {
   render() {
     const {sectionType} = this.props.listState;
+    const {sectionHref} = this.props.listState;
 
     if (sectionType === 'page') {  // 渲染 page 的 section
+      console.log(sectionHref);
       return (
 	<div className="section-list">
-	  <a className="section-list-item" href="#/section-list-item">
+	  <a className="section-list-item" href={sectionHref}>
 	    <div className="section-list-item-text">
 	      <h3>{this.props.listState.h3}</h3>
 	      <p>{this.props.listState.des}</p>
