@@ -11,6 +11,18 @@ import toPc from '../../../utilities/toPc';
 
 import '../../style.css';
 
+fetch('http://mes.jvziqinggan.com/people/selectPeople', {
+  headers: {
+    'content-type': 'application/json'
+  },
+  method: 'POST',
+  mode: 'no-cors',
+  credentials: 'include',
+  body: JSON.stringify({pageNumber: 0})
+}).then(response => {
+  console.log(response);
+});
+
 class Index extends React.Component {
   componentWillMount() {
     toPc();
