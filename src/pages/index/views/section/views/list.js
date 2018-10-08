@@ -7,7 +7,6 @@ class ListContainer extends React.Component {
     const {sectionHref} = this.props.listState;
 
     if (sectionType === 'page') {  // 渲染 page 的 section
-      console.log(sectionHref);
       return (
 	<div className="section-list">
 	  <a className="section-list-item" href={sectionHref}>
