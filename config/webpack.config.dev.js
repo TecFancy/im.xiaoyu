@@ -303,6 +303,11 @@ module.exports = {
     //   require.resolve('react-dev-utils/webpackHotDevClient'),
     //   paths.appSrc + '/entries/articles/a7/a7_5.js'
     // ],
+    help: [
+      require.resolve('./polyfills'),
+      require.resolve('react-dev-utils/webpackHotDevClient'),
+      paths.appSrc + '/entries/help.js'
+    ]
   },
   output: {
     // Add /* filename */ comments to generated require()s in the output.
@@ -787,6 +792,13 @@ module.exports = {
     //   title: '因为小事而分手？那是因为你不知道她忍了多久 | 小鹿情感',
     //   filename: 'articles/a7/a7_5/index.html'
     // }),
+    //
+    new HtmlWebpackPlugin({  // 成功案例
+      ...htmlWebpackPluginOptions,
+      chunks: ['help'],
+      title: '情感求助 | 小鱼情感',
+      filename: 'help/index.html'
+    }),
 
     // Add module names to factory functions so they appear in browser profiler.
     new webpack.NamedModulesPlugin(),

@@ -1,0 +1,121 @@
+.help-content-title {
+  font-weight: normal;
+  text-align: center;
+  color: #ff8585;
+  letter-spacing: 1px;
+  margin: 40px 0;
+}
+
+.help-content-inputs {margin: 0 15px;}
+
+.help-content-inputs-item {
+  width: 100%;
+  margin: 20px 0;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.help-content-inputs-item .input-key {
+  display: inline-block;
+  width: 70px;
+  text-align: right;
+  padding-right: 10px;
+  color: #313131;
+}
+
+.help-content-inputs-item input{
+  border: none;
+  background: #eee;
+  border-radius: 3px;
+  height: 26px;
+  line-height: 26px;
+  letter-spacing: 1px;
+  min-width: 235px;
+  padding: 5px 10px;
+}
+
+.help-content-inputs-item.input-question {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.help-content-inputs-item.input-question .input-text {
+  border: none;
+  background: #eee;
+  resize: none;
+  border-radius: 3px;
+  line-height: 26px;
+  padding: 5px 10px;
+  padding-left: 8px;
+  width: 235px;
+  text-align: justify;
+}
+
+.help-content-inputs-item.input-sex i {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+}
+
+.help-content-inputs-item .input-text {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.help-content-inputs-item .input-sex-male,
+.help-content-inputs-item .input-sex-female {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.help-content-inputs-item .input-sex-male {padding-right: 30px;}
+
+.help-content-inputs-item .input-sex-male span,
+.help-content-inputs-item .input-sex-female span {
+  padding-right: 10px;
+  color: #919191;
+}
+
+.help-content-inputs-item .input-sex-male i {
+  background: url('./images/checkbox-no.svg') no-repeat center center;
+  background-size: 100%;
+  transition: all .3s;
+}
+
+.help-content-inputs-item .input-sex-male i.active {
+  background: url('./images/checkbox-yes.svg') no-repeat center center;
+  background-size: 100%;
+}
+
+.help-content-inputs-item .input-sex-female i {
+  background: url('./images/checkbox-no.svg') no-repeat center center;
+  background-size: 100%;
+  transition: all .3s;
+}
+
+.help-content-inputs-item .input-sex-female i.active {
+  background: url('./images/checkbox-yes.svg') no-repeat center center;
+  background-size: 100%;
+}
+
+.help-content-submit {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 40px 0;
+}
+
+.help-content-submit button {
+  border: none;
+  background: #ff8585;
+  height: 36px;
+  line-height: 36px;
+  padding: 0 40px;
+  border-radius: 36px;
+  color: #fff;
+  font-size: 18px;
+}
