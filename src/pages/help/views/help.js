@@ -8,6 +8,27 @@ import '../../style.css';
 import './style.css';
 
 class Content extends React.Component {
+  constructor(props) {
+    super(props);
+
+    this.updateMaleState = this.updateMaleState.bind(this);
+    this.updateFemaleState = this.updateFemaleState.bind(this);
+
+    this.state = {
+      maleButton: {checked: false},
+      femaleButton: {checked: false}
+    };
+  }
+
+  updateMaleState() {
+    if (this.state.maleButton.checked) this.setState({maleButton: {checked: true}});
+    else this.setState({maleButton: {checked: false}});
+  }
+
+  updateFemaleState() {
+    console.log('update female state.');
+  }
+
   render() {
     return (
       <div className="help-content">
@@ -28,13 +49,13 @@ class Content extends React.Component {
 	  <div className="input-sex help-content-inputs-item">
 	    <span className="input-key">性别: </span>
 	    <div className="input-text">
-	      <span className="input-sex-male">
+	      <span className="input-sex-male" onClick={() => {this.updateMaleState();}}>
 		<span>男</span>
-		<i></i>
+		<i className={this.state.maleButton.checked ? 'active' : ''}></i>
 	      </span>
-	      <span className="input-sex-female">
+	      <span className="input-sex-female" onClick={() => {this.updateFemaleState();}}>
 		<span>女</span>
-		<i></i>
+		<i className={this.state.femaleButton.checked ? 'active' : ''}></i>
 	      </span>
 	    </div>
 	  </div>

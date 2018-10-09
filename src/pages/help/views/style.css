@@ -72,7 +72,7 @@
   align-items: center;
 }
 
-.help-content-inputs-item .input-sex-male {padding-right: 30px;}
+.help-content-inputs-item .input-sex-male {margin-right: 30px;}
 
 .help-content-inputs-item .input-sex-male span,
 .help-content-inputs-item .input-sex-female span {
