@@ -11,16 +11,22 @@ import toPc from '../../../utilities/toPc';
 
 import '../../style.css';
 
-// fetch('http://mes.jvziqinggan.com/people/selectPeople', {
+// fetch('http://192.168.31.198:8080/people/selectPeople', {
 //   headers: {
-//     'content-type': 'application/json'
+//     'content-type': 'application/json;charset=utf-8'
 //   },
 //   method: 'POST',
-//   mode: 'no-cors',
+//   mode: 'cors',
 //   credentials: 'include',
 //   body: JSON.stringify({pageNumber: 0})
 // }).then(response => {
-//   console.log(response);
+//   if (response.ok) {
+//     response.text().then(data => {
+//       console.log(JSON.parse(data));
+//     });
+//   }
+// }).catch(err => {
+//   console.log(err);
 // });
 
 class Index extends React.Component {
