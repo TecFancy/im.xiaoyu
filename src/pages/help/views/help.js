@@ -20,13 +20,41 @@ class Content extends React.Component {
     };
   }
 
-  updateMaleState() {
-    if (this.state.maleButton.checked) this.setState({maleButton: {checked: true}});
-    else this.setState({maleButton: {checked: false}});
+  updateMaleState() {  // 点击男
+    // false -> true
+    if (!this.state.maleButton.checked) {  // 男未选中
+      this.setState({
+	maleButton: {checked: true},
+	femaleButton: {checked: false}
+      });
+      return;
+    }
+
+    // true -> false
+    if (this.state.maleButton.checked) {  // 男选中
+      this.setState({
+        maleButton: {checked: false},
+	femaleButton: {checked: true}
+      });
+    }
   }
 
-  updateFemaleState() {
-    console.log('update female state.');
+  updateFemaleState() {  // 点击女
+    // false -> true
+    if (!this.state.femaleButton.checked) {  // 女未选中
+      this.setState({
+	maleButton: {checked: false},
+	femaleButton: {checked: true}
+      });
+    }
+
+    // true -> false
+    if (this.state.femaleButton.checked) {  // 女选中
+      this.setState({
+	maleButton: {checked: true},
+	femaleButton: {checked: false}
+      });
+    }
   }
 
   render() {
