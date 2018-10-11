@@ -91,26 +91,26 @@ module.exports = {
       require.resolve('react-dev-utils/webpackHotDevClient'),
       paths.appSrc + '/entries/page04.js'
     ],
-    // classify01: [
-    //   require.resolve('./polyfills'),
-    //   require.resolve('react-dev-utils/webpackHotDevClient'),
-    //   paths.appSrc + '/entries/classify01.js'
-    // ],
-    // classify02: [
-    //   require.resolve('./polyfills'),
-    //   require.resolve('react-dev-utils/webpackHotDevClient'),
-    //   paths.appSrc + '/entries/classify02.js'
-    // ],
+    classify01: [
+      require.resolve('./polyfills'),
+      require.resolve('react-dev-utils/webpackHotDevClient'),
+      paths.appSrc + '/entries/classify01.js'
+    ],
+    classify02: [
+      require.resolve('./polyfills'),
+      require.resolve('react-dev-utils/webpackHotDevClient'),
+      paths.appSrc + '/entries/classify02.js'
+    ],
     // classify03: [
     //   require.resolve('./polyfills'),
     //   require.resolve('react-dev-utils/webpackHotDevClient'),
     //   paths.appSrc + '/entries/classify03.js'
     // ],
-    // classify04: [
-    //   require.resolve('./polyfills'),
-    //   require.resolve('react-dev-utils/webpackHotDevClient'),
-    //   paths.appSrc + '/entries/classify04.js'
-    // ],
+    classify04: [
+      require.resolve('./polyfills'),
+      require.resolve('react-dev-utils/webpackHotDevClient'),
+      paths.appSrc + '/entries/classify04.js'
+    ],
     // classify05: [
     //   require.resolve('./polyfills'),
     //   require.resolve('react-dev-utils/webpackHotDevClient'),
@@ -303,7 +303,7 @@ module.exports = {
     //   require.resolve('react-dev-utils/webpackHotDevClient'),
     //   paths.appSrc + '/entries/articles/a7/a7_5.js'
     // ],
-    help: [
+    help: [  // 免费咨询
       require.resolve('./polyfills'),
       require.resolve('react-dev-utils/webpackHotDevClient'),
       paths.appSrc + '/entries/help.js'
@@ -793,10 +793,10 @@ module.exports = {
     //   filename: 'articles/a7/a7_5/index.html'
     // }),
     //
-    new HtmlWebpackPlugin({  // 成功案例
+    new HtmlWebpackPlugin({  // 免费咨询
       ...htmlWebpackPluginOptions,
       chunks: ['help'],
-      title: '情感求助 | 小鱼情感',
+      title: '免费咨询 | 小鱼情感',
       filename: 'help/index.html'
     }),
 
