@@ -142,6 +142,9 @@ class Content extends React.Component {
   }
 
   onSubmit() {  // 提交
+    // 阻止用户提交
+    return;
+
     // 验证用户名
     if (this.state.data.pname === null) {
       alert('用户名为必填项');
@@ -196,7 +199,8 @@ class Content extends React.Component {
   render() {
     return (
       <div className="help-content">
-	<h3 className="help-content-title">免费领取情感咨询服务体验</h3>
+	{/* <h3 className="help-content-title">免费领取情感咨询服务体验</h3> */}
+	<h3 className="help-content-title">咨询功能正在开发，敬请期待！</h3>
 	<div className="help-content-inputs">
 	  <div className="input-name help-content-inputs-item">
 	    <span className="input-key">姓名: </span>

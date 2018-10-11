@@ -245,61 +245,6 @@ const classifies = [
       ]
     },
     {
-      type: 'article',
-      title: '矛盾积累',
-      href: 'classify07/',
-      nav: [
-	{
-	  text: '分类一',
-	  url: '#/nav'
-	},
-	{
-	  text: '分类二',
-	  url: '#/nav'
-	},
-	{
-	  text: '分类三',
-	  url: '#/nav'
-	},
-	{
-	  text: '分类四',
-	  url: '#/nav'
-	}
-      ],
-      list: [
-	{
-	  url: 'articles/a7/a7_1/',
-	  title: '冷战，只会让矛盾长期积压',
-	  description: '大家好，我们是小鱼情感。专注情感，为爱而生。小鱼情感，致力于为大家提供挽回爱情、挽救婚姻、分离小三、订制爱情等两性情感服务。',
-	  image: images.articleImages.articleImage040
-	},
-	{
-	  url: 'articles/a7/a7_2/',
-	  title: '小矛盾堆积成大问题，分手来的猝不及防',
-	  description: '刘亮（化名）和女友小夏（化名）在一起五年，在对彼此越来越了解的同时，两人之间的矛盾也不可避免的多了起来。',
-	  image: images.articleImages.articleImage042
-	},
-	{
-	  url: 'articles/a7/a7_3/',
-	  title: '“破窗效应”告诉你：小事背后隐藏分手本质',
-	  description: '在小鱼情感从事挽回行业多年，接触到的学员中，有60%的人是因为小事爆发争吵而分手，很多学员也疑惑为什么伴侣会因为鸡毛蒜皮的小事就毅然决然提出分手。',
-	  image: images.articleImages.articleImage043
-	},
-	{
-	  url: 'articles/a7/a7_4/',
-	  title: '小矛盾膨胀激化，最终引发分手，你做错了什么？',
-	  description: '我叫钟林（化名），今年32岁，私企中层，收入中等。我女朋友的职业是小学语文老师，今年29岁。',
-	  image: images.articleImages.articleImage044
-	},
-	{
-	  url: 'articles/a7/a7_5/',
-	  title: '因为小事而分手？那是因为你不知道她忍了多久',
-	  description: '不少小鱼情感的学员在我们问及分手原因的时候，都说是女友太作，因为鸡毛蒜皮的小事就提了分手，其实这件小事的背后隐藏着她太久的隐忍和失望，看过了下面这两位学员的案例，可能你就对“那件分手的小事”有了新的认识。',
-	  image: images.articleImages.articleImage045
-	}
-      ]
-    },
-    {
       type: 'page',
       title: '成功案例',
       href: 'page04/',
@@ -324,7 +269,15 @@ const classifies = [
 	  url: '#/nav'
 	}
       ]
-    }
+    },
+    {
+      type: 'page',
+      title: '免费咨询',
+      href: 'help/',
+      image: images.articleImages.articleImage079,
+      h3: '立即预约情感导师一对一沟通',
+      des: '留下您的情感问题，我们将尽快联系您哦'
+    },
 ];
 
 export {classifies};
