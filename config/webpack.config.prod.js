@@ -105,6 +105,10 @@ module.exports = {
       require.resolve('./polyfills'),
       paths.appSrc + '/entries/page04.js'
     ],
+    help: [  // 免费咨询
+      require.resolve('./polyfills'),
+      paths.appSrc + '/entries/help.js'
+    ],
     classify01: [
       require.resolve('./polyfills'),
       paths.appSrc + '/entries/classify01.js'
@@ -506,6 +510,12 @@ module.exports = {
       filename: 'page04/index.html',
       title: '成功案例 | 小鱼情感'
     }),
+    new HtmlWebpackPlugin({  // 免费咨询
+      ...htmlWebpackPluginOptions,
+      chunks: ['help'],
+      filename: 'help/index.html',
+      title: '免费咨询 | 小鱼情感'
+    }),
 
     // classfies bellow
     new HtmlWebpackPlugin({
@@ -544,12 +554,12 @@ module.exports = {
     //   filename: 'classify06/index.html',
     //   title: 'Classify06'
     // }),
-    new HtmlWebpackPlugin({
-      ...htmlWebpackPluginOptions,
-      chunks: ['classify07'],
-      filename: 'classify07/index.html',
-      title: 'Classify07'
-    }),
+    // new HtmlWebpackPlugin({
+    //   ...htmlWebpackPluginOptions,
+    //   chunks: ['classify07'],
+    //   filename: 'classify07/index.html',
+    //   title: 'Classify07'
+    // }),
 
     // articles bellow - a1
     new HtmlWebpackPlugin({  // 文章 - a1_1
