@@ -12,8 +12,8 @@ const mentorInfos = [
   {
     themeType: 'themeOne',
     mentorImage: mentorImage01,
-    alt: 'Herry 导师',
-    title: 'Herry 导师',
+    alt: 'Henry 导师',
+    title: 'Henry 导师',
     des01: '进化心理学专家',
     des02: '国家二级心理咨询师',
     para: '没有完全合适的两个人，你觉得感情出现了问题，其实是你自身出现了问题！每一段感情都值得你全力以赴！'
