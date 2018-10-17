@@ -6,6 +6,7 @@ import './style.css';
 
 import banner01 from './images/banner01.png';
 import banner02 from './images/banner02.png';
+import banner03 from './images/banner03.png';
 
 class Banner extends React.Component {
   componentDidMount() {
@@ -32,6 +33,12 @@ class Banner extends React.Component {
 	  <div className="swiper-slide">
 	    <a href="#/">
 	      <img src={banner02} alt="轮播图" />
+	      {/* <h2>第二张 banner 图的标题 (750 * 300)</h2> */}
+	    </a>
+	  </div>
+	  <div className="swiper-slide">
+	    <a href="#/">
+	      <img src={banner03} alt="轮播图" />
 	      {/* <h2>第二张 banner 图的标题 (750 * 300)</h2> */}
 	    </a>
 	  </div>
