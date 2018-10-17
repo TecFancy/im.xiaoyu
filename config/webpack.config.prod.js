@@ -133,10 +133,10 @@ module.exports = {
     //   require.resolve('./polyfills'),
     //   paths.appSrc + '/entries/classify06.js'
     // ],
-    classify07: [
-      require.resolve('./polyfills'),
-      paths.appSrc + '/entries/classify07.js'
-    ],
+    // classify07: [
+    //   require.resolve('./polyfills'),
+    //   paths.appSrc + '/entries/classify07.js'
+    // ],
 
     // articles' entry bellow
     a1_1: [

@@ -12,11 +12,12 @@ class Classify04 extends React.Component {
     super();
 
     this.state = {
-      articleList: classifies[6].list
+      articleList: classifies[5].list
     };
   }
 
   render() {
+    console.log(this.state);
     return (
       <div className="page">
 	<Header home={false} title="恋人劈腿" />

@@ -526,30 +526,30 @@ module.exports = {
       title: '成功案例 | 小鱼情感',
       filename: 'page04/index.html'
     }),
-    // new HtmlWebpackPlugin({
-    //   ...htmlWebpackPluginOptions,
-    //   chunks: ['classify01'],
-    //   title: '婚姻破裂 | 小鱼情感',
-    //   filename: 'classify01/index.html'
-    // }),
-    // new HtmlWebpackPlugin({
-    //   ...htmlWebpackPluginOptions,
-    //   chunks: ['classify02'],
-    //   title: '异地恋情 | 小鱼情感',
-    //   filename: 'classify02/index.html'
-    // }),
+    new HtmlWebpackPlugin({
+      ...htmlWebpackPluginOptions,
+      chunks: ['classify01'],
+      title: '婚姻破裂 | 小鱼情感',
+      filename: 'classify01/index.html'
+    }),
+    new HtmlWebpackPlugin({
+      ...htmlWebpackPluginOptions,
+      chunks: ['classify02'],
+      title: '异地恋情 | 小鱼情感',
+      filename: 'classify02/index.html'
+    }),
     // new HtmlWebpackPlugin({
     //   ...htmlWebpackPluginOptions,
     //   chunks: ['classify03'],
     //   title: '性格不合 | 小鱼情感',
     //   filename: 'classify03/index.html'
     // }),
-    // new HtmlWebpackPlugin({
-    //   ...htmlWebpackPluginOptions,
-    //   chunks: ['classify04'],
-    //   title: '恋人劈腿 | 小鱼情感',
-    //   filename: 'classify04/index.html'
-    // }),
+    new HtmlWebpackPlugin({
+      ...htmlWebpackPluginOptions,
+      chunks: ['classify04'],
+      title: '恋人劈腿 | 小鱼情感',
+      filename: 'classify04/index.html'
+    }),
     // new HtmlWebpackPlugin({
     //   ...htmlWebpackPluginOptions,
     //   chunks: ['classify05'],
