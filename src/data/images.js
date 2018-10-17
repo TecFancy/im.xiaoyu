@@ -38,7 +38,7 @@ import articleImage044 from './articleImages/44.png';
 import articleImage045 from './articleImages/45.png';
 
 import articleImage076 from './articleImages/76.jpg';
-import articleImage077 from './articleImages/77.jpg';
+import articleImage077 from './articleImages/77.png';
 import articleImage078 from './articleImages/78.jpg';
 import articleImage079 from './articleImages/79.jpg';
 
