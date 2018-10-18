@@ -1,7 +1,6 @@
 import React from 'react';
 import SectionTitle from './title.js';
 
-import mentorImage01 from './images/avatar_mentor01.png';
 import mentorImage02 from './images/avatar_mentor02.png';
 import mentorImage03 from './images/avatar_mentor03.png';
 import mentorImage04 from './images/avatar_mentor04.png';

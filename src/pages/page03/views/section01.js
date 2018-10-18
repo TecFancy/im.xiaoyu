@@ -39,8 +39,8 @@ const mentorInfos = [
   {
     themeType: 'themeTwo',
     mentorImage: mentorImage04,
-    alt: 'sunny 导师',
-    title: 'sunny 导师',
+    alt: 'Sunny 导师',
+    title: 'Sunny 导师',
     des01: '小鱼情感高级导师',
     des02: '两性心理侧写师',
     para: '每个人面对爱情陷入僵局，都会陷入迷茫，有时候换个角度去思考，你会看到不一样的人生风景，了解自己，才更懂得去爱。'
