@@ -7,6 +7,8 @@ import toPc from '../../../utilities/toPc';
 import '../../style.css';
 import './style.css';
 
+const apiUrl = `http://mes.jvziqinggan.com/people/sendQuestion`;
+
 class Content extends React.Component {
   constructor(props) {
     super(props);
@@ -142,9 +144,6 @@ class Content extends React.Component {
   }
 
   onSubmit() {  // 提交
-    // 阻止用户提交
-    return;
-
     // 验证用户名
     if (this.state.data.pname === null) {
       alert('用户名为必填项');
@@ -166,7 +165,7 @@ class Content extends React.Component {
       return;
     }
 
-    fetch('http://192.168.31.204:8080/people/sendQuestion', {
+    fetch(apiUrl, {
       headers: {
 	'content-type': 'application/json;charset=utf-8'
       },
@@ -199,8 +198,8 @@ class Content extends React.Component {
   render() {
     return (
       <div className="help-content">
-	{/* <h3 className="help-content-title">免费领取情感咨询服务体验</h3> */}
-	<h3 className="help-content-title">咨询功能正在开发，敬请期待！</h3>
+	<h3 className="help-content-title">免费领取情感咨询服务体验</h3>
+	{/*<h3 className="help-content-title">咨询功能正在开发，敬请期待！</h3>*/}
 	<div className="help-content-inputs">
 	  <div className="input-name help-content-inputs-item">
 	    <span className="input-key">姓名: </span>
