@@ -215,19 +215,19 @@ const classifies = [
 	{
 	  url: 'articles/a4/a4_1/',
 	  title: '女朋友出轨了，还有必要挽回吗？',
-	  description: '大家好，我们是小鱼情感。专注情感，为爱而生。小鱼情感，致力于为大家提供挽回爱情、挽救婚姻、分离小三、订制爱情等两性情感服务。',
+	  description: '大家好，我们是小鱼情感。让爱如鱼得水。小鱼情感，致力于为大家提供挽回爱情、挽救婚姻、分离小三、订制爱情等两性情感服务。',
 	  image: images.articleImages.articleImage020
 	},
 	{
 	  url: 'articles/a4/a4_2/',
 	  title: '只有上了床才叫出轨吗？这里有你想要的答案',
-	  description: '大家好，我们是小鱼情感。专注情感，为爱而生。小鱼情感，致力于为大家提供挽回爱情、挽救婚姻、分离小三、订制爱情等两性情感服务。',
+	  description: '大家好，我们是小鱼情感。让爱如鱼得水。小鱼情感，致力于为大家提供挽回爱情、挽救婚姻、分离小三、订制爱情等两性情感服务。',
 	  image: images.articleImages.articleImage022
 	},
 	{
 	  url: 'articles/a4/a4_3/',
 	  title: '出轨的男人如何挽回爱情？',
-	  description: '大家好，我们是小鱼情感。专注情感，为爱而生。小鱼情感，致力于为大家提供挽回爱情、挽救婚姻、分离小三、订制爱情等两性情感服务。',
+	  description: '大家好，我们是小鱼情感。让爱如鱼得水。小鱼情感，致力于为大家提供挽回爱情、挽救婚姻、分离小三、订制爱情等两性情感服务。',
 	  image: images.articleImages.articleImage023
 	},
 	{
